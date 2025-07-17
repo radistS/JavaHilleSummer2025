@@ -1,0 +1,32 @@
+Реалізувати просту динамічну колекцію для String на основі масиву використовуючи Interface:
+
+public interface CollectionList {
+    boolean add(String o); - add element
+    boolean add(int index, String o); - add element by index
+    bollean set(int index, String o)
+    boolean delete (String o); -
+    String get(int index);
+    boolean contain(String o);
+    boolean equals (Collection collection);
+    boolean clear();
+    int size();
+}
+
+String[] strArray = new String[10];
+int size = 0;
+
+ 0  1  2  3  4  5  6  7  8  9
+[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ] ->> null
+
+add 3
+ 0  1  2  3  4  5  6  7  8  9
+[x][x][x][ ][ ][ ][ ][ ][ ][ ]
+
+add 8
+ 0  1  2  3  4  5  6  7  8  9
+[x][x][x][x][x][x][x][x][x][x] x
+
+ 0  1  2  3  4  5  6  7  8  9  10
+[x][x][x][x][x][x][x][x][x][x][ x][][][][][][][]
+
+system array copy prohibited
