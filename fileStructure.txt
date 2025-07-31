@@ -1,0 +1,1997 @@
+[D] : JavaHilleSummer2025-https
+--[F] : .DS_Store size: 0.0059 mb
+--[F] : .gitignore size: 0.0003 mb
+--[F] : fileStructure.txt size: 0.0964 mb
+--[D] : .git
+----[F] : COMMIT_EDITMSG size: 0.0000 mb
+----[F] : FETCH_HEAD size: 0.0002 mb
+----[F] : HEAD size: 0.0000 mb
+----[F] : ORIG_HEAD size: 0.0000 mb
+----[F] : config size: 0.0004 mb
+----[F] : description size: 0.0001 mb
+----[F] : index size: 0.0375 mb
+----[F] : packed-refs size: 0.0001 mb
+----[D] : hooks
+------[F] : applypatch-msg.sample size: 0.0005 mb
+------[F] : commit-msg.sample size: 0.0009 mb
+------[F] : fsmonitor-watchman.sample size: 0.0045 mb
+------[F] : post-update.sample size: 0.0002 mb
+------[F] : pre-applypatch.sample size: 0.0004 mb
+------[F] : pre-commit.sample size: 0.0016 mb
+------[F] : pre-merge-commit.sample size: 0.0004 mb
+------[F] : pre-push.sample size: 0.0013 mb
+------[F] : pre-rebase.sample size: 0.0047 mb
+------[F] : pre-receive.sample size: 0.0005 mb
+------[F] : prepare-commit-msg.sample size: 0.0014 mb
+------[F] : push-to-checkout.sample size: 0.0027 mb
+------[F] : sendemail-validate.sample size: 0.0022 mb
+------[F] : update.sample size: 0.0035 mb
+----[D] : info
+------[F] : exclude size: 0.0002 mb
+----[D] : logs
+------[F] : HEAD size: 0.0033 mb
+------[D] : refs
+--------[D] : heads
+----------[F] : lec_01 size: 0.0005 mb
+----------[F] : main size: 0.0023 mb
+--------[D] : remotes
+----------[D] : origin
+------------[F] : HEAD size: 0.0002 mb
+------------[F] : lec_01 size: 0.0003 mb
+------------[F] : main size: 0.0019 mb
+----[D] : objects
+------[D] : 00
+--------[F] : 47fd4ed05aeae972e6f105112beca1d1b9a3fb size: 0.0001 mb
+--------[F] : a9bcd019ad3aab816ac1558f014b61671aa4a8 size: 0.0002 mb
+--------[F] : f1483ae3e5c37ded30c29135bd59becb60cd7b size: 0.0001 mb
+------[D] : 01
+--------[F] : 631b976a5ec565308f7dec230e87b53e4d0555 size: 0.0001 mb
+--------[F] : 70b5bd4bc01695195b8e69b1cd35ff39462a0c size: 0.0002 mb
+--------[F] : 719eefb6cb437d3a36a490a785d827d9c56e5f size: 0.0003 mb
+--------[F] : f4c559d45c512d091c75b37e9c09c27c6abf1d size: 0.0004 mb
+--------[F] : fedaf6ce602f3f86f75cf3e2016ac337c3858e size: 0.0002 mb
+------[D] : 02
+--------[F] : 1a9a672e9194d4e53bb70cbe26105394e9bf13 size: 0.0003 mb
+--------[F] : 4a5e76d214468c2849601639a07645e4c38273 size: 0.0004 mb
+--------[F] : 9f8fdba0719496010de5dd39f22233805933c4 size: 0.0002 mb
+--------[F] : edff5e2ab78133986d176d4476a2c2baff31d8 size: 0.0004 mb
+------[D] : 03
+--------[F] : 17845fccd392a9a258d150ff1ea6b4a62fcdc6 size: 0.0002 mb
+--------[F] : 22a179d12f4e4b71ebc3ca915d66bcfb41e102 size: 0.0004 mb
+--------[F] : 31259f1712ecabdf91c1ae084bddf9f0589958 size: 0.0004 mb
+--------[F] : 61364fbf26046dfe618624c7a54be0c94fca3b size: 0.0001 mb
+--------[F] : 7e5ae8d6f25eff8d97f71ffd65626663e22a0f size: 0.0005 mb
+--------[F] : 8492d5ab3fff918821c759ca78787ec9c35b37 size: 0.0002 mb
+--------[F] : 858d2f2cfb20802fb5afd036eff6dc84f2dd62 size: 0.0002 mb
+--------[F] : ab32c2f2ec692163038d6e6f039132bb3c1b74 size: 0.0003 mb
+--------[F] : c930ecc2fc92c0023cc2a7dfc69abf12d13b09 size: 0.0001 mb
+------[D] : 04
+--------[F] : 654e774e8ada9f40a470e942d8da3eacfd6e39 size: 0.0000 mb
+--------[F] : 6d5fe36baf2d493c61fb163609b715b4e2372d size: 0.0002 mb
+--------[F] : 97f61666694bb7e11249486fad1362309f5111 size: 0.0001 mb
+--------[F] : bd6091a6c8a2c71c9cafa9e03ae18cbf6eeff3 size: 0.0002 mb
+--------[F] : e0aaa86d4465c54f6c69e6ed5aa331fae7160e size: 0.0001 mb
+--------[F] : ea91f34de3760cd83ff08e62059529ad5676dc size: 0.0001 mb
+--------[F] : f199f33bcc2afe81169d59f6cfd1673d6f85ab size: 0.0001 mb
+------[D] : 05
+--------[F] : 982feccfdc898181674dae66cce79324fddbad size: 0.0002 mb
+------[D] : 06
+--------[F] : 66243bd7be2634c1b1b151d578bcd49d902bf9 size: 0.0001 mb
+--------[F] : aadccdd3829e49760ee3cff2ebf4a2e1998e49 size: 0.0003 mb
+--------[F] : eda2116991ca78bf284bb480cdd7eb6dd5d12a size: 0.0000 mb
+------[D] : 07
+--------[F] : 0c9ac15b30680dd94ff5a7e8f78906c9342bb2 size: 0.0005 mb
+--------[F] : 33abb0e63d6a9a8fe05fd03334bd9b95feb568 size: 0.0002 mb
+--------[F] : 6d9d5d40b2e33bcaaa02686cf9a8d62cbd6201 size: 0.0003 mb
+--------[F] : 7221854ad16e116de5078fcdf3973adaa9fdd0 size: 0.0003 mb
+--------[F] : f7fd7ea233dd63c3c3078e85bcee4d9b1a9af9 size: 0.0002 mb
+------[D] : 08
+--------[F] : 0b4f724575cb8686208bc4cc00c9332a5be74d size: 0.0005 mb
+--------[F] : 3ba8cb7eff9cab5f37a92b0cd948611c120e84 size: 0.0002 mb
+--------[F] : e32609ceb1e3c4e646bab083e3f57c9993e1d6 size: 0.0002 mb
+------[D] : 09
+--------[F] : 1d6281776001ce7eb6758c31b7b942c9831fda size: 0.0001 mb
+--------[F] : 8413a9925be1bb66369dd5f57dec2131f2e025 size: 0.0003 mb
+------[D] : 0a
+--------[F] : 307e8d81d6f6cc9e0571b420ea1a16be875f3a size: 0.0003 mb
+------[D] : 0b
+--------[F] : 6d17c9d1f5ac30cd944a6e790422ca59dc4a9a size: 0.0002 mb
+--------[F] : c130db069f6131989979effd847b2449a325e7 size: 0.0003 mb
+--------[F] : d27091bc66ac1d6e5f2d460e5177af294ccb70 size: 0.0002 mb
+------[D] : 0c
+--------[F] : 0a742fb965129fcef0fb51b17384ed2cc0dfe1 size: 0.0003 mb
+--------[F] : 200f28f8f0f0f08e35e11642de9bfcd2fcdd1d size: 0.0015 mb
+--------[F] : fd6bb71fc596ff8f90b015099c0ebe5b8e8f53 size: 0.0002 mb
+------[D] : 0d
+--------[F] : 1a58ab8369798b881d9c091da29ee691b2eac6 size: 0.0002 mb
+--------[F] : aee4a06b67e683a8549c4cb509d3ab35492ea8 size: 0.0001 mb
+------[D] : 0e
+--------[F] : 1e108465c64ce3e7846e2e32ed84e36e2710e4 size: 0.0002 mb
+--------[F] : 31e3c6216aacc45fc4149edfc8eafce7450b9d size: 0.0000 mb
+--------[F] : 3b8d098a732e2dd67f3b62647bc1ed1bd1f012 size: 0.0001 mb
+--------[F] : 6ab4f8876d071aa4b11c530920dfd2f1c546ac size: 0.0012 mb
+--------[F] : 78ba9471b28d3a38fc09e7f514fd16894585ff size: 0.0003 mb
+--------[F] : 96a340f66b9c5e5f9c5327ff2bd8e60fe735d4 size: 0.0002 mb
+------[D] : 0f
+--------[F] : c1af42d4caae65617173b68ef7cafa4abb3297 size: 0.0002 mb
+--------[F] : ee70a324da2d62a588c396a811f373d18add01 size: 0.0003 mb
+------[D] : 10
+--------[F] : 131ce16b4e9082091c5988ed52da7a151ab8a8 size: 0.0005 mb
+--------[F] : 709dc7199f1ce3261b725b6f15068074eafeab size: 0.0002 mb
+--------[F] : 930b1d2c29dbae68fe98dc09759d59f2e77b17 size: 0.0002 mb
+------[D] : 11
+--------[F] : 14a177c708b78afb2bd6e3f3f97b3a062d79e1 size: 0.0005 mb
+--------[F] : 2784f2bbc14fc496e26cf3c683f7f170c5e34d size: 0.0002 mb
+--------[F] : a530913e8a4a16d94deccd5e26afd1ff4a4d6f size: 0.0002 mb
+--------[F] : e80c4433ad22ae7c842362696c6c078f2fda36 size: 0.0008 mb
+------[D] : 12
+--------[F] : 5ed5e125a4d82b8c2cb0d3552402519187fed0 size: 0.0001 mb
+--------[F] : 6c5d5d515e3ea71372f732a514d84105271007 size: 0.0002 mb
+--------[F] : b018ed73639cb4191add237d1f91744cf9baf1 size: 0.0000 mb
+------[D] : 13
+--------[F] : 131a76f844a400d61c7464c42a1e029c0b5290 size: 0.0003 mb
+--------[F] : 34e5387ac578a97a40ef4bc97185f171ad42e8 size: 0.0001 mb
+------[D] : 14
+--------[F] : 5d3aea9f6f2abe4e5a3d8eae1fd8e36d3cdfbe size: 0.0004 mb
+------[D] : 15
+--------[F] : 246a26e6574dab9ec81efcf6c405016b094022 size: 0.0001 mb
+--------[F] : 3ceea3ee0cc01212ad3f041eb17c071d014367 size: 0.0003 mb
+--------[F] : 5144487c784edf7395302c65af8c44dabe4376 size: 0.0000 mb
+------[D] : 16
+--------[F] : 01059ae34dceeaa5f003e786afdf74843986d9 size: 0.0002 mb
+--------[F] : 4f268d6f4478c4572064619e3a15fc15a0905e size: 0.0006 mb
+--------[F] : 7742a358b179f221c5b815eba60ce995f2780d size: 0.0000 mb
+--------[F] : 78464f41a221a4356a38da443fc374d4f8b66d size: 0.0003 mb
+--------[F] : f92ede855e53602040c9bfe3dfbcba7f3d6c52 size: 0.0001 mb
+------[D] : 17
+--------[F] : 563c897c33bdc3d66466841eb267f3d63dce49 size: 0.0003 mb
+--------[F] : 9b21cd10aa7fab52d83b96b6599f66ffb07872 size: 0.0001 mb
+--------[F] : a931c32b3632f02e3f8a806f70af10e6d324d6 size: 0.0002 mb
+------[D] : 18
+--------[F] : 2ed1768383e4970cfb09a74571bcee47bf0f82 size: 0.0002 mb
+------[D] : 19
+--------[F] : 36d27e1a5f79d34d2646083ec789bfa9d96fc4 size: 0.0002 mb
+--------[F] : 4dcf1d8f6762fc3bc17923026f100a4f7c4d47 size: 0.0002 mb
+------[D] : 1b
+--------[F] : afa8dcb94e4cdcac20fbbf5f4b32e52dc98537 size: 0.0002 mb
+--------[F] : f56db0f2251a4a8960eab62a415aae26bcf543 size: 0.0004 mb
+------[D] : 1c
+--------[F] : 824d22d9804ced9c4b8f7abc6dfc65a9369806 size: 0.0005 mb
+--------[F] : c4106f97f6621b59be4cc89f4067cf1d781f8a size: 0.0002 mb
+--------[F] : c6969678d6f099d7910a93ea4fcba75708186e size: 0.0002 mb
+--------[F] : cfc7444f4d7dba8e14b2d1d6c130cdf4773794 size: 0.0003 mb
+--------[F] : fcf551147b5a3c3f6a3ec3e36df16f2437a5dd size: 0.0003 mb
+------[D] : 1d
+--------[F] : 302ddf5f1e7bcb287bee4cb1c3572bd148288f size: 0.0002 mb
+--------[F] : 736c8431e027d1e09f2d7d2fd145d58224bc29 size: 0.0002 mb
+--------[F] : eb062841f58d3edb9b538b417f94170b0f2f76 size: 0.0001 mb
+------[D] : 1e
+--------[F] : 6703b5507d36fa719d073d0dfe16636345f5fb size: 0.0002 mb
+--------[F] : 6880ad35093529b9517049a8c9fc657deae4e3 size: 0.0003 mb
+------[D] : 20
+--------[F] : 0d80a2376ecd3b007d57c2c27704406e73d6f5 size: 0.0000 mb
+--------[F] : 0f03b7003663c00721df423d3e36efb10a9d29 size: 0.0001 mb
+--------[F] : ae829ba6ded1c4f687b249ddc3bbf8ff517a6e size: 0.0002 mb
+------[D] : 21
+--------[F] : 1a8459ac8a1c197e2f0caac2236aed08d5a824 size: 0.0001 mb
+--------[F] : 2072f3d3200a1d106c306ba162dca7d86fc65a size: 0.0002 mb
+--------[F] : 52c0f7a60840590089fbc9d270831e46098eac size: 0.0003 mb
+--------[F] : 93d5162cdf8cfc9ecfec200cd32c996912285c size: 0.0006 mb
+--------[F] : ba4c56ac005bd7ac1369afe6b5f4368de8cfff size: 0.0002 mb
+--------[F] : e340d28c06c70effafd46ea48a13c17db17dd2 size: 0.0002 mb
+--------[F] : f7d2578b396063f91c4c97837437ba80caf28f size: 0.0001 mb
+------[D] : 22
+--------[F] : 1abd02ddaac4e0d0cced1ddfcd797173480260 size: 0.0002 mb
+--------[F] : 2059bae844c2b2464e46cbc88d5e75e0a03bfb size: 0.0002 mb
+--------[F] : 57d9a811ae8db40c21afbacf9490cb4aaa6bcb size: 0.0002 mb
+--------[F] : 74a2ef2c4aba0b1fcd236e5cdfabf28bc7f4d6 size: 0.0002 mb
+--------[F] : aeafc49cbe1bdc154106608c698c43887d08bb size: 0.0003 mb
+--------[F] : cb79b2f7ace631e29372f76e5acba6cc3a9cf5 size: 0.0006 mb
+------[D] : 23
+--------[F] : 0415e13cabc1915aace7c2c6b5d15b6826e4ce size: 0.0003 mb
+--------[F] : 04c6f89368121e68d4d3078b2f00cc0f9df07d size: 0.0001 mb
+--------[F] : 303daf54b0aed5d114d7c5b5f36575c684197c size: 0.0001 mb
+--------[F] : 81900ab71e6688ee8c8cf89ec13daeaebbf36c size: 0.0003 mb
+--------[F] : c4b1655c3d8e426d194d637fdc3f600e05e09d size: 0.0006 mb
+--------[F] : e929a4b8d52d3eacfefeae2c3e16ea602c955b size: 0.0003 mb
+------[D] : 24
+--------[F] : 013272cf14bbc9a4823ac9b45d087894ebb46e size: 0.0002 mb
+--------[F] : 56fafa3883e52751f363d7dc7c525978838915 size: 0.0002 mb
+--------[F] : 6ba5928d03a35bb7f6a82bfa2389f55a60f1a0 size: 0.0002 mb
+------[D] : 25
+--------[F] : 0b184a2f8bff3ec1959ef23116f967a90d96c9 size: 0.0002 mb
+--------[F] : 4c9a261afaef3409b2c783688efa68de1dce9f size: 0.0002 mb
+--------[F] : 7c1eda2cc368feef7d81d5b2d397faf6dae10e size: 0.0002 mb
+------[D] : 26
+--------[F] : 2a6601607a7affa1fffc64796630f3e9ead506 size: 0.0003 mb
+--------[F] : 2d638d774b4b3dee7fc41b5fe5efe44f38fda6 size: 0.0002 mb
+--------[F] : 4094ed77c5853b31b67402fca48aabdc2c7b86 size: 0.0002 mb
+--------[F] : 511838ffbfe8e87a14516de0952cb926e7e8d6 size: 0.0002 mb
+--------[F] : 8ce1527bec6384bab12deeb2091657c1e3566d size: 0.0000 mb
+--------[F] : fbe5f38e6d24053b2eac194cb93097acd8be8a size: 0.0001 mb
+------[D] : 27
+--------[F] : 82a03db664e9ad6f8ad5f76c86a76878f9f79e size: 0.0001 mb
+------[D] : 28
+--------[F] : 22d25d3931291bc4d63237cc7a924e2a411189 size: 0.0004 mb
+--------[F] : 359f2468b6042568f6682fa0cae1d92e7b6ae9 size: 0.0003 mb
+--------[F] : 72704dc8a738c626e0dad61d394cbadd82e25c size: 0.0003 mb
+--------[F] : c6d70c533deac6fab29198580af6b13ea1e489 size: 0.0002 mb
+------[D] : 29
+--------[F] : 9941756379fd0b618d757f8a27438210fa3831 size: 0.0006 mb
+--------[F] : c488d8c3f90c5471a5adb3d3ec59941927ed7b size: 0.0001 mb
+--------[F] : e7562cb122f8cd1acc9bd39f6ed83d7d8b0439 size: 0.0004 mb
+------[D] : 2b
+--------[F] : 144d7bd2c81ac553847c3ec644c54f8d9fc199 size: 0.0008 mb
+--------[F] : 37ecfc6b6ec185402b935d7e723bb135d29142 size: 0.0002 mb
+------[D] : 2d
+--------[F] : 19db3853d9c043c7798d1ea07e1d41ca004569 size: 0.0001 mb
+--------[F] : 32d3079e378d98aa2c4e19e9ac744737305313 size: 0.0014 mb
+------[D] : 2e
+--------[F] : 28a2210166a2c13bda4cde0a2df228283dcf12 size: 0.0008 mb
+--------[F] : baf4fe66932d72f1b8181849c488c80d67772a size: 0.0002 mb
+------[D] : 2f
+--------[F] : a711bc14394e4c1425b479fcda0d94ecc516f2 size: 0.0009 mb
+--------[F] : b1e00eefdc7ff5dfa9884031f171ec37a9c5e1 size: 0.0002 mb
+--------[F] : b64b5ad4ca7727da9cc1979bac1b46a08923e2 size: 0.0001 mb
+------[D] : 30
+--------[F] : 197448c86931d92a0de632de4bfea54fc38672 size: 0.0003 mb
+--------[F] : 3e51ac1197c7f729bd2fb52da719d6a02424bb size: 0.0002 mb
+--------[F] : 4878266c000e7f0586f33458a129b100019a4f size: 0.0003 mb
+------[D] : 31
+--------[F] : 663b93502deea67f727b14f284544dda3b48e0 size: 0.0002 mb
+--------[F] : 7fcbdf2407b261d9283ff2672906173232dc36 size: 0.0009 mb
+------[D] : 32
+--------[F] : 0197286030a1f541effdb109f59f41485cb54f size: 0.0003 mb
+--------[F] : 11566a5f8b40030470015c38188fd544c36b88 size: 0.0002 mb
+--------[F] : 53b9f233afba6771808ef897fcc6bf1457841e size: 0.0002 mb
+--------[F] : 5592b83b7d9211c5609b700be847bd5afe165e size: 0.0001 mb
+--------[F] : e4c043f10030ef238a0b8b64eee2393062f128 size: 0.0002 mb
+------[D] : 33
+--------[F] : 47cc085755ec36a47740a2da45dbc2c7af0cc4 size: 0.0003 mb
+--------[F] : 7366d32283d63c351f9848a74cb5d803f40728 size: 0.0001 mb
+--------[F] : 74d7db8e184c660529ff63a55cabb039d11b0b size: 0.0002 mb
+--------[F] : afcb111ec33d4579e3f60bfca69ae96da6b079 size: 0.0002 mb
+------[D] : 34
+--------[F] : 470f0fa7e6682fce3fcd71273e7ea1de366b62 size: 0.0027 mb
+--------[F] : 76bbf310f4b2286d00b61966cb9c49da9eba1e size: 0.0002 mb
+------[D] : 36
+--------[F] : 45b1c4e23f516ed70295ea919d1004897acb48 size: 0.0001 mb
+--------[F] : b71c3d0326fd99c3666c0062a46d618b3b4114 size: 0.0002 mb
+--------[F] : bd36ca1e0901d05423b7cfc1c47a06e9d797bf size: 0.0001 mb
+------[D] : 37
+--------[F] : 52579f7efb0c79b912bcd410e86520b3ea6b7c size: 0.0007 mb
+--------[F] : 919de419d114d846aa63ef6758c606d4586b68 size: 0.0001 mb
+--------[F] : d8f7f636091ce9cae549c52ecddd3e0c643bba size: 0.0002 mb
+------[D] : 38
+--------[F] : 59abdf4feaff2d075a5e6035843c9302c3f411 size: 0.0000 mb
+--------[F] : 752b0f9b8587a71b40c5e2b280344c821876f0 size: 0.0003 mb
+--------[F] : b6ad14bdc44bbf33dce087a2b4e694d53c1c98 size: 0.0004 mb
+--------[F] : bac0de0eee75d1ec5ed9c3fd136ea78e401377 size: 0.0001 mb
+------[D] : 39
+--------[F] : 3ec8abfd6e7aee7eae774f901ee1603132e72f size: 2.2369 mb
+--------[F] : 54c9879ae695f816be10c4528cf5da01c0000d size: 0.0004 mb
+--------[F] : 69fe9e40f8ef2b7756faeffbd2eebd6a12b581 size: 0.0002 mb
+--------[F] : 9c96dd3945940b4c98caed9241e9e1adb12528 size: 0.0002 mb
+------[D] : 3a
+--------[F] : 215fac2b1cc5f68ce3c1011344cbeabe342011 size: 0.0006 mb
+--------[F] : 4976948245fe513c11f554ff62820f24d6cbbc size: 0.0003 mb
+--------[F] : 925bba6c5501c1cfffe11f8fe40d7edb7f0022 size: 0.0002 mb
+--------[F] : d0c4a1d9e3b2d9b3106ded3fb4fd0baa25345d size: 0.0003 mb
+------[D] : 3b
+--------[F] : 048ab1fb17204d1d8a5b42a144701d6da01d4d size: 0.0004 mb
+--------[F] : 18c344699d059642fe5cb15e589fd18d57650f size: 0.0002 mb
+--------[F] : 58fa0345a53d375e668ecd010fec8a3e44568a size: 0.0002 mb
+--------[F] : c785e10611224bfba0dfa3c4484f3a68b3516d size: 0.0003 mb
+------[D] : 3c
+--------[F] : 139062c2a693ed33449aad121428b7b09ccf4c size: 0.0002 mb
+--------[F] : 1699031253c6fab7e48c9120d713619e837747 size: 0.0001 mb
+--------[F] : dbc7721411b9b1e056e8526898f9fe7016696d size: 0.0002 mb
+------[D] : 3d
+--------[F] : 35db8e4932689b23d91f3df8c319a507603ec9 size: 0.0002 mb
+--------[F] : 8f580cc016f9638236c3ae2654197b21bf5877 size: 0.0005 mb
+--------[F] : e7cb1c38703bf3050d858eecab1b6e65533417 size: 0.0003 mb
+--------[F] : ee5f01348c994e1f37b71b0731a5a61af44887 size: 0.0002 mb
+--------[F] : f698137fc4a5d3e82f505ff7ecb65c93552340 size: 0.0002 mb
+------[D] : 3e
+--------[F] : 2c1d5374dc71ac4e8e71eba2a363945e12d902 size: 0.0001 mb
+--------[F] : 2e21567a51cb2f73cf9d6487f0e8dfd20a4f67 size: 0.0001 mb
+--------[F] : 5aec28b7a9ec1de4304d8214af7b8495bd4cba size: 0.0002 mb
+--------[F] : 5e6532bdcbe181c75ad2e79342b9f342a2c7a2 size: 0.0002 mb
+--------[F] : e65bd2dff191d4a7a4d2163224dbe86646c54f size: 0.0005 mb
+------[D] : 3f
+--------[F] : 10c5d8ebfd9e42d39045120fcedc6e7cb4e014 size: 0.0003 mb
+--------[F] : 92f0cc9ec06e1097fd28ed82c271d900e5fb07 size: 0.0002 mb
+--------[F] : ff8dab92497afbaef42c10ee264a3dce7cea03 size: 0.0002 mb
+------[D] : 40
+--------[F] : 1bda290c6e4a30084be4a178b0dd87abd43de7 size: 0.0002 mb
+--------[F] : 208a47966c7b71edecf51d8fff05bdd6475f95 size: 0.0002 mb
+--------[F] : 444c3e0ff42e7cf1657e2c42cdb2944afaedb8 size: 0.0005 mb
+--------[F] : c79a8a9f2da5a1ab4989b007fe178c3af7339d size: 0.0004 mb
+--------[F] : cef6ec31026952cf9a255b48b6bfb3ee514ead size: 0.0001 mb
+--------[F] : ffdce548a5c717023cde1213fea97df84a5663 size: 1.4448 mb
+------[D] : 41
+--------[F] : cb44865bed1a125ed16d00c585e08b389be33e size: 0.0003 mb
+------[D] : 42
+--------[F] : 26fdf5e3bc8bfb663bc8115ffcec66b8840354 size: 0.0009 mb
+--------[F] : 57f38907086e6726849aee07994fd20c37abcc size: 0.0004 mb
+--------[F] : e8d0f01e755829057d8dd1d3a1dde3bb8dc97d size: 0.0004 mb
+------[D] : 43
+--------[F] : 5215dd3491a99be97c4a4c038bea4478ff52e0 size: 0.0002 mb
+--------[F] : 62a27984518ca599ac433ef02a4fd2b08b6fa8 size: 0.0003 mb
+--------[F] : 84e27eeb464ca114a478da910a0dcb1d07a84d size: 0.0002 mb
+--------[F] : d7132c11f2a94dc7312560c83d8079948d0d94 size: 0.0001 mb
+--------[F] : e24e726f811afbbde422057422ec3175bf374a size: 0.0004 mb
+------[D] : 44
+--------[F] : 0129c32f08f603af58192f81a070b88fd4d28c size: 0.0003 mb
+--------[F] : 22714765c08e0363e1611b88f3b1e6a81c658b size: 0.0000 mb
+--------[F] : 3e9cdb5ed0a838a6fc9710a94f3a3f744808f8 size: 0.0002 mb
+--------[F] : a4a3bd480d7a92c90684659db9bc050e80e682 size: 0.0002 mb
+--------[F] : c4a999d48a3a23700c0c527a785f0b70822b8f size: 0.0003 mb
+--------[F] : d273236b3a621039f24b40dfc0ad2c77558a62 size: 0.0005 mb
+--------[F] : d5264cdc6b847c6ebaf9cc6c555668ce32e294 size: 0.0004 mb
+--------[F] : f4c35e44458f279f4dec84fdb8eddd97831a12 size: 0.0002 mb
+------[D] : 45
+--------[F] : 2cd94ea083a7b4715135596dde0d57518d3e0c size: 0.0003 mb
+--------[F] : 9516d6d6df419cb2eec33d088ad6ece5770901 size: 0.0002 mb
+--------[F] : fbf42c97275d929095c43acba9077e22e2bb99 size: 0.0005 mb
+------[D] : 46
+--------[F] : 272e2fe527bb61da7557ba65ce57ede8ed1396 size: 0.0001 mb
+--------[F] : 92f223d90580cf0bdcc53e21f4d0d663c0f730 size: 0.0002 mb
+--------[F] : b04ff1854ba229e6e418278ba4169ca870e08a size: 0.0001 mb
+--------[F] : fe612f55c991c59cde5a7ed90c1e0cfe3ab13c size: 0.0006 mb
+------[D] : 47
+--------[F] : 238faae865a0b30f165855634e9f02791bfa0a size: 0.0001 mb
+--------[F] : 2ddb1e7738f67bdd0ed4af2d69767ea6410ef3 size: 0.0003 mb
+--------[F] : 7b8c68c15a79a726c2f443a5b124dea40b927c size: 0.0002 mb
+--------[F] : e0f0d106aff2323d02b78ffa0a3a110ed68756 size: 0.0001 mb
+--------[F] : eec5f79c211170c4331abd5debfaedc0572f4f size: 0.0002 mb
+------[D] : 48
+--------[F] : 29d7743d4c6328f7e089739c149d761c3beaf9 size: 0.0001 mb
+--------[F] : e4da727be01dc56fa99740a6fdfdf2ea2c00a3 size: 0.0005 mb
+--------[F] : fcdd1edb5bbf21f91c50f4ca55fe3da1698a6e size: 0.0002 mb
+------[D] : 49
+--------[F] : 6e40addf1b1b5e7624628b08b9b13e325252dd size: 0.0001 mb
+--------[F] : 9b5f77d81ff5fee132dc0b0933871dd644c68b size: 0.0002 mb
+--------[F] : cba913ddb88adc32f477f6152cb9063f427b7f size: 0.0003 mb
+--------[F] : f5bddc9c5738c228881d394b09afa3c17a55f6 size: 0.0002 mb
+------[D] : 4a
+--------[F] : 69ad411c499b5b1b5ac2733e57796d1ea0a7ce size: 0.0002 mb
+--------[F] : 6c41c694ea94d2f42ef7ad868a2315dd32f91d size: 0.0002 mb
+--------[F] : e22af3d86cba4d9eeecb28c9d1df842a6e2687 size: 0.0003 mb
+------[D] : 4b
+--------[F] : 6d0b930db8b21d1e11886eb93fe482aaa57474 size: 0.0003 mb
+--------[F] : d5f2236e241e46c7ddd91f188feb5f9b7cd1b6 size: 0.0003 mb
+------[D] : 4c
+--------[F] : 05bddc03eca0249b5cfae12dcf70de5752a115 size: 1.2815 mb
+--------[F] : 3f55f5bf7bc570e59fe49f2ac3eb563322212d size: 0.0001 mb
+--------[F] : 891b01c477f1c9c5659e9fe2a9277db1763a53 size: 0.7889 mb
+--------[F] : ae85d3d53321204f5bc94fae3e47eff418c07b size: 0.0003 mb
+--------[F] : dd6b0cdd5f9dcac6766c7e9973e1360500c847 size: 0.0002 mb
+------[D] : 4d
+--------[F] : 134a7c54e06ee8c9f240d8e6f704bfd3037500 size: 0.0004 mb
+--------[F] : 732a5c700c4dc69814be667fb96d45b17a7d8f size: 0.0003 mb
+--------[F] : dc2245829f377490944f487a9ea8440c1358b1 size: 0.0001 mb
+------[D] : 4e
+--------[F] : 5f1fb56c63b161ec4d89e14994d6350e6a682c size: 0.0003 mb
+--------[F] : 9b60ee3d538b6dbfed911013ade3bb355a6920 size: 0.0004 mb
+--------[F] : a5d6d3cbc85ac1db3e3a623d8b8dfe81f89974 size: 0.0002 mb
+------[D] : 4f
+--------[F] : 1d92a3610719e1528bcbc3ae4d7bfee04134fd size: 0.0001 mb
+--------[F] : 5076f9aad0be865a80d91a737c70e115a521b3 size: 0.0002 mb
+--------[F] : d1fc0cda9f874f30ba6f660e00e9511a7ca3f9 size: 0.0001 mb
+--------[F] : e305fe4b5b9bb19f4f0c5b87e9e04903f3dd1c size: 0.0002 mb
+------[D] : 50
+--------[F] : 04c9e3b2ec1306111f4570d8dc20c3fb3068ad size: 0.0002 mb
+--------[F] : 193fb29b393940235d95c09c18e87856926eb9 size: 0.0003 mb
+--------[F] : 6f33a1be39db8c22888d506775ceb34de9092d size: 0.0001 mb
+--------[F] : f84bcb2bf74411849201171e467ab0261d764d size: 0.0003 mb
+------[D] : 51
+--------[F] : 54518558bf123cf0b047dacff5b7f76afba4ae size: 0.0007 mb
+--------[F] : 68726b1480d9e425e504b8bacaa8947d5288e4 size: 0.0002 mb
+--------[F] : b07430e2215b0c0a1be311e75de69258bb247a size: 0.0001 mb
+------[D] : 52
+--------[F] : 314f190df6e01476284e217f3cd49ed6e72996 size: 0.0002 mb
+--------[F] : 32c9fd88049fd27657d97571b6f447df71a4eb size: 0.0004 mb
+--------[F] : 35e9c814b463b218d1c876775c1c9cd7026c88 size: 0.0002 mb
+------[D] : 53
+--------[F] : 158679d051b18d3c863aeb7985adc29160ee89 size: 0.0002 mb
+--------[F] : a4fc3bd50dfa306caf50ad0fabbe89f0d54898 size: 0.0002 mb
+------[D] : 54
+--------[F] : 28698d7162e92ecc4afde2bb4ad17ed04a1c7d size: 0.0003 mb
+--------[F] : 2c3fb46bb568d8146d9fa0cea1268ffeb3a304 size: 0.0073 mb
+--------[F] : 47be7bdefe2fb5044baebd533f295a818d1cd7 size: 0.0005 mb
+--------[F] : 626eb6db10304074db078f09d227843aa09af1 size: 0.0002 mb
+------[D] : 55
+--------[F] : ec0aaf841eb5910692a6cdc265c7437455daa3 size: 0.0002 mb
+------[D] : 56
+--------[F] : 163495d5b0a49ea244625d54e36ed3617919d7 size: 1.6532 mb
+--------[F] : e5929e3eed93784c98750e1efa55cfd0bbb303 size: 0.0004 mb
+--------[F] : fc801473e8023fe4f3cedebf461ff1861013e2 size: 0.0001 mb
+------[D] : 57
+--------[F] : c9b2bf65c9c71cb28b65f6e234679f16796f6c size: 0.0002 mb
+--------[F] : f5967122f9ca3e4cebe09c72bec49cf2a4589d size: 0.0002 mb
+------[D] : 58
+--------[F] : 05f58f9722f76729cdbee79d7a394d6600967b size: 0.0000 mb
+--------[F] : 17a0381b7638c67f3cca7b520f1b56c5e78e92 size: 0.0002 mb
+--------[F] : 863aef49233b543e63ced5d39d7933f353f8e6 size: 0.0004 mb
+--------[F] : 9039a6f96eaf5c6ff13f9a3dd77f6016024ba6 size: 0.0002 mb
+--------[F] : af841d4f09f2543f8143f15471050af1d7792c size: 0.0002 mb
+------[D] : 59
+--------[F] : 2de99f75a5cde45634d90679831c3538b7b480 size: 0.0002 mb
+--------[F] : 4462640e54ea4d5a6f4a58d9b05d0dd117afdc size: 0.0003 mb
+--------[F] : 4a7588d0a785c37ebad1209e0cf652d30d97b3 size: 0.0000 mb
+--------[F] : c8b7bb83ad102aad0997ca7f257ff8ff0b9ada size: 0.0004 mb
+--------[F] : ce489f5fda0e331556b6816abd19fc8c619bad size: 0.0001 mb
+--------[F] : d9da0243f929bf5ad4ca55403cb148064f4a1e size: 0.0003 mb
+--------[F] : e5ba9d0f700d4acca6eeff3a9e81ccf3ef52ce size: 0.0004 mb
+------[D] : 5a
+--------[F] : 2a5bf7f66aade43223a88a354dbfe3e3eba947 size: 0.0003 mb
+--------[F] : d516380de60b0ec2e29f7af884218cae1cdb04 size: 0.0001 mb
+--------[F] : dda84ede3b933ccc3e16e29f0f621f9aae5827 size: 0.0003 mb
+------[D] : 5b
+--------[F] : 414b86e4681d13ab9f3d97733a36d687ce75e5 size: 0.0004 mb
+--------[F] : 77275a47e8e7a19b29bdf2452bb89b4b3b851d size: 0.0004 mb
+--------[F] : 8283985385963983af04cc089b620436b77953 size: 0.0002 mb
+--------[F] : fc6979bcfa029e2cff0ee96b894df4c20066a7 size: 0.0002 mb
+------[D] : 5c
+--------[F] : 003cbd57ce095f6303c5d3dbcb9a37c086e309 size: 0.0001 mb
+--------[F] : 0f0101a5e1e00644fd8c0aa1fffa887c85b091 size: 0.0002 mb
+--------[F] : 3e341172aca24ae7b099247545999a1b1dc562 size: 0.0001 mb
+--------[F] : 54e78f19d9c24cef18aaa14b09aa6d9c635055 size: 0.0004 mb
+--------[F] : ba1bae23fc04cb81987df53a2b37bff42751f4 size: 0.0005 mb
+------[D] : 5d
+--------[F] : 2db111bcc7e24b69a8ba0653983eaa5375a99f size: 0.0001 mb
+--------[F] : 79d91d5c6d5c2a38d3dc7138123dcb8d334eb4 size: 0.0007 mb
+--------[F] : b1a215c55066b08ce03eaea3dec7d52001b608 size: 0.0002 mb
+------[D] : 5e
+--------[F] : 4e39441523be05790016e297401fbbeb9fc90e size: 0.0005 mb
+--------[F] : ec7d7503a64f83878b815e5fb22e3d1dee0cb7 size: 0.0002 mb
+------[D] : 5f
+--------[F] : a0ee26a94aaa62cee9bb9c58ddb06f5394be26 size: 0.0002 mb
+------[D] : 60
+--------[F] : 1cfd53ea7eb12967d3b5ee564b3d885907d2e2 size: 0.0006 mb
+--------[F] : a10d74da57f3d329147b347868640576de98d1 size: 0.0005 mb
+--------[F] : bb834e458b5e19cdf35ae23ffbd7851a9691fc size: 0.0012 mb
+------[D] : 61
+--------[F] : 18e69a4eeacc510fbcfe201020047b7d2101e0 size: 0.0003 mb
+--------[F] : 3f49bb0bd646f29f4799d0f05a9d6241513734 size: 0.0005 mb
+--------[F] : 752d4ba9dca83bf4c6b12107aaa86fdee6fa29 size: 0.0001 mb
+------[D] : 62
+--------[F] : 25297d082831023755251047a4ab3e9342e056 size: 0.0001 mb
+--------[F] : 4a1b7501637590d8db6c4e54ec7dd918121bb7 size: 0.0002 mb
+--------[F] : e21cffaf70d6b96284c2003e7a80e3a4153be5 size: 0.0002 mb
+------[D] : 63
+--------[F] : eba04fa8658b6e56ee71cd552e6b2fb82283c8 size: 0.0003 mb
+------[D] : 64
+--------[F] : 54a63b4f432a408742e3e978abdf4fb4f1a9e7 size: 0.0001 mb
+--------[F] : af46ea928b9a017a1c1f914c59e500e1fcbb2f size: 0.0009 mb
+--------[F] : f95e60cca59186d6b22001819c581df6021b3a size: 0.0002 mb
+------[D] : 65
+--------[F] : 529ce4110bf8cd45986cdf78274ea8267e906f size: 0.0004 mb
+--------[F] : 6d98f77f069fc5eb9317a420d6aa6f6e6f506f size: 0.0002 mb
+--------[F] : 739264661621b8acfb0224685bc8b41d1bd84c size: 0.0005 mb
+--------[F] : e686675c6f17a30d4236e7a1977e26f37062fd size: 0.0001 mb
+------[D] : 66
+--------[F] : ceddc88ed451a427f5156f5bc4710398c76cee size: 0.0002 mb
+------[D] : 67
+--------[F] : 507aac1145394393d9593a639fd6114aabc717 size: 0.0001 mb
+------[D] : 68
+--------[F] : 58650f96b16b62615ae8ba3ecbd73ba906dc64 size: 0.0003 mb
+--------[F] : d91db646020a03ea60557a65438c7e156aac6e size: 0.0017 mb
+------[D] : 69
+--------[F] : 870e97a237d5eed9cd6f0c7675e699e5dd6510 size: 0.0002 mb
+--------[F] : c78bf585721a6dc99c1c9d10fcc5a62ab9f1d0 size: 0.0005 mb
+------[D] : 6a
+--------[F] : 0d680a7a7a1b081faf41c9cf9f6c29616d64b8 size: 0.0002 mb
+--------[F] : 1dd4102c12b66a6f518e981bf5e34e315246a2 size: 0.0002 mb
+--------[F] : 210b3f8457f6106a96e7fb1128c69a4ab699d4 size: 0.0001 mb
+--------[F] : 37ac2233611eee079d9ddecc3fa18ba9986bcf size: 0.0008 mb
+--------[F] : 785ad59dbfae40887f1ef3cf0e187c66cba442 size: 0.0003 mb
+--------[F] : 8f9e2a1080c999b5073061873e6165a12c3f8a size: 0.0001 mb
+------[D] : 6b
+--------[F] : 692017f7e70caecff3b74e7360454c6473fc3c size: 0.0002 mb
+--------[F] : 6ef99b51c274349e32849b65d96b1e139db56b size: 0.0003 mb
+--------[F] : 9e65067fc4f8e7cabc35b82fe7ce2888cee310 size: 0.0007 mb
+------[D] : 6c
+--------[F] : 6cc29cef67556015113bb513cf3825861af27a size: 0.0002 mb
+--------[F] : fed667a984ae90e934faf509d183f9090a7b08 size: 0.0002 mb
+------[D] : 6d
+--------[F] : 4ea81098150de46e5c716e822bc819abdcb6c7 size: 0.0000 mb
+--------[F] : 829f86ce4a6a73a9d551ec956d22fcb3241754 size: 0.0002 mb
+--------[F] : d71e6f7ee276e746f60b8e3007bb9249595525 size: 0.0004 mb
+------[D] : 6f
+--------[F] : 2b38548b84268d456d17144191b6ca0b5c4438 size: 0.0001 mb
+--------[F] : 4d2fee873b04b75f735ee0ce1d4fca7f0bf925 size: 0.0002 mb
+--------[F] : c8651c543eb714de9a61169457addaa6ea7872 size: 0.0003 mb
+--------[F] : d2f301edf7bf1af7d8223c317524aa5b622a26 size: 0.0001 mb
+--------[F] : ee133369437c92e348210d7c0700c9ead9a344 size: 0.0001 mb
+------[D] : 70
+--------[F] : 654f48f9ce66610b8628ad1228db8cfffbc7e3 size: 0.0004 mb
+--------[F] : d34c17c0c9bbbcccd5faf034ba60c01a1cf0c3 size: 0.0001 mb
+--------[F] : feb79b247a8ac203b2bbb61edccc76424e8f10 size: 0.0001 mb
+------[D] : 71
+--------[F] : fd61bb0411764137ee75eabda40f5075345d2d size: 0.0004 mb
+------[D] : 72
+--------[F] : 1749ac78d4f179c9acbb152a1997813ec9c693 size: 0.0008 mb
+--------[F] : 1a96817508b0f9ee6b02c0f5ca3df90a02b573 size: 0.0002 mb
+--------[F] : fb8485efdac0139ced16bd6ad4d1084898e939 size: 0.0002 mb
+------[D] : 73
+--------[F] : b0dfe060219c2541270447f8a8d74d4ce6db75 size: 0.0003 mb
+--------[F] : db51513e5dc7ef0ac3c7824cfed9e18fb2c860 size: 0.0002 mb
+------[D] : 74
+--------[F] : 0bba3af372f19754450d7b1211b3a05679e6e9 size: 0.0001 mb
+--------[F] : 2a27ad787c0d67039f2649555b024913746d92 size: 1.0827 mb
+--------[F] : 63b9d1f12841dfe9cd3bca2749b9812a345bc3 size: 0.0005 mb
+------[D] : 76
+--------[F] : 63bd8aab5df1c580613492425337fc0c5f3df2 size: 0.0001 mb
+--------[F] : 8e9940a06f5f59252c2381f1b360a071ee2ea4 size: 0.0001 mb
+--------[F] : f2ca24eab781a8da6dc816cba9f207c05d21f4 size: 0.0002 mb
+------[D] : 77
+--------[F] : 0fabe996a59c5f80b746dbb4d971a73e7b3c0a size: 0.0003 mb
+--------[F] : 1b3510cef17c65ccd3348f8a7c156d154d81aa size: 0.0002 mb
+--------[F] : 690961fa43e12e6a598bc52e369538cf810bdf size: 0.0002 mb
+--------[F] : e5c563f9bebc8d3c02b774e56182903e01e96f size: 0.0002 mb
+--------[F] : f8905f0c143cf1aa676bab431a47423fc6aa64 size: 0.0001 mb
+------[D] : 78
+--------[F] : 07b22d4379c1c13708c3543534ed1e584be5c2 size: 0.0001 mb
+--------[F] : 4859d4ddf168f9ce3ce8929e076bf109d903dc size: 0.0002 mb
+------[D] : 79
+--------[F] : 76e205f08b58d66dbf9ff95e56b875fb6aa6ec size: 0.0002 mb
+--------[F] : b2078fa123ed1b37efb0bba6f7034f24fdfe27 size: 0.0001 mb
+--------[F] : bea982520222be9f4a00bfb4775a6ba4e91d8a size: 0.0001 mb
+--------[F] : da716a71e698f292c4ae77a38c38767615f668 size: 0.0003 mb
+------[D] : 7b
+--------[F] : 1f9219df5df1c6f0880cc798687d1722a02500 size: 0.0000 mb
+--------[F] : 65a3cb492d5f03a54dd6864c2c9969d5a6d7be size: 0.0002 mb
+--------[F] : 8f74db75a42d08e15dc7bc32f0288ebbfb9ab1 size: 0.0001 mb
+--------[F] : aa902f316bf7b111c36ba41763219a7cee2302 size: 0.0002 mb
+------[D] : 7c
+--------[F] : 9a71440f225b7b09028abec31af04bfcab35b1 size: 0.0002 mb
+--------[F] : e58a14a524058fe67d627de046d179ac490c47 size: 0.0002 mb
+--------[F] : ef1f2bbc0d72cb239702393b59fcff92fff305 size: 0.0004 mb
+------[D] : 7d
+--------[F] : 7ab482653cee2e4db466576181ac4d22d36dba size: 0.0000 mb
+--------[F] : ad7cc572d09853629c25e3942f7155aeb02c17 size: 0.0003 mb
+--------[F] : b50832d22803c593845735dd4969f3e31e643b size: 1.7616 mb
+--------[F] : e4df6d29dfd9e0c88e39c4c4d70523c05d8c47 size: 0.0001 mb
+--------[F] : efa7092ef9367485d62d99a3eeabe931cd698c size: 0.0002 mb
+------[D] : 7e
+--------[F] : 3729c2e548dd51273b1e8bc38d8a08b28f647f size: 0.0001 mb
+--------[F] : 5a812c16cfef3c814a2df06a2c2f2b05a661ca size: 0.0005 mb
+--------[F] : 973b6b9af9ab99da1f24eca68e6f576d4c492e size: 0.0002 mb
+--------[F] : a7c08c5d533896781f39a607baf4648be148f4 size: 0.0004 mb
+--------[F] : eb112e9c033a9ede1227336bcf9a7999f015be size: 0.0001 mb
+------[D] : 7f
+--------[F] : 0b5f6dfa4048c58183259a0df3b6ba50371c24 size: 0.0001 mb
+--------[F] : 49dd190f43e1f7741b3cfdf42d04a914a9fbdd size: 0.0004 mb
+--------[F] : e6300c37732215124fc9fb844cae8f83e24551 size: 0.0002 mb
+------[D] : 80
+--------[F] : 319e2c661ce070706fde31033b29a995de59d3 size: 0.0003 mb
+--------[F] : 46e0f5b31e9acad64d97b98ed812368146f74a size: 0.0002 mb
+--------[F] : 49e76d0e9b043d396af5cefdceb2b65d3d0f47 size: 0.0004 mb
+--------[F] : 4f6a51cd8a219c9ff00c6be8b721a119d8a4e5 size: 0.0001 mb
+--------[F] : 73b716a69a989bd641d83f44e4712f76c73dd4 size: 0.0002 mb
+--------[F] : 8b5d1873e3cef2bcae9d0c5a68d32c9aacda89 size: 0.0003 mb
+------[D] : 81
+--------[F] : 0e02c6cb561684376a77ddeaf8b51707aea247 size: 0.0000 mb
+--------[F] : 10f3182c046b8f42b7bf00633f5c16592a9d70 size: 0.0002 mb
+--------[F] : 196378fb0f6e1834bba1a278399800bfda79bf size: 0.0002 mb
+--------[F] : 4dadc002628ddfd2b3c963be6d83ff4ee37de0 size: 0.0001 mb
+------[D] : 82
+--------[F] : 2cfc111f7c64bff411055ed278a2f6585403aa size: 0.0000 mb
+--------[F] : 42056e6f67c8ad8d6b7f99347bb4f214dcfb6d size: 0.0002 mb
+--------[F] : 84fc7066b353c4388df8d82a23751c194af35f size: 0.0001 mb
+--------[F] : 9cacf31c421fbd003ff6f4b5e4a14fe09d192c size: 0.0001 mb
+--------[F] : c053a34f55151fe41d4a1749f37de7c27c941f size: 0.0003 mb
+------[D] : 83
+--------[F] : 10ba37e027c7c5c8577f899adb86aebfac7aa7 size: 0.0003 mb
+--------[F] : e21b1cedcb1baf31ea2b3b6ee78951d0059a53 size: 0.0000 mb
+------[D] : 84
+--------[F] : 3ef4b6ea4ca9636a3cd344ab0c9f5de117cccb size: 0.0002 mb
+--------[F] : 8dc60639b67220cab0aab00b05f194e9302014 size: 0.0002 mb
+------[D] : 85
+--------[F] : b6ee35d6e42b06f6eb86fc101c811d06fc61e3 size: 0.0004 mb
+--------[F] : c8a88651b00c838b02356f54d3027fbe4e7e2e size: 0.0000 mb
+--------[F] : cbf69534e135c569a12acdad709e186cbaffdb size: 0.0003 mb
+--------[F] : d31680b51144a38af50c8430fba828bedd2ed8 size: 0.0007 mb
+------[D] : 86
+--------[F] : 06f5e34c5a06ad4088ae7d6a1871fcd45433bf size: 0.0002 mb
+--------[F] : 62698adf890c03078581056fec22788a52c0f7 size: 0.0001 mb
+--------[F] : 712c41ec479b9c63eea1ca0172dd743cc7f576 size: 0.0003 mb
+--------[F] : f8ed6179070037e9f3daa9a30c09dbcae5afdf size: 0.0002 mb
+------[D] : 87
+--------[F] : 22f045a7a8b4de649c35ca6d1941bf7101db18 size: 0.0006 mb
+--------[F] : 7adccc344eb65c4c4c61df9f79383f80cc6bb9 size: 0.0003 mb
+------[D] : 88
+--------[F] : 324239de84859b9e6170917a6e4523e8608d4d size: 0.0002 mb
+--------[F] : 4c2a6aac866bb1d452e0432ed1d89a8dec7da6 size: 0.0002 mb
+--------[F] : 98b6a934e967d8090f900d51cf421284b730a7 size: 0.0001 mb
+--------[F] : 9d9daea401ab4db99fdbefd6a446c72b561349 size: 0.0004 mb
+------[D] : 89
+--------[F] : 080c799e9dfa439837c35a01e4ee18fe0dba86 size: 0.0004 mb
+--------[F] : 612724a03b48db3981c2b8cef5b8e734679b76 size: 0.0001 mb
+--------[F] : 7168e19b9ed8f9aa7098235d068914cfb59986 size: 0.0004 mb
+--------[F] : f74c7166ce72d5f324b2feaa44b72d007f4650 size: 0.0003 mb
+------[D] : 8a
+--------[F] : 204f014291062d96bcd70b9b5915b8c9af4b44 size: 0.0002 mb
+--------[F] : c3138b8eabe86cfc006acb0e740ec4d5bae75a size: 0.0000 mb
+------[D] : 8b
+--------[F] : a098710053480cde0e84cda8992bac57700725 size: 0.0002 mb
+--------[F] : cba4480477e866db9202be789c847c5b631ae2 size: 0.0002 mb
+------[D] : 8c
+--------[F] : 411c6cc057d3208b1b6522d1b0993c89f72051 size: 0.0002 mb
+--------[F] : b58e7ed80acdb7c68612170d0bf763c6d782eb size: 0.0003 mb
+------[D] : 8d
+--------[F] : 44d07302f775019dbd6d2cb62183a53f3d7203 size: 0.0003 mb
+--------[F] : 64343fe024c37cf257f4e168982e4a3193edf4 size: 0.0001 mb
+--------[F] : df98db7af6b77e7e7ea1b2f0f235f3c776cec0 size: 0.0001 mb
+------[D] : 8e
+--------[F] : 1fbe1a9a44d373b429056af99c067fa126c15a size: 0.0002 mb
+--------[F] : 3d403f3b1522d8cdc9cdbd64bb361cdad4d01e size: 0.0001 mb
+--------[F] : 649c325cdf6261f2996856de692fa15cf8e34a size: 0.0007 mb
+--------[F] : 8080f5d2ac1fa3ca6bdd050d405f0d3cd60392 size: 0.0000 mb
+--------[F] : 95ee66728debeada9a7881117812a2b9488bb6 size: 0.0001 mb
+--------[F] : a795f999a76fafb3a436ce5e8ead30fbc6afc1 size: 1.9631 mb
+------[D] : 8f
+--------[F] : 107e6841abdd2d442f1a76e19dfce46ed11938 size: 0.0001 mb
+--------[F] : 4cc7b152a27e2461bcfcf8420e69a8e1ebd795 size: 0.0002 mb
+--------[F] : 6acdf254fd9c8cbb0ce233c4b01cce3febd107 size: 0.0001 mb
+--------[F] : be264936d3539c13e15132f3a7ca94aadb55be size: 0.0005 mb
+--------[F] : dc6935b21f8d7a8b649c9e358d37715feae109 size: 0.0002 mb
+------[D] : 90
+--------[F] : cba26aa5ce444daa21c08db925e11e08f1e89f size: 0.0004 mb
+--------[F] : d030661b8b41c6915f1ff8b98257728c2d3376 size: 0.0003 mb
+------[D] : 91
+--------[F] : 1d01c186f0d247e7b95e23ce04fa541cda7e46 size: 0.0000 mb
+--------[F] : 4fdb77ccf8d99c010cb1418e8a238c60d30845 size: 0.0002 mb
+--------[F] : 6b612b94aecc0dabd7d3124a3e7af893d7addf size: 0.0003 mb
+--------[F] : a93e769e94bb6a3e5d1110f1a03dc6bf585a79 size: 0.0004 mb
+------[D] : 92
+--------[F] : b1c2c6d8bca25fb4ed01f55889c3cca4c2fc25 size: 0.0002 mb
+------[D] : 93
+--------[F] : 4d205c101c26c6d992aa49865a127d73b6334c size: 0.0004 mb
+--------[F] : ba899fa6137e95012b4e70d4d5d5cc8d7e79d9 size: 0.0003 mb
+------[D] : 94
+--------[F] : 0828f37f6df97665ec4ab9b44296911af57422 size: 0.0003 mb
+--------[F] : 387200feca1a52afacf02a27ba9529573eacdf size: 0.0002 mb
+------[D] : 95
+--------[F] : 2105d4335738ac0a76ab70f71caa87ca50a3f0 size: 0.0002 mb
+------[D] : 96
+--------[F] : 730024b268e9bf89e30517bc3e5162e0bb8671 size: 0.0004 mb
+--------[F] : d3ed3864f4a3547aeb05429f0653f89e16dfb6 size: 0.0002 mb
+--------[F] : d411fd8eab729745b1bfc7989488915c3e273a size: 0.0000 mb
+--------[F] : e284965357f2b8b6ec530c730245b0ff4c224f size: 0.0005 mb
+------[D] : 97
+--------[F] : 056704296fb9290e514f5ab2e5660dde185904 size: 0.0002 mb
+--------[F] : 1a24c27e6f068514aa2add5f70d81f205dc529 size: 0.0003 mb
+--------[F] : 6db16d9f2569cc05cf6f68706f914c38a1cc67 size: 0.0002 mb
+------[D] : 98
+--------[F] : c4dca2c35aa93144f18d64443dbc627b1e6971 size: 0.0002 mb
+--------[F] : f7480b444e4eeb85171444523dc45a75ef0dbb size: 0.0001 mb
+------[D] : 99
+--------[F] : 29e3dd68090e422f1ee8cd43092c78123971da size: 0.0001 mb
+--------[F] : 5068c7e3aa3c0fc5c1adb996d263834fc2dfe5 size: 0.0002 mb
+--------[F] : 57ca4fb5c4c708d20cbe62715e0d26343ed919 size: 0.0003 mb
+--------[F] : 641a8f1615020759ea7e84c75881f7c35cf5fb size: 0.0001 mb
+--------[F] : 8d0d6ccfacc945dfaf2c17fe640b47528a0d61 size: 0.0003 mb
+--------[F] : fbdc298ad3511444605cf4b4d81bda56ff3be8 size: 0.0005 mb
+------[D] : 9a
+--------[F] : 79e370c59880e11a44f808abb7cb3cd38b93fe size: 0.0001 mb
+------[D] : 9b
+--------[F] : 56794673e0fb1b15afe5efc6865d9b70863583 size: 0.0005 mb
+--------[F] : 7ddd14caf5e764fae5c48db529cc2d72d342b0 size: 0.0002 mb
+------[D] : 9c
+--------[F] : fa370cd3ba892f88fcec3e0822e33c27c7c777 size: 0.0001 mb
+------[D] : 9d
+--------[F] : 4fc19790dddb1f30f0671511740d6851c975e6 size: 0.0005 mb
+--------[F] : 5f6aebe510de866506243aa32463f12db16d56 size: 0.0003 mb
+--------[F] : 98ba7bc3df05281ac365b73b08560c02957ec5 size: 0.0002 mb
+------[D] : 9e
+--------[F] : 6fca29b10c27403e79fd47e4bc9a33cce467f0 size: 0.0002 mb
+--------[F] : fee89e9f0f7600c72049d34d200d0feede5c25 size: 0.0002 mb
+------[D] : 9f
+--------[F] : c48327d852b6af895fdd39d5803def6733d13b size: 0.0001 mb
+--------[F] : d4cee936714de9bb4f325d9c9f7d6b971c513e size: 0.0001 mb
+------[D] : a0
+--------[F] : 1f89b1f409f6398399672d40448830d2401ac5 size: 0.0003 mb
+--------[F] : 6aa4c516e7801fe7fcaa51140f18613a4152b7 size: 0.0004 mb
+--------[F] : 80a6e860f2bbf5017d0f7be5f777c0ceca7685 size: 0.0001 mb
+--------[F] : df9bdcb99727de1e7c258b227ee81df5961db3 size: 0.0002 mb
+------[D] : a1
+--------[F] : 142c78aa69ddcc06fbc5767689a8503cd8fc7d size: 0.0003 mb
+--------[F] : 67a897f236bd3c98bf0d585b44a9b8d1dd95d8 size: 0.0002 mb
+--------[F] : a074bb7f188a03d7fd4b32e52e7b534a14e82f size: 0.0002 mb
+--------[F] : fecf9b0cc080d0830639d6349821d9dd60cb0b size: 0.0000 mb
+------[D] : a2
+--------[F] : 5cdf8c82d1d28f2a5eb4cb02e50ddf30b29d28 size: 0.0002 mb
+------[D] : a3
+--------[F] : 28843b67b86a70c4cc22a7b36fd3d50d032b9b size: 0.0004 mb
+--------[F] : 5f671eb316b90aff7f66c1fda1809c504a738d size: 0.0000 mb
+--------[F] : 733163e8f02d741f27f8ffccd672e2eef1af27 size: 0.0002 mb
+--------[F] : aff76fb0faa29971734d5dea5cde553e40f2d4 size: 0.0003 mb
+--------[F] : cf94d69525f7f88b91af0da3bf63c93286ab39 size: 0.0002 mb
+--------[F] : d6847ce1e362fb773301d08768008d595396b9 size: 0.0002 mb
+------[D] : a4
+--------[F] : 1c2f7182059d7365fe55e8aa5b894ba5bad700 size: 0.0002 mb
+--------[F] : 4d231c2e2798a7cdb2c0a177a9a89b1bac9bd2 size: 0.0001 mb
+--------[F] : cb9c81dab6ca8f67bebd72a39f817e9c6c07d4 size: 0.0001 mb
+------[D] : a5
+--------[F] : 943cf0c35f0133e751ba1d940a0880da5aa2c9 size: 0.0004 mb
+------[D] : a6
+--------[F] : 2a412c14b1984d2a0fbb743601352ebc505a4a size: 0.0002 mb
+--------[F] : 45e046a37e40bd4620e228922e061b9e2a8847 size: 0.0003 mb
+--------[F] : 732e496003812f898583f66a70779de717ade2 size: 0.0004 mb
+--------[F] : b8b1a64db06bbc7deacb5bd608a8ed1f00bdb8 size: 0.0004 mb
+--------[F] : e2736356703896b56ef4334e357ad979f5c17d size: 0.0002 mb
+------[D] : a7
+--------[F] : 1d0ac7eede1bb9d31e0a69f9406a3fdab7368c size: 0.0002 mb
+--------[F] : 9a305439ac3a7932e8b8c7630c67e136569265 size: 0.0001 mb
+------[D] : a8
+--------[F] : 2b3db687db5115e3d84bba1d39bdd7b1c42042 size: 0.0000 mb
+--------[F] : 61fbc3328fc5dc2c6b9b4d1c9ee19d9fd17003 size: 0.0003 mb
+--------[F] : 8ed8cebaf7fface701e51826dd22df1a0018f1 size: 0.0003 mb
+--------[F] : c9119e60e37232948df52b72fc81ae6ed9d9f5 size: 0.0001 mb
+--------[F] : cd15cd94eb70ccb502642e9ccc7731373dc443 size: 0.0003 mb
+------[D] : a9
+--------[F] : 7761b1ddba46673814aebce74ca0cf92e5e73b size: 0.0001 mb
+--------[F] : a8156e369edbd36e8a4561a854fb0aed601c89 size: 0.0005 mb
+------[D] : aa
+--------[F] : 2e1ef9c64ec644f701f878167f3a20fedcbb63 size: 0.0003 mb
+--------[F] : 45c7a43bd2e9daafccb903ced90ee28013e98a size: 0.0003 mb
+--------[F] : b1f60699688f08f5f7e686284da30a7af7fdb0 size: 0.0000 mb
+--------[F] : d72678ed73a014a230a2e74c58547d50ef519f size: 0.0002 mb
+--------[F] : fcb4240eac19a8aa3a1f9983c56fabfb8c9d89 size: 0.0002 mb
+------[D] : ab
+--------[F] : 288c527498f8f667668b9fb37facddd85902c9 size: 0.0002 mb
+--------[F] : 6674dba046682ebf2b5dd06c1e8c4f44109480 size: 0.0002 mb
+--------[F] : 85d33777f2bc98b46c61fef120728cf6179241 size: 0.0002 mb
+--------[F] : 878af13f8fe96195eb4390889f7740d23e54d9 size: 0.0000 mb
+--------[F] : b55725ed76f1de7ffbbc249d15ff15c5ade9a3 size: 0.0003 mb
+--------[F] : dc8974cfd8d56d2c8325f9bfe1208c98f95dc2 size: 0.0002 mb
+------[D] : ac
+--------[F] : 2c662deafd9a973168ec637740bf8de7208370 size: 0.0002 mb
+--------[F] : d081fa798bece24afe6d3fcd89ddd5c11de59a size: 0.0001 mb
+--------[F] : dc60c746e9b8b8383fe1fb15e4e971c8a2c9ad size: 0.0003 mb
+------[D] : ad
+--------[F] : 492c78f43b9602ea4d476e7d43a7148103d485 size: 0.0002 mb
+------[D] : ae
+--------[F] : 1e6a47b928e6e04892f8267a0b6fd842491ed1 size: 0.0002 mb
+--------[F] : 5c11298273c7481da70e5a4ad7bb7306ebf098 size: 0.0002 mb
+--------[F] : 70436c6bf90db972e7a868903c7f708995a45c size: 0.0001 mb
+------[D] : af
+--------[F] : 40db46f4b45c0fec6c565be1e827c2f14d46fb size: 0.0004 mb
+--------[F] : cad8eb0673d826a37b0ddb9c26ea6a50e80b5c size: 0.0003 mb
+--------[F] : dff77cc475059dd8ccde2a8e766d101236b045 size: 0.0003 mb
+--------[F] : ee1b61b437f6f087cf68f5f1360e138a46b85a size: 0.0005 mb
+------[D] : b0
+--------[F] : e0cd9f33e48f73c5c95e070364cf9a72778c46 size: 0.0002 mb
+------[D] : b1
+--------[F] : 0e22747a8cb65ccddb386ae887b407510c1d1c size: 0.0002 mb
+--------[F] : e6d9550117651d8607601fbf9ba43ec165faf1 size: 0.0001 mb
+------[D] : b2
+--------[F] : 25914faa8d86b9386782d790d799d272e3376e size: 0.0003 mb
+--------[F] : 7647c13d539aaaeecc5a698db3be62e98c19c4 size: 0.0003 mb
+--------[F] : b95656dd0613e78436625bccac337240b37b57 size: 0.0005 mb
+------[D] : b3
+--------[F] : 0921a1d2d8fdf75e41248f274b11f526371674 size: 0.0001 mb
+--------[F] : 0c7107c2b49344ecf4148e7dab0a8f3a00632d size: 0.0001 mb
+--------[F] : 2521d8dac8d343e92c84f6b6b71532c21919dc size: 0.0002 mb
+--------[F] : a85416ec61225404209e8a40e3b22c87bc9d95 size: 0.0004 mb
+--------[F] : c1bd75c0f1ff9c5798405469ca62fc8fb8eea2 size: 0.0002 mb
+------[D] : b4
+--------[F] : 9a5e9abcc828559dca308974875cccb5dd93ea size: 0.0004 mb
+--------[F] : d0e395c29ed11e4178fa651d645a9266ad1812 size: 0.0003 mb
+------[D] : b5
+--------[F] : 1c1be5ea3cf2e2589a1eb076c5831f1400f51f size: 0.0001 mb
+--------[F] : b6daedb26b7c89fd70684ed81bdab78c84e2ea size: 0.0002 mb
+--------[F] : d2e0732b994c187f815c736df59bfdb512be32 size: 0.0003 mb
+--------[F] : dd718a68321840ae64e4d2597c9ce6c575559f size: 0.0001 mb
+------[D] : b6
+--------[F] : 182f22511432dfb79709e22796883c478f735a size: 0.0003 mb
+--------[F] : a3b3c0267f569883a7f7c1348648745af0526c size: 1.2164 mb
+--------[F] : b7b3b190472b5d96d6267cdd7bcafc6914bf6e size: 0.0000 mb
+--------[F] : fc19ad980446177b285288d4b7ce8545077dc5 size: 0.0001 mb
+------[D] : b7
+--------[F] : 32eff7307a91ae69c933b1d02a18f9f943b677 size: 0.0002 mb
+--------[F] : 3a16c674512fb4f675ae3a4176f01f6c26337c size: 0.0002 mb
+--------[F] : f9d90ed31e76339948b1758d9e73f85626fda2 size: 0.0003 mb
+------[D] : b8
+--------[F] : 7f4e86cc049429d93d9bdd507e66bba13cbdf6 size: 0.0002 mb
+------[D] : b9
+--------[F] : af150023854c7e84cc74689749617d4dc89b22 size: 0.0005 mb
+--------[F] : b762bd845f6bf9fc7d14505e1ea05cddc63d8b size: 0.0001 mb
+------[D] : ba
+--------[F] : ea27e28cb101a5de90be3c208f5b19dacc61da size: 0.0000 mb
+------[D] : bb
+--------[F] : 0b9f81364b4a4af3ec2cf7e9856b568400d581 size: 0.0001 mb
+--------[F] : c00a15153f9f0eadefa6bf0468c66446fa044c size: 0.0002 mb
+--------[F] : eac566e5211dadd5592e0cfc354ff87f76d0e3 size: 0.0004 mb
+------[D] : bc
+--------[F] : 165b57591b6ee9d38da335a970e9ad5d3ed825 size: 0.0000 mb
+--------[F] : b0ea86286572d461ceb3f7b9f7b0cbbcdcb389 size: 0.0001 mb
+--------[F] : d632898a22f040e42955407a1e26ebfc58e40f size: 0.0004 mb
+--------[F] : fc16548c8041e22e61dcd87d62ccc72f0c70f2 size: 0.0002 mb
+--------[F] : fe0d3ad31f5c6fbb4a3831cfa9541f92f77f84 size: 0.0002 mb
+------[D] : bd
+--------[F] : 6df28835f74fb7d38dc8bd3d576ab26762e6c4 size: 0.0001 mb
+--------[F] : 990ef360f10d795a5b24365d44a23531b4c0b2 size: 0.0002 mb
+--------[F] : c8a84434d17e0d0d81d530244c225ac4111336 size: 0.0004 mb
+------[D] : be
+--------[F] : 29d32085f9603fd64feca4d45b82b1256c90f7 size: 0.0003 mb
+--------[F] : 4ea967a15d3bc1fe77f7173b285b20e1b12e73 size: 0.0002 mb
+--------[F] : abb88af4e265fd15a46a6f076e658f922e74b5 size: 0.0002 mb
+--------[F] : ec18416dfc9ae36541b53f26189722d4e53855 size: 0.0002 mb
+------[D] : bf
+--------[F] : 4ffc51caae78944625456202314296cca3a9af size: 0.0000 mb
+--------[F] : 9ac1e037a8e8c4b0ddb73fa42a8ecb597a93ae size: 0.0008 mb
+------[D] : c0
+--------[F] : 9b3a5ddb7c05391c730cc8fffb09da5914d92e size: 0.0002 mb
+------[D] : c1
+--------[F] : 0911d16b1a2a76ca937c11661abffcc5919818 size: 0.0000 mb
+--------[F] : 196369b7e6ce0437cee8d603ab220f1b987c3e size: 0.0002 mb
+--------[F] : 231868f9d047395558a4c19340a9e48ab0ef73 size: 0.0005 mb
+--------[F] : 628a520d945169ab0a92ee85f37ff799105d12 size: 0.0003 mb
+--------[F] : 6f3503276290295b33a891c302521d08bad867 size: 0.0004 mb
+--------[F] : b75bcd1e59d357230e73d57b1eda2afe836f38 size: 0.0002 mb
+------[D] : c2
+--------[F] : 30bc62f4e1e9016158295589f482bebc90953d size: 0.0001 mb
+--------[F] : 4aca7a18d17b3cda5a81ed13b126a9f81130da size: 0.0005 mb
+--------[F] : aab16cc5055b0dcebe4839fe4edd50050558dc size: 0.0286 mb
+------[D] : c3
+--------[F] : 1c71bf1fb7d74b5be1dc8242eef90512cbceaa size: 0.0004 mb
+--------[F] : abedbe13906374c983b430b35155d145bc6172 size: 0.0002 mb
+--------[F] : b0dddb86a1445d23fdcc1c526f3b6d8663f9c8 size: 0.0002 mb
+--------[F] : d9af1a761134dab94e3a3dc973095d9593671b size: 0.0002 mb
+------[D] : c4
+--------[F] : 13e0178fdba52795554a9c4a5387924da2dcc0 size: 0.0003 mb
+--------[F] : 22a1ec281f3d014cb7ffa2a02175c181979882 size: 0.0001 mb
+--------[F] : 3f2d6761957535da31b13aae958abbc26ee36f size: 0.0002 mb
+--------[F] : e98ea1e62f9949f1c003a928c5dffed3d4faae size: 0.0002 mb
+------[D] : c5
+--------[F] : 046e6b8577086db4e3c9cb89a319b488111a89 size: 0.0001 mb
+--------[F] : 0f3f8f69806d2453a1602585d22780975bd871 size: 0.0007 mb
+--------[F] : 694fd25bd1186aea282534dc72b5b8aa16accf size: 0.0004 mb
+--------[F] : 77f6e2dfa3bf810b4e489ac66cb9e1cbda37a4 size: 0.0001 mb
+------[D] : c6
+--------[F] : 1748eacd5141a0b8c3b3c00a7369d4a031f434 size: 0.0016 mb
+--------[F] : 75a261970b2d10e46059b73cac99bf8da48998 size: 0.0002 mb
+--------[F] : bf6e8cc8beb0eee092d5ab71a623eefb64693f size: 0.0002 mb
+------[D] : c7
+--------[F] : 0dd1e6fc64243c92a4d6b85f2ded6d34938c39 size: 0.0004 mb
+--------[F] : 344fac1034827e4dfa43af92dabba489b9e9e4 size: 0.0004 mb
+--------[F] : a9c57769bd4479a628686e955a074e0c9fd39b size: 0.0002 mb
+--------[F] : c133a82169388a0d32ff070a65bef431c25b5e size: 0.0002 mb
+------[D] : c8
+--------[F] : 262b0f102594c3373809678406a027022a9bca size: 0.0002 mb
+--------[F] : 495c8688c8824e02c384e3dc053db61fb03ce2 size: 0.0001 mb
+--------[F] : adb6a3107dfe7bee792f2e086b4b2049f66767 size: 0.0002 mb
+------[D] : c9
+--------[F] : c23ac5fb886c803800b723a8b98999493639e6 size: 0.0002 mb
+------[D] : ca
+--------[F] : 225859c066117b1610e85e2b47fa85b3cd92c2 size: 0.0002 mb
+--------[F] : 9e8f6f074d94d9a7aaaeddcb742edb811279a6 size: 0.0003 mb
+--------[F] : d4b1cad830e232fbd4a7c5a65f74c18cad102f size: 0.0003 mb
+------[D] : cb
+--------[F] : 48309c8d9e6d541322b487901581fd31aaf8a8 size: 0.0002 mb
+------[D] : cc
+--------[F] : 1bf2858b5299c6d7af7fcebca16d2be44bf2dc size: 0.0002 mb
+--------[F] : 1c50381bec84d9856b391df6059b30bfe2f48f size: 0.0002 mb
+--------[F] : c2f1d6a9bb14537daf1f63003085d7b69063d1 size: 0.0005 mb
+------[D] : cd
+--------[F] : 491522bfa36b91c6f524a1396428483c4f849a size: 0.0008 mb
+--------[F] : 5b23653370dbee868e2de23763378a17af83f4 size: 0.0001 mb
+--------[F] : 765814a551b6d2eb580ed11c741c8d4164d9df size: 0.0002 mb
+--------[F] : a24160cc87e362626cb52115e2ef5a7607b109 size: 0.0001 mb
+------[D] : ce
+--------[F] : ac2063e1558d197b0a18262105f9d4feee42f8 size: 0.0001 mb
+------[D] : cf
+--------[F] : 23f78edf00c96b17052772a9fa1df0afe14235 size: 0.0001 mb
+--------[F] : c51d2cf9c22f2be771008c5ebd1720ee8d537c size: 0.0001 mb
+--------[F] : e48fc8dc3485d8a9cf8dc183fb5f2af358e5da size: 0.0001 mb
+------[D] : d0
+--------[F] : 6902a07e49e0f3f8f89b3ba418e687e4be4e73 size: 0.0002 mb
+--------[F] : f956b52d4747113b98de144b7b4da44f7135de size: 0.0004 mb
+------[D] : d1
+--------[F] : 3a98ba4a4793c6a9a35e25469c5b12059876e8 size: 0.0003 mb
+--------[F] : 409b209e8c03c6caed79bff72285a8de2fc813 size: 0.0001 mb
+--------[F] : 7ce5a72693dec40a7a0619ff62ec61052e1a69 size: 0.0004 mb
+--------[F] : 9653dbc68e19ae4a8479a5604608af55d5a64c size: 0.0001 mb
+--------[F] : c3cb78d8f2f6a654ed8632f12c21af69625338 size: 0.0000 mb
+--------[F] : ef0b1a49479e3bd93ad79b7a065b868751eb45 size: 0.0002 mb
+------[D] : d2
+--------[F] : 1a3c028c492efc8633441d637e9b700d34b6e0 size: 0.0003 mb
+--------[F] : aeaa6ad48d74bf37e7296d1592789fe678690f size: 0.0002 mb
+--------[F] : b58f8c228c746235a9655aa6ac827cd7325596 size: 0.0003 mb
+------[D] : d3
+--------[F] : 3cc0e272247decf31dd617615a958b3041f7c8 size: 0.0002 mb
+--------[F] : 88e3f9c6f598344dc0fd123725b2542a2e0b54 size: 0.0002 mb
+--------[F] : a75d3952b6c2c847364be6db10dfa9aca2b515 size: 0.0002 mb
+--------[F] : e85e308a477e78d89feaeef1aa15d2df1cdacf size: 0.0002 mb
+------[D] : d4
+--------[F] : 1bb900f1d777b466b4d33fa1145074ffc499a9 size: 0.0000 mb
+--------[F] : 4551ce2767f65586cb768b36d00054f970154b size: 0.0002 mb
+--------[F] : c8cdaf4527d9b53d7f00c59bd4e97e1e68241c size: 0.0002 mb
+------[D] : d6
+--------[F] : 10e82e1b69ab825f1963d6b70a7e1b70bd334d size: 0.0001 mb
+------[D] : d7
+--------[F] : cf253758f0f9487377e248c79c2bdce4dcae46 size: 0.0003 mb
+------[D] : d8
+--------[F] : 5969221308bbdc4eed3e20d92eb9096f94a059 size: 0.0001 mb
+--------[F] : 6a6d26c0efda0d6d09c1e559379f5f838fdd25 size: 0.0000 mb
+--------[F] : bb7c088d2652c37da2e46e848d3451cb769500 size: 0.0002 mb
+--------[F] : d42b90d463f5aae06a3114a758d9f4104fede8 size: 0.0006 mb
+--------[F] : fbb0d15d6b37fc7a5a9f7e6d71447f7e2e045d size: 0.0004 mb
+------[D] : d9
+--------[F] : 1e4377602d36b16565e7c237795cf9250d1e5d size: 0.0002 mb
+--------[F] : 7eddf1c832fb136daf9bbd334d84dfaff413c4 size: 0.0004 mb
+--------[F] : 8a0e29cf743f0ca19b29be62786fe48b8e9465 size: 0.0002 mb
+--------[F] : bca26267c53beae5bec1de247cf82a277141e4 size: 0.0008 mb
+------[D] : da
+--------[F] : 0df124cde9d05af30a5787ea93d5d6da6781fb size: 0.0002 mb
+--------[F] : 35aed188053b0c22899b4808e893786b982c5f size: 0.0002 mb
+--------[F] : 5ccde651d79005cb934526df2263105c841adc size: 0.0003 mb
+------[D] : db
+--------[F] : 4e88ca01441c267f20f1d5aa3d11d3259bf4c6 size: 0.0001 mb
+--------[F] : fb5d84b6c79121ef8f55337741697966bbc5ac size: 0.0001 mb
+------[D] : dc
+--------[F] : 0b800ce683a8108c4e4cafa5b55dd9453c4c46 size: 0.0002 mb
+--------[F] : 16333914ae798d391ae1d9463879561a6da921 size: 0.5525 mb
+--------[F] : 63442427d34c2faa5001f6db5222eca036c79e size: 0.0005 mb
+--------[F] : dfa084b58df22594d037bb569db30f1134a4da size: 0.0002 mb
+------[D] : dd
+--------[F] : c16326dccba4e0612a38cd5c10c42241aafa1f size: 0.0001 mb
+--------[F] : ca8aa39a6c60d990bf15fcd7322857fecc197c size: 0.0001 mb
+------[D] : de
+--------[F] : 38e0a2a040db43ab823c84b1ec06d8331ac3a6 size: 0.0004 mb
+--------[F] : 83dfee8fa58ce706b61255ea7ee4647c7e12ce size: 0.0002 mb
+--------[F] : 8ef4ea7714a15dd37a0dd2a66a2868233b714d size: 0.0004 mb
+--------[F] : a3906020cbc0342207330a8b155aed065a7192 size: 0.0012 mb
+------[D] : df
+--------[F] : 128f2bec54f1c997cc16cdd01cdb4bb87ec945 size: 0.0001 mb
+--------[F] : 1932ee6a4abbee60022ebb0ba85716fce9ed60 size: 0.0003 mb
+--------[F] : 39d472421d931bef7e8110326ff03be5a7b789 size: 0.0002 mb
+--------[F] : cb919e6d57dfdfbdab14ceb5acb1af20f5b723 size: 0.0001 mb
+------[D] : e0
+--------[F] : 0c75d68417c60543f85e5db503bf59062da5a1 size: 0.0008 mb
+--------[F] : 40c65f6a5956e1e7fa4489d07acca1bcc2c944 size: 0.0027 mb
+--------[F] : 73f48d5a98760b24c48a57a60aed079f60be72 size: 0.0000 mb
+--------[F] : 8d9d87a04ce2d1dcc7c3050fb4be94ac71362d size: 0.0001 mb
+--------[F] : cc301f6f20e99082c817a7379c601fa98bd8af size: 0.0005 mb
+--------[F] : e56586db8a5673ee470fee496f03c815205c3e size: 0.0001 mb
+------[D] : e1
+--------[F] : 91ef0b515d05a0c481f4066d5ede40186d4e25 size: 0.0003 mb
+--------[F] : d6ea7c779f5722fca560b4182cefd45a31f087 size: 0.0003 mb
+------[D] : e2
+--------[F] : 083803ef65ee882ae38b1b60456017e7d92f5d size: 0.0002 mb
+--------[F] : 813558a29f81de205b438101d31f2240c60e89 size: 0.0002 mb
+--------[F] : acf39e553d0c811a0a43f3c93089c67b920591 size: 0.0003 mb
+--------[F] : c1bdcadf0edcdaf0c44f7d60f774cc02671655 size: 0.0002 mb
+------[D] : e3
+--------[F] : 627203d1ae3c7c492c4f43d90f0cba9b981670 size: 0.0003 mb
+--------[F] : 6db1339947c9e0317c94a7a5a01048620cee1e size: 0.0003 mb
+------[D] : e4
+--------[F] : 72607d973e0abe5144ed45dd8b39db8097ec13 size: 0.0002 mb
+--------[F] : bf48a4cf865933029bfc9eed25db9c246b71b2 size: 0.0001 mb
+------[D] : e5
+--------[F] : e3bee76a267ae6d8add8105cb1a3be99c2e4e2 size: 0.0003 mb
+------[D] : e6
+--------[F] : 67a638a22dd2ca5098d653dfd13fdd52d9db48 size: 0.0001 mb
+--------[F] : 9d41e6fabc281696a2caa1a0b6155dbb4d10eb size: 0.0002 mb
+--------[F] : 9de29bb2d1d6434b8b29ae775ad8c2e48c5391 size: 0.0000 mb
+--------[F] : b234b36043774827e841581f951efb0f9258b7 size: 0.0003 mb
+------[D] : e7
+--------[F] : 29aba025b147ff2fd8a4a078cfb6872199a869 size: 0.0003 mb
+--------[F] : 510223daf04a758fd07b43536e97a23b685903 size: 0.0000 mb
+--------[F] : af74e121e9a9ad80a37c0cec7b47c649cd8eb5 size: 0.0003 mb
+--------[F] : c9771d7d506702d2566afdc8ed194235496929 size: 0.0001 mb
+------[D] : e8
+--------[F] : 2a1f4ddeb049d5463f2d524ee46f3be12ab45a size: 0.0001 mb
+--------[F] : 58c7f543398c45d79109e699ff8315a3c924a6 size: 0.0002 mb
+--------[F] : ba31e15793206ff89662d57f64d80b42e9bb09 size: 0.0000 mb
+--------[F] : c86c4e0bc151e86d535bb88a047d85c69ed7fd size: 0.0001 mb
+------[D] : e9
+--------[F] : 6a2961a10ad238780cec31c38ce013bf2de9b0 size: 0.0001 mb
+--------[F] : d5b936cb2f82510a5c55284c5ec027781e21e8 size: 0.0002 mb
+------[D] : ea
+--------[F] : 5645198be93ac6c25d58975d048d71ee442d9e size: 0.0002 mb
+--------[F] : 6e6eb12965a7dbf8421d3c697827671e0c3e9c size: 0.0001 mb
+------[D] : eb
+--------[F] : 0468f686f0e9726b95b87c4159fbf88656e9f5 size: 1.3232 mb
+--------[F] : 0509300ea46f5b55d294c1c057b87cef0f2fce size: 0.0007 mb
+--------[F] : 5c670b36da9f3da397975780aaa21243c09b29 size: 0.0003 mb
+--------[F] : 754add86eb7f12b77719396294f64959435cb2 size: 0.0004 mb
+--------[F] : c1b578bd8cd2b4d82a7bb9656497bfdc55daf7 size: 0.0003 mb
+--------[F] : e7f6c635436b0ff396c63dd4e646657b0a4d30 size: 0.0003 mb
+------[D] : ed
+--------[F] : 1e08f3f6a4a86f76ca9d3ba8714bb08c012306 size: 0.0002 mb
+--------[F] : 47c1e6e4129125b8fd1d885e306061a975f33c size: 0.0002 mb
+--------[F] : 941c512c83ffd90f407bc2ff757d38e11004c5 size: 0.0003 mb
+--------[F] : a1f7f531d932ad05345999c045e6ae4d18bf15 size: 0.0002 mb
+------[D] : ee
+--------[F] : a818500d0a1218a3b75d7437799fac6f3014c0 size: 0.0002 mb
+--------[F] : b6904c71bc723e1212c1cb72975ac19ab9290a size: 0.0002 mb
+--------[F] : e144a54bd7ca147ec88adb16311bb9f1a65d2a size: 0.0001 mb
+--------[F] : e5d0e5a69e590632800959ee47721b840fe3c6 size: 0.0002 mb
+--------[F] : eb54caca1cb5e5aafd0f6f12f0ab8f7962711e size: 0.0003 mb
+------[D] : ef
+--------[F] : 415927b50d827defc586bd8f8a7321ac5f1cb4 size: 0.0004 mb
+--------[F] : 4d2862f351c96b4919924525421ad90ec3373b size: 0.0002 mb
+--------[F] : fc092f5ea68dd7b3d18617b3d3f8e03b1e530d size: 0.0002 mb
+------[D] : f0
+--------[F] : 490fe1a43d594d2f549a712148e8026197369b size: 0.0002 mb
+--------[F] : 669f6d081afb0bd3c80cfb1efd821dcb6fb085 size: 0.0003 mb
+--------[F] : f866256ba0970df02435952beabbf746db6547 size: 0.0002 mb
+------[D] : f1
+--------[F] : 3ad06c956635711e8ee4cef2e90694ce91e97b size: 0.0004 mb
+--------[F] : b75fef05c56e264c09be18fdb9863fcaa9ae7b size: 0.0002 mb
+--------[F] : b86802d0ce1ba6c33495f63899e940fb86780e size: 0.0005 mb
+--------[F] : d425952dbed2722b396c494b2478a461f5e105 size: 0.0002 mb
+------[D] : f2
+--------[F] : 84ec1208f379eaa44a14f91c48af87fd5b91c8 size: 0.0001 mb
+------[D] : f3
+--------[F] : fe5b0cdc27925e1f34686b8b00732b87e4d99e size: 0.0002 mb
+------[D] : f5
+--------[F] : 25893e392888ef5919f01dc359f6a8a45eb9bb size: 0.0003 mb
+--------[F] : a97b4911495678f3ea75f588fbeb2441f2c98d size: 0.0002 mb
+--------[F] : aea22a5fde4d23982374e6ac2c66804a93a3a1 size: 0.0003 mb
+--------[F] : da52f5de2ad6652d4e0bc609f4468f2363f11f size: 0.0002 mb
+------[D] : f6
+--------[F] : 92b27c2756f14e2559cc42e8ec9aec20b79104 size: 0.0002 mb
+------[D] : f7
+--------[F] : c1ddcb8f6cc4827301360f8d01eda23bddb0ba size: 0.0002 mb
+------[D] : f8
+--------[F] : 79e300a1b02793459c6532c6791d0b004b1bd7 size: 0.1049 mb
+--------[F] : 930086c06239535a1791df0257b461b9daca75 size: 0.0003 mb
+--------[F] : a6dfe65913ad8bd119178f1449e6ac8a209321 size: 0.0002 mb
+--------[F] : aed9d7e208c85113e36a08fb937a40c480afda size: 0.0004 mb
+------[D] : f9
+--------[F] : 211daa68a4e731ac2c0eebeebb22828b34ce7f size: 0.0001 mb
+------[D] : fa
+--------[F] : 308c5a1e000797859deab1967399a08153331d size: 0.0003 mb
+--------[F] : 565ea618b2c9cdd08228cd0263a4c48eceedc5 size: 0.0003 mb
+--------[F] : c7a517526bddf0acd9d85b27f570be1a6bc06e size: 0.0003 mb
+--------[F] : df20c5c61c53581e8495f0e86c5a798dd5dfd4 size: 0.0003 mb
+------[D] : fc
+--------[F] : 1e44eae4241989be021f5bb4b19c500c0defce size: 0.0003 mb
+--------[F] : 6a4b1caaf700439ea0d0b5e8c60a23045402ee size: 0.0003 mb
+--------[F] : 7671c1ddb06ed7bb72e1f37c13357336cc7739 size: 0.0002 mb
+--------[F] : 81bb47b71ac87962f0f377cf4229caa7da6d15 size: 0.0002 mb
+--------[F] : d67e57ce6d74a24a708e55739de137c81c5a60 size: 0.0027 mb
+------[D] : fd
+--------[F] : 01506eb753ad1e7db119cfa528a775879af40a size: 0.0005 mb
+--------[F] : dbfa72678b160e53aa15a15fa9e8a3a165b7be size: 0.0005 mb
+--------[F] : f3241d506301a670630b48936d4af9edc4e0c3 size: 0.0001 mb
+------[D] : fe
+--------[F] : 107d1ea276f480459438b5c68add162be656d8 size: 0.0001 mb
+--------[F] : 30c3fd99405fe3b32d5462abf3d588aaa9f0fb size: 0.0005 mb
+------[D] : info
+------[D] : pack
+--------[F] : pack-b6fc2db9dc2c8935e09190d214f934075f7160c7.idx size: 0.0011 mb
+--------[F] : pack-b6fc2db9dc2c8935e09190d214f934075f7160c7.pack size: 0.0010 mb
+--------[F] : pack-b6fc2db9dc2c8935e09190d214f934075f7160c7.rev size: 0.0001 mb
+----[D] : refs
+------[D] : heads
+--------[F] : lec_01 size: 0.0000 mb
+--------[F] : main size: 0.0000 mb
+------[D] : remotes
+--------[D] : origin
+----------[F] : HEAD size: 0.0000 mb
+----------[F] : lec_01 size: 0.0000 mb
+----------[F] : main size: 0.0000 mb
+------[D] : tags
+--[D] : .idea
+----[F] : .gitignore size: 0.0002 mb
+----[F] : JavaHilleSummer2025-https.iml size: 0.0003 mb
+----[F] : codeInsightSettings.xml size: 0.0002 mb
+----[F] : compiler.xml size: 0.0006 mb
+----[F] : encodings.xml size: 0.0003 mb
+----[F] : jarRepositories.xml size: 0.0012 mb
+----[F] : misc.xml size: 0.0006 mb
+----[F] : modules.xml size: 0.0004 mb
+----[F] : vcs.xml size: 0.0002 mb
+----[F] : workspace.xml size: 0.0288 mb
+----[D] : shelf
+------[F] : Changes.xml size: 0.0002 mb
+------[D] : Changes
+--------[F] : shelved.patch size: 0.0007 mb
+--[D] : cw
+----[F] : cw.iml size: 0.0004 mb
+----[D] : src
+------[D] : com
+--------[D] : hilllel
+----------[D] : cw_01
+------------[F] : Main.java size: 0.0008 mb
+----------[D] : cw_02
+------------[F] : Comments.java size: 0.0003 mb
+------------[F] : HelloWorld.java size: 0.0003 mb
+------------[F] : Increment.java size: 0.0004 mb
+------------[F] : InitVar.java size: 0.0005 mb
+------------[F] : Input.java size: 0.0005 mb
+------------[F] : InputValues.java size: 0.0003 mb
+------------[F] : JavaTypesPrim.java size: 0.0010 mb
+------------[F] : LogicOperation.java size: 0.0016 mb
+------------[F] : MultyClass.java size: 0.0004 mb
+------------[F] : NameExample.java size: 0.0006 mb
+------------[F] : Variables.java size: 0.0004 mb
+------------[D] : doubleMain
+--------------[F] : Clazz1.java size: 0.0003 mb
+--------------[F] : Clazz2.java size: 0.0003 mb
+----------[D] : cw_03
+------------[F] : ArrMaxValue.java size: 0.0003 mb
+------------[F] : Break.java size: 0.0005 mb
+------------[F] : CeloeChastnoe.java size: 0.0005 mb
+------------[F] : ContinueEx.java size: 0.0005 mb
+------------[F] : ConvValue.java size: 0.0004 mb
+------------[F] : DMAss.java size: 0.0013 mb
+------------[F] : ForEx.java size: 0.0002 mb
+------------[F] : ForExample.java size: 0.0008 mb
+------------[F] : IfElse.java size: 0.0008 mb
+------------[F] : Main.java size: 0.0002 mb
+------------[F] : Mas.java size: 0.0009 mb
+------------[F] : Output.java size: 0.0004 mb
+------------[F] : PrivType.java size: 0.0006 mb
+------------[F] : ShortEx.java size: 0.0002 mb
+------------[F] : SplitExample.java size: 0.0002 mb
+------------[F] : Str.java size: 0.0003 mb
+------------[F] : SwitchExample.java size: 0.0010 mb
+------------[F] : TMAss.java size: 0.0007 mb
+------------[F] : TestRun.java size: 0.0001 mb
+------------[F] : TypePrived.java size: 0.0011 mb
+------------[F] : WhileCounterExample.java size: 0.0004 mb
+------------[F] : WhileEx.java size: 0.0005 mb
+------------[D] : ex
+--------------[F] : ArrMaxValue.java size: 0.0003 mb
+--------------[F] : ChetNumber.java size: 0.0003 mb
+--------------[F] : MaxFromtwo.java size: 0.0003 mb
+--------------[F] : Reverse.java size: 0.0013 mb
+------------[D] : operators
+--------------[F] : BitwiseOperators.java size: 0.0011 mb
+--------------[F] : LogOper.java size: 0.0009 mb
+--------------[F] : LogicalNot.java size: 0.0004 mb
+--------------[F] : LogicalOperators.java size: 0.0005 mb
+--------------[F] : NumberSystem.java size: 0.0004 mb
+--------------[F] : RelationalOperators.java size: 0.0007 mb
+--------------[F] : RoundExample.java size: 0.0005 mb
+--------------[F] : ShiftOperators.java size: 0.0015 mb
+--------------[F] : TernaryOperator.java size: 0.0007 mb
+------------[D] : pack1
+--------------[F] : Main.java size: 0.0003 mb
+--------------[F] : Test1.java size: 0.0004 mb
+------------[D] : pack2
+--------------[F] : Main.java size: 0.0004 mb
+--------------[F] : Test2.java size: 0.0002 mb
+------------[D] : task
+--------------[F] : Task1.java size: 0.0003 mb
+--------------[F] : Task2.java size: 0.0002 mb
+--------------[F] : Task3.java size: 0.0002 mb
+--------------[F] : Task4.java size: 0.0004 mb
+----------[D] : cw_04
+------------[F] : Box.java size: 0.0007 mb
+------------[F] : Clazz.java size: 0.0005 mb
+------------[F] : Example.java size: 0.0002 mb
+------------[F] : ExampleRun.java size: 0.0008 mb
+------------[F] : Konstr.java size: 0.0005 mb
+------------[F] : KonstrMain.java size: 0.0003 mb
+------------[F] : Main.java size: 0.0010 mb
+------------[F] : MainStudent.java size: 0.0001 mb
+------------[F] : MethodExample.java size: 0.0002 mb
+------------[F] : Predmet.java size: 0.0006 mb
+------------[F] : Run.java size: 0.0006 mb
+------------[F] : SrtExample.java size: 0.0008 mb
+------------[F] : Str.java size: 0.0003 mb
+------------[F] : Student.java size: 0.0013 mb
+------------[F] : StudentRun.java size: 0.0004 mb
+------------[F] : SystemOutPrint.java size: 0.0003 mb
+------------[F] : TestMain.java size: 0.0004 mb
+------------[F] : Wrapper.java size: 0.0004 mb
+------------[F] : WrapperRun.java size: 0.0004 mb
+------------[F] : Wrappers.java size: 0.0005 mb
+------------[D] : animal
+--------------[F] : Animal.java size: 0.0003 mb
+--------------[F] : Cat.java size: 0.0011 mb
+--------------[F] : Dog.java size: 0.0002 mb
+--------------[F] : MainAnimal.java size: 0.0012 mb
+------------[D] : box
+--------------[F] : Box.java size: 0.0007 mb
+--------------[F] : ModifyBox.java size: 0.0002 mb
+--------------[F] : Run.java size: 0.0002 mb
+------------[D] : ex
+--------------[F] : Fibonacci.java size: 0.0003 mb
+--------------[F] : FloorFlatCalculate.java size: 0.0005 mb
+--------------[F] : From1to100.java size: 0.0005 mb
+--------------[F] : NaturalNumbers.java size: 0.0001 mb
+--------------[F] : Polindrom.java size: 0.0003 mb
+------------[D] : fin
+--------------[F] : Fin.java size: 0.0003 mb
+--------------[F] : FinalEx.java size: 0.0003 mb
+--------------[F] : IntfFinal.java size: 0.0001 mb
+--------------[F] : RunFin.java size: 0.0002 mb
+------------[D] : st
+--------------[F] : StRun.java size: 0.0005 mb
+--------------[F] : Student.java size: 0.0013 mb
+--------------[F] : ValidatorService.java size: 0.0002 mb
+------------[D] : task
+--------------[F] : Task1.java size: 0.0002 mb
+--------------[F] : Task2.java size: 0.0002 mb
+--------------[F] : Task3.java size: 0.0002 mb
+--------------[F] : Task4.java size: 0.0002 mb
+--------------[F] : Task5.java size: 0.0002 mb
+----------[D] : cw_05
+------------[F] : Animal.java size: 0.0002 mb
+------------[F] : Farm.java size: 0.0003 mb
+------------[F] : MainPet.java size: 0.0007 mb
+------------[F] : Pet.java size: 0.0006 mb
+------------[F] : Stactic.java size: 0.0004 mb
+------------[F] : Student.java size: 0.0001 mb
+------------[F] : tasks size: 0.0030 mb
+------------[D] : absrt
+--------------[F] : Human.java size: 0.0005 mb
+--------------[F] : Main.java size: 0.0007 mb
+--------------[F] : Student.java size: 0.0005 mb
+--------------[F] : Teacher.java size: 0.0005 mb
+------------[D] : clas
+--------------[F] : AC.java size: 0.0005 mb
+--------------[F] : IC.java size: 0.0012 mb
+--------------[F] : Logger.java size: 0.0001 mb
+--------------[F] : Main.java size: 0.0009 mb
+--------------[F] : OI.java size: 0.0007 mb
+--------------[F] : PrintInfo.java size: 0.0001 mb
+--------------[F] : SOI.java size: 0.0005 mb
+------------[D] : clone
+--------------[F] : CloneMain.java size: 0.0011 mb
+--------------[F] : CloneRun.java size: 0.0004 mb
+--------------[F] : CloneTest.java size: 0.0006 mb
+------------[D] : ex
+--------------[F] : Task1.java size: 0.0002 mb
+--------------[F] : Task2.java size: 0.0003 mb
+--------------[F] : Task3.java size: 0.0002 mb
+--------------[F] : Task4.java size: 0.0003 mb
+------------[D] : interfaces
+--------------[F] : Developer.java size: 0.0001 mb
+--------------[F] : Engl.java size: 0.0003 mb
+--------------[F] : FunctInt.java size: 0.0001 mb
+--------------[F] : FunctIntRun.java size: 0.0007 mb
+--------------[F] : MainLang.java size: 0.0006 mb
+--------------[F] : Rus.java size: 0.0005 mb
+--------------[F] : Say.java size: 0.0003 mb
+--------------[F] : SayHello.java size: 0.0002 mb
+--------------[D] : logExample
+----------------[F] : Logger.java size: 0.0002 mb
+----------------[F] : Transport.java size: 0.0003 mb
+----------------[F] : User.java size: 0.0003 mb
+------------[D] : task
+--------------[F] : ArmstrongNumber.java size: 0.0010 mb
+--------------[F] : From1to100.java size: 0.0006 mb
+--------------[F] : Number.java size: 0.0009 mb
+--------------[F] : NumberRemover.java size: 0.0004 mb
+--------------[F] : PalindromeNumber.java size: 0.0012 mb
+--------------[F] : PusUp.java size: 0.0009 mb
+--------------[F] : SummTwo.java size: 0.0007 mb
+------------[D] : thisVSsuper
+--------------[F] : Child.java size: 0.0011 mb
+--------------[F] : Constr.java size: 0.0004 mb
+--------------[F] : Main.java size: 0.0007 mb
+--------------[F] : Parent.java size: 0.0008 mb
+----------[D] : cw_06
+------------[F] : GC.java size: 0.0005 mb
+------------[F] : GCRun.java size: 0.0002 mb
+------------[F] : GCnative.java size: 0.0003 mb
+------------[F] : GcType.java size: 0.0016 mb
+------------[F] : Person.java size: 0.0004 mb
+------------[F] : tasks.txt size: 0.0030 mb
+------------[D] : ex
+--------------[F] : Ex1.java size: 0.0004 mb
+--------------[F] : Ex2.java size: 0.0003 mb
+--------------[F] : Ex3.java size: 0.0002 mb
+--------------[F] : Ex4.java size: 0.0003 mb
+--------------[F] : Ex5.java size: 0.0003 mb
+------------[D] : task
+--------------[F] : ArmstrongNumber.java size: 0.0020 mb
+--------------[F] : From1to100.java size: 0.0006 mb
+--------------[F] : NumberRemover.java size: 0.0008 mb
+--------------[F] : Pus.java size: 0.0011 mb
+--------------[F] : PusUp.java size: 0.0009 mb
+--------------[F] : SummTwo.java size: 0.0011 mb
+--------------[F] : Triangle.java size: 0.0015 mb
+----------[D] : cw_07
+------------[D] : ex
+--------------[F] : Ex1.java size: 0.0002 mb
+--------------[F] : Ex2.java size: 0.0004 mb
+--------------[F] : Ex3.java size: 0.0004 mb
+--------------[F] : Ex5.java size: 0.0003 mb
+------------[D] : str
+--------------[F] : StrBuilder.java size: 0.0006 mb
+--------------[F] : StrFormat.java size: 0.0002 mb
+--------------[F] : StrOperation.java size: 0.0022 mb
+--------------[F] : StrPull.java size: 0.0006 mb
+------------[D] : task
+--------------[F] : Compression.java size: 0.0023 mb
+--------------[F] : EmailValidator.java size: 0.0011 mb
+--------------[F] : LuckyNumber.java size: 0.0007 mb
+--------------[F] : MaskData.java size: 0.0011 mb
+--------------[F] : ParseFilePath.java size: 0.0009 mb
+--------------[F] : SmartTrim.java size: 0.0010 mb
+--------------[F] : string_tasks_ua.md size: 0.0029 mb
+----------[D] : cw_08
+------------[D] : H_E
+--------------[F] : Equals.java size: 0.0017 mb
+--------------[F] : GE_dif.java size: 0.0010 mb
+--------------[F] : HC.java size: 0.0012 mb
+--------------[F] : HE.java size: 0.0011 mb
+--------------[F] : Main.java size: 0.0001 mb
+--------------[F] : Student.java size: 0.0006 mb
+------------[D] : enumer
+--------------[F] : EnumRun.java size: 0.0003 mb
+--------------[F] : Main.java size: 0.0013 mb
+--------------[F] : Operation.java size: 0.0005 mb
+--------------[F] : OperationRun.java size: 0.0003 mb
+--------------[F] : SearchSystem.java size: 0.0008 mb
+--------------[F] : SearchSystemRun.java size: 0.0005 mb
+--------------[F] : Test.java size: 0.0002 mb
+--------------[F] : User.java size: 0.0009 mb
+--------------[F] : UserStatus.java size: 0.0001 mb
+--------------[F] : UserStatusRun.java size: 0.0010 mb
+------------[D] : ex
+--------------[F] : Ex1.java size: 0.0004 mb
+--------------[F] : Ex3.java size: 0.0004 mb
+--------------[F] : Ex4.java size: 0.0006 mb
+--------------[F] : Ex5.java size: 0.0005 mb
+--------------[F] : Ex6.java size: 0.0005 mb
+--------------[F] : RedWood.java size: 0.0004 mb
+------------[D] : except
+--------------[F] : BussinesException.java size: 0.0002 mb
+--------------[F] : BussinesException1.java size: 0.0002 mb
+--------------[F] : CloseExample.java size: 0.0007 mb
+--------------[F] : Doublereturn.java size: 0.0003 mb
+--------------[F] : ExRun.java size: 0.0003 mb
+--------------[F] : TC.java size: 0.0005 mb
+--------------[F] : TCCCC.java size: 0.0006 mb
+--------------[F] : TF.java size: 0.0005 mb
+--------------[F] : TF1.java size: 0.0003 mb
+--------------[F] : Thr.java size: 0.0004 mb
+--------------[F] : ThrowsException.java size: 0.0004 mb
+--------------[D] : tryWithRes
+----------------[F] : Run.java size: 0.0004 mb
+----------------[F] : TestTWR.java size: 0.0003 mb
+--------------[D] : validator
+----------------[F] : Main.java size: 0.0011 mb
+----------------[F] : User.java size: 0.0014 mb
+----------------[F] : UserValidator.java size: 0.0012 mb
+----------------[D] : exceptions
+------------------[F] : AgeException.java size: 0.0003 mb
+------------------[F] : EmailException.java size: 0.0002 mb
+------------------[F] : PhoneValidationException.java size: 0.0002 mb
+------------[D] : hw
+--------------[F] : Capcha size: 0.0007 mb
+--------------[F] : Collection.txt size: 0.0008 mb
+----------[D] : cw_09
+------------[F] : ALvsLL.java size: 0.0015 mb
+------------[F] : ALvsLLadd.java size: 0.0014 mb
+------------[F] : ColleMain.java size: 0.0008 mb
+------------[F] : Iterator.java size: 0.0009 mb
+------------[F] : LIstOf.java size: 0.0003 mb
+------------[F] : Randomiser.java size: 0.0002 mb
+------------[F] : arvsll size: 0.0001 mb
+------------[D] : alCustom
+--------------[F] : Collection.java size: 0.0003 mb
+--------------[F] : CollectionImpl.java size: 0.0021 mb
+--------------[F] : Main.java size: 0.0016 mb
+--------------[F] : MyCollectionImpl.java size: 0.0019 mb
+--------------[F] : img.png size: 0.1069 mb
+------------[D] : coll
+--------------[F] : AL.java size: 0.0011 mb
+--------------[F] : ALinit.java size: 0.0005 mb
+--------------[F] : ALsetValues.java size: 0.0016 mb
+--------------[F] : ALvsLL.java size: 0.0014 mb
+--------------[F] : ArrCopy.java size: 0.0012 mb
+--------------[F] : Count.java size: 0.0002 mb
+--------------[F] : Entry.java size: 0.0006 mb
+--------------[F] : LL.java size: 0.0005 mb
+--------------[F] : LLex.java size: 0.0009 mb
+--------------[F] : ListCenterCalcaulate.java size: 0.0007 mb
+--------------[F] : Main.java size: 0.0006 mb
+--------------[F] : Mass.java size: 0.0002 mb
+--------------[F] : SysArrayCopy.java size: 0.0014 mb
+------------[D] : ex
+--------------[F] : Bonus.java size: 0.0002 mb
+--------------[F] : Bonus1.java size: 0.0004 mb
+--------------[F] : Ex1.java size: 0.0003 mb
+--------------[F] : Ex2.java size: 0.0002 mb
+--------------[F] : Ex3.java size: 0.0005 mb
+--------------[F] : Ex4.java size: 0.0004 mb
+--------------[F] : Ex5.java size: 0.0004 mb
+----------[D] : cw_10
+------------[F] : CalculateBucket size: 0.0004 mb
+------------[F] : HM.java size: 0.0011 mb
+------------[F] : HMExp.java size: 0.0004 mb
+------------[F] : HMImmutableKey.java size: 0.0012 mb
+------------[F] : HashEx.java size: 0.0018 mb
+------------[F] : HashMapEx.java size: 0.0016 mb
+------------[F] : HashMapExample.java size: 0.0011 mb
+------------[F] : ListOf.java size: 0.0004 mb
+------------[F] : MapKeyProblem.java size: 0.0013 mb
+------------[F] : RemoveFromCollection.java size: 0.0010 mb
+------------[F] : SetEx.java size: 0.0010 mb
+------------[F] : SetPeres.java size: 0.0009 mb
+------------[F] : TestHM.java size: 0.0010 mb
+------------[F] : TreeMapExample.java size: 0.0007 mb
+------------[F] : UniqueColl.java size: 0.0005 mb
+------------[F] : UserSet.java size: 0.0014 mb
+------------[F] : task.txt size: 0.0022 mb
+------------[D] : CharC
+--------------[F] : CharCount.java size: 0.0010 mb
+--------------[F] : Text.java size: 0.0062 mb
+------------[D] : charCount
+--------------[F] : Letter.java size: 0.0013 mb
+--------------[F] : RunCount.java size: 0.0007 mb
+--------------[F] : Text.java size: 0.0063 mb
+--------------[D] : service
+----------------[F] : CountService.java size: 0.0003 mb
+----------------[F] : CountServiceImpl.java size: 0.0016 mb
+------------[D] : countChar
+--------------[F] : CharCount.java size: 0.0006 mb
+--------------[F] : Text.java size: 0.0063 mb
+------------[D] : ex
+--------------[F] : Bonus.java size: 0.0003 mb
+--------------[F] : EX1.java size: 0.0004 mb
+--------------[F] : EX2.java size: 0.0003 mb
+--------------[F] : EX3.java size: 0.0004 mb
+--------------[F] : EX4.java size: 0.0007 mb
+--------------[F] : EX5.java size: 0.0004 mb
+------------[D] : task
+--------------[F] : task1.java size: 0.0008 mb
+--------------[F] : task2.java size: 0.0010 mb
+--------------[F] : task3.java size: 0.0009 mb
+--------------[F] : task4.java size: 0.0012 mb
+--------------[F] : task5.java size: 0.0013 mb
+----------[D] : cw_11
+------------[F] : .DS_Store size: 0.0059 mb
+------------[F] : CRC.java size: 0.0005 mb
+------------[F] : DirStructure.java size: 0.0006 mb
+------------[F] : DirectoryWatcher.java size: 0.0014 mb
+------------[F] : Dirs.java size: 0.0006 mb
+------------[F] : FileNameGenerator.java size: 0.0013 mb
+------------[F] : FileParent.java size: 0.0003 mb
+------------[F] : FilesDir.java size: 0.0027 mb
+------------[F] : FolderStructure.java size: 0.0011 mb
+------------[F] : FolderStructureTask.java size: 0.0022 mb
+------------[F] : GetAbsPath.java size: 0.0002 mb
+------------[F] : OssDetector.java size: 0.0011 mb
+------------[F] : ScannerExample.java size: 0.0011 mb
+------------[D] : ex
+--------------[F] : Ex1.java size: 0.0003 mb
+--------------[F] : Ex2.java size: 0.0002 mb
+--------------[F] : Ex3.java size: 0.0003 mb
+--------------[F] : Ex4.java size: 0.0006 mb
+--------------[F] : Ex5.java size: 0.0007 mb
+--------------[F] : StrToInt.java size: 0.0002 mb
+------------[D] : file
+--------------[D] : walk
+----------------[F] : FileWalk.java size: 0.0005 mb
+------------[D] : file_duplicate
+--------------[F] : FileDuplicateTask.md size: 0.0019 mb
+--------------[F] : findFileDuplicate.md size: 0.0042 mb
+------------[D] : folders
+--------------[F] : .DS_Store size: 0.0059 mb
+--------------[F] : FolderSeparator.java size: 0.0005 mb
+--------------[F] : MakeDir.java size: 0.0028 mb
+--------------[D] : newDir
+----------------[F] : tes.tx size: 0.0000 mb
+----------------[F] : test.file size: 0.0000 mb
+----------------[F] : test_file.txt size: 0.0000 mb
+------------[D] : io
+--------------[F] : DirList.java size: 0.0005 mb
+--------------[F] : InputParms.java size: 0.0003 mb
+--------------[F] : Main.java size: 0.0003 mb
+--------------[F] : Sc.java size: 0.0003 mb
+--------------[F] : ScannerDouble.java size: 0.0004 mb
+--------------[F] : ScannerInt.java size: 0.0005 mb
+--------------[F] : ScannerLine.java size: 0.0005 mb
+--------------[F] : ScannerTest.java size: 0.0004 mb
+--------------[F] : SystemOut.java size: 0.0002 mb
+--------------[D] : FileStream
+----------------[F] : FileOutputStreamm.java size: 0.0006 mb
+----------------[F] : FileStream.java size: 0.0011 mb
+----------------[F] : input.txt size: 0.0002 mb
+----------------[F] : output.txt size: 0.0000 mb
+--------------[D] : byteSteram
+----------------[F] : ByteStream.java size: 0.0012 mb
+----------------[F] : input.txt size: 0.0000 mb
+----------------[F] : output.txt size: 0.0000 mb
+----------------[F] : plain.png size: 0.0287 mb
+----------------[F] : plain_copy.png size: 0.0287 mb
+--------------[D] : charStream
+----------------[F] : CharStream.java size: 0.0014 mb
+----------------[F] : input.txt size: 0.0000 mb
+----------------[F] : output.txt size: 0.0000 mb
+--[D] : files
+----[F] : log_mds_202507281928.log size: 0.0000 mb
+----[F] : log_mds_202507281928_1.log size: 0.0000 mb
+----[D] : dir1
+------[F] : test.txt size: 0.0000 mb
+------[D] : dir2
+--------[D] : dir3
+----------[D] : dir
+----------[D] : dir4
+----[D] : dir_1
+------[F] : test.txt size: 0.0000 mb
+------[D] : dir2
+--------[D] : dir3
+----------[D] : dir
+----------[D] : dir4
+--[D] : lec
+----[F] : lec_01.pdf size: 2.3966 mb
+----[F] : lec_02.pdf size: 2.0894 mb
+----[F] : lec_03.pdf size: 1.8000 mb
+----[F] : lec_04.pdf size: 2.2772 mb
+----[F] : lec_05.pdf size: 1.6123 mb
+----[F] : lec_06.pdf size: 1.0602 mb
+----[F] : lec_07.pdf size: 0.7101 mb
+----[F] : lec_08.pdf size: 2.1617 mb
+----[F] : lec_09.pdf size: 3.1570 mb
+----[F] : lec_10.pdf size: 1.6323 mb
+----[F] : lec_11.pdf size: 1.4136 mb
+--[D] : out
+----[D] : production
+------[D] : cw
+--------[D] : com
+----------[D] : hilllel
+------------[D] : cw_01
+--------------[F] : Main.class size: 0.0011 mb
+------------[D] : cw_02
+--------------[F] : A.class size: 0.0005 mb
+--------------[F] : B.class size: 0.0005 mb
+--------------[F] : C.class size: 0.0005 mb
+--------------[F] : Comments.class size: 0.0004 mb
+--------------[F] : HelloWorld.class size: 0.0007 mb
+--------------[F] : Increment.class size: 0.0006 mb
+--------------[F] : InitVar.class size: 0.0007 mb
+--------------[F] : Input.class size: 0.0013 mb
+--------------[F] : InputValues.class size: 0.0006 mb
+--------------[F] : JavaTypesPrim.class size: 0.0009 mb
+--------------[F] : LogicOperation.class size: 0.0008 mb
+--------------[F] : MultyClass.class size: 0.0005 mb
+--------------[F] : NameExample.class size: 0.0010 mb
+--------------[F] : Variables.class size: 0.0006 mb
+--------------[D] : doubleMain
+----------------[F] : Clazz1.class size: 0.0007 mb
+----------------[F] : Clazz2.class size: 0.0007 mb
+------------[D] : cw_03
+--------------[F] : ArrMaxValue.class size: 0.0006 mb
+--------------[F] : Break.class size: 0.0012 mb
+--------------[F] : CeloeChastnoe.class size: 0.0009 mb
+--------------[F] : ContinueEx.class size: 0.0014 mb
+--------------[F] : ConvValue.class size: 0.0007 mb
+--------------[F] : DMAss.class size: 0.0015 mb
+--------------[F] : ForEx.class size: 0.0006 mb
+--------------[F] : ForExample.class size: 0.0014 mb
+--------------[F] : IfElse.class size: 0.0010 mb
+--------------[F] : Main.class size: 0.0006 mb
+--------------[F] : Mas.class size: 0.0015 mb
+--------------[F] : Output.class size: 0.0009 mb
+--------------[F] : PrivType.class size: 0.0009 mb
+--------------[F] : ShortEx.class size: 0.0006 mb
+--------------[F] : SplitExample.class size: 0.0007 mb
+--------------[F] : Str.class size: 0.0006 mb
+--------------[F] : SwitchExample.class size: 0.0015 mb
+--------------[F] : TMAss.class size: 0.0012 mb
+--------------[F] : TestRun.class size: 0.0005 mb
+--------------[F] : TypePrived.class size: 0.0007 mb
+--------------[F] : WhileCounterExample.class size: 0.0012 mb
+--------------[F] : WhileEx.class size: 0.0013 mb
+--------------[D] : ex
+----------------[F] : ArrMaxValue.class size: 0.0006 mb
+----------------[F] : ChetNumber.class size: 0.0006 mb
+----------------[F] : MaxFromtwo.class size: 0.0007 mb
+----------------[F] : Reverse.class size: 0.0013 mb
+--------------[D] : operators
+----------------[F] : BitwiseOperators.class size: 0.0011 mb
+----------------[F] : LogOper.class size: 0.0011 mb
+----------------[F] : LogicalNot.class size: 0.0012 mb
+----------------[F] : LogicalOperators.class size: 0.0012 mb
+----------------[F] : NumberSystem.class size: 0.0013 mb
+----------------[F] : RelationalOperators.class size: 0.0017 mb
+----------------[F] : RoundExample.class size: 0.0014 mb
+----------------[F] : ShiftOperators.class size: 0.0014 mb
+----------------[F] : TernaryOperator.class size: 0.0009 mb
+--------------[D] : pack1
+----------------[F] : Main.class size: 0.0007 mb
+----------------[F] : Test1.class size: 0.0008 mb
+--------------[D] : pack2
+----------------[F] : Main.class size: 0.0008 mb
+----------------[F] : Test2.class size: 0.0003 mb
+--------------[D] : task
+----------------[F] : Task1.class size: 0.0011 mb
+----------------[F] : Task2.class size: 0.0006 mb
+----------------[F] : Task3.class size: 0.0007 mb
+----------------[F] : Task4.class size: 0.0011 mb
+------------[D] : cw_04
+--------------[F] : Box.class size: 0.0009 mb
+--------------[F] : Clazz.class size: 0.0009 mb
+--------------[F] : CreateBox.class size: 0.0006 mb
+--------------[F] : Example.class size: 0.0008 mb
+--------------[F] : ExampleRun.class size: 0.0012 mb
+--------------[F] : Konstr.class size: 0.0012 mb
+--------------[F] : KonstrMain.class size: 0.0005 mb
+--------------[F] : Main.class size: 0.0010 mb
+--------------[F] : MainStudent.class size: 0.0004 mb
+--------------[F] : MethodExample.class size: 0.0006 mb
+--------------[F] : Predmet.class size: 0.0013 mb
+--------------[F] : Run.class size: 0.0007 mb
+--------------[F] : SrtExample.class size: 0.0011 mb
+--------------[F] : Str.class size: 0.0008 mb
+--------------[F] : Student.class size: 0.0021 mb
+--------------[F] : StudentRun.class size: 0.0009 mb
+--------------[F] : SystemOutPrint.class size: 0.0011 mb
+--------------[F] : TestClass.class size: 0.0007 mb
+--------------[F] : TestMain.class size: 0.0008 mb
+--------------[F] : Wrapper.class size: 0.0010 mb
+--------------[F] : WrapperRun.class size: 0.0012 mb
+--------------[F] : Wrappers.class size: 0.0011 mb
+--------------[D] : animal
+----------------[F] : Animal.class size: 0.0007 mb
+----------------[F] : Cat.class size: 0.0020 mb
+----------------[F] : Dog.class size: 0.0005 mb
+----------------[F] : MainAnimal.class size: 0.0010 mb
+--------------[D] : box
+----------------[F] : Box.class size: 0.0014 mb
+----------------[F] : ModifyBox.class size: 0.0005 mb
+----------------[F] : Run.class size: 0.0006 mb
+--------------[D] : ex
+----------------[F] : Fibonacci.class size: 0.0004 mb
+----------------[F] : FloorFlatCalculate.class size: 0.0005 mb
+----------------[F] : From1to100.class size: 0.0003 mb
+----------------[F] : NaturalNumbers.class size: 0.0004 mb
+----------------[F] : Polindrom.class size: 0.0006 mb
+--------------[D] : fin
+----------------[F] : Fin.class size: 0.0007 mb
+----------------[F] : FinalEx.class size: 0.0012 mb
+----------------[F] : IntfFinal.class size: 0.0002 mb
+----------------[F] : RunFin.class size: 0.0005 mb
+--------------[D] : st
+----------------[F] : StRun.class size: 0.0010 mb
+----------------[F] : Student.class size: 0.0022 mb
+----------------[F] : ValidatorService.class size: 0.0004 mb
+--------------[D] : task
+----------------[F] : Task1.class size: 0.0006 mb
+----------------[F] : Task2.class size: 0.0005 mb
+----------------[F] : Task3.class size: 0.0006 mb
+----------------[F] : Task4.class size: 0.0005 mb
+----------------[F] : Task5.class size: 0.0006 mb
+------------[D] : cw_05
+--------------[F] : Animal.class size: 0.0006 mb
+--------------[F] : Farm.class size: 0.0008 mb
+--------------[F] : MainPet.class size: 0.0013 mb
+--------------[F] : Pet.class size: 0.0011 mb
+--------------[F] : Run.class size: 0.0006 mb
+--------------[F] : Stactic.class size: 0.0011 mb
+--------------[F] : Student.class size: 0.0001 mb
+--------------[F] : tasks size: 0.0030 mb
+--------------[D] : absrt
+----------------[F] : Human.class size: 0.0012 mb
+----------------[F] : Main$1.class size: 0.0006 mb
+----------------[F] : Main.class size: 0.0012 mb
+----------------[F] : Student.class size: 0.0012 mb
+----------------[F] : Teacher.class size: 0.0012 mb
+--------------[D] : clas
+----------------[F] : A$1Prtn.class size: 0.0012 mb
+----------------[F] : A.class size: 0.0006 mb
+----------------[F] : AC$1.class size: 0.0007 mb
+----------------[F] : AC$2.class size: 0.0006 mb
+----------------[F] : AC.class size: 0.0008 mb
+----------------[F] : B$1Comp.class size: 0.0010 mb
+----------------[F] : B.class size: 0.0006 mb
+----------------[F] : Demo.class size: 0.0005 mb
+----------------[F] : IC$1I1.class size: 0.0005 mb
+----------------[F] : IC$1Inner.class size: 0.0010 mb
+----------------[F] : IC$2Inner.class size: 0.0008 mb
+----------------[F] : IC.class size: 0.0012 mb
+----------------[F] : Logger.class size: 0.0001 mb
+----------------[F] : Main.class size: 0.0008 mb
+----------------[F] : OI$Inner$InnerInner.class size: 0.0009 mb
+----------------[F] : OI$Inner.class size: 0.0008 mb
+----------------[F] : OI.class size: 0.0009 mb
+----------------[F] : PrintInfo.class size: 0.0002 mb
+----------------[F] : SOI$Inner$InnerInner.class size: 0.0007 mb
+----------------[F] : SOI$Inner.class size: 0.0007 mb
+----------------[F] : SOI.class size: 0.0007 mb
+--------------[D] : clone
+----------------[F] : CloneMain.class size: 0.0014 mb
+----------------[F] : CloneRun.class size: 0.0010 mb
+----------------[F] : CloneTest.class size: 0.0009 mb
+--------------[D] : ex
+----------------[F] : Task1.class size: 0.0010 mb
+----------------[F] : Task2.class size: 0.0011 mb
+----------------[F] : Task3.class size: 0.0010 mb
+----------------[F] : Task4.class size: 0.0008 mb
+--------------[D] : interfaces
+----------------[F] : Developer.class size: 0.0002 mb
+----------------[F] : Engl.class size: 0.0006 mb
+----------------[F] : FunctInt.class size: 0.0002 mb
+----------------[F] : FunctIntRun.class size: 0.0018 mb
+----------------[F] : MainLang.class size: 0.0012 mb
+----------------[F] : Rus.class size: 0.0010 mb
+----------------[F] : Say.class size: 0.0006 mb
+----------------[F] : SayHello.class size: 0.0005 mb
+----------------[D] : logExample
+------------------[F] : Logger.class size: 0.0005 mb
+------------------[F] : Transport.class size: 0.0012 mb
+------------------[F] : User.class size: 0.0012 mb
+--------------[D] : task
+----------------[F] : ArmstrongNumber.class size: 0.0006 mb
+----------------[F] : From1to100.class size: 0.0004 mb
+----------------[F] : Number.class size: 0.0009 mb
+----------------[F] : NumberRemover.class size: 0.0006 mb
+----------------[F] : PalindromeNumber.class size: 0.0008 mb
+----------------[F] : PusUp.class size: 0.0006 mb
+----------------[F] : SummTwo.class size: 0.0003 mb
+--------------[D] : thisVSsuper
+----------------[F] : A.class size: 0.0004 mb
+----------------[F] : B.class size: 0.0004 mb
+----------------[F] : C.class size: 0.0004 mb
+----------------[F] : Child.class size: 0.0019 mb
+----------------[F] : Constr.class size: 0.0005 mb
+----------------[F] : D.class size: 0.0004 mb
+----------------[F] : Main.class size: 0.0012 mb
+----------------[F] : Parent.class size: 0.0016 mb
+------------[D] : cw_06
+--------------[F] : GC.class size: 0.0010 mb
+--------------[F] : GCRun.class size: 0.0011 mb
+--------------[F] : GCnative.class size: 0.0012 mb
+--------------[F] : GcType.class size: 0.0029 mb
+--------------[F] : Person.class size: 0.0011 mb
+--------------[F] : tasks.txt size: 0.0030 mb
+--------------[D] : ex
+----------------[F] : Ex1.class size: 0.0006 mb
+----------------[F] : Ex2.class size: 0.0012 mb
+----------------[F] : Ex3.class size: 0.0005 mb
+----------------[F] : Ex4.class size: 0.0012 mb
+----------------[F] : Ex5.class size: 0.0011 mb
+----------------[F] : Salmon.class size: 0.0003 mb
+--------------[D] : task
+----------------[F] : ArmstrongNumber.class size: 0.0016 mb
+----------------[F] : From1to100.class size: 0.0004 mb
+----------------[F] : NumberRemover.class size: 0.0010 mb
+----------------[F] : Pus.class size: 0.0020 mb
+----------------[F] : PusUp.class size: 0.0006 mb
+----------------[F] : SummTwo.class size: 0.0006 mb
+----------------[F] : Triangle.class size: 0.0016 mb
+------------[D] : cw_07
+--------------[D] : ex
+----------------[F] : Ex1.class size: 0.0010 mb
+----------------[F] : Ex2.class size: 0.0006 mb
+----------------[F] : Ex3.class size: 0.0007 mb
+----------------[F] : Ex5.class size: 0.0006 mb
+----------------[F] : Foo.class size: 0.0004 mb
+----------------[F] : Hobbit.class size: 0.0004 mb
+--------------[D] : str
+----------------[F] : StrBuilder.class size: 0.0011 mb
+----------------[F] : StrFormat.class size: 0.0007 mb
+----------------[F] : StrOperation.class size: 0.0020 mb
+----------------[F] : StrPull.class size: 0.0011 mb
+--------------[D] : task
+----------------[F] : Compression.class size: 0.0023 mb
+----------------[F] : EmailValidator.class size: 0.0011 mb
+----------------[F] : FileInfo.class size: 0.0010 mb
+----------------[F] : LuckyNumber.class size: 0.0016 mb
+----------------[F] : MaskData.class size: 0.0014 mb
+----------------[F] : ParseFilePath.class size: 0.0011 mb
+----------------[F] : SmartTrim.class size: 0.0011 mb
+----------------[F] : string_tasks_ua.md size: 0.0029 mb
+------------[D] : cw_08
+--------------[D] : H_E
+----------------[F] : Digit.class size: 0.0010 mb
+----------------[F] : Equals.class size: 0.0013 mb
+----------------[F] : GE_dif.class size: 0.0009 mb
+----------------[F] : HC.class size: 0.0009 mb
+----------------[F] : HE.class size: 0.0009 mb
+----------------[F] : Main.class size: 0.0004 mb
+----------------[F] : Student.class size: 0.0010 mb
+----------------[F] : Test.class size: 0.0012 mb
+----------------[F] : User.class size: 0.0011 mb
+----------------[F] : User1.class size: 0.0008 mb
+----------------[F] : User2.class size: 0.0009 mb
+--------------[D] : enumer
+----------------[F] : EnumRun.class size: 0.0009 mb
+----------------[F] : Main.class size: 0.0017 mb
+----------------[F] : Operation$1.class size: 0.0008 mb
+----------------[F] : Operation.class size: 0.0020 mb
+----------------[F] : OperationRun.class size: 0.0008 mb
+----------------[F] : SearchSystem.class size: 0.0025 mb
+----------------[F] : SearchSystemRun.class size: 0.0010 mb
+----------------[F] : Test.class size: 0.0010 mb
+----------------[F] : TestEnum.class size: 0.0005 mb
+----------------[F] : User.class size: 0.0017 mb
+----------------[F] : UserStatus.class size: 0.0012 mb
+----------------[F] : UserStatusRun.class size: 0.0016 mb
+--------------[D] : ex
+----------------[F] : Electronic.class size: 0.0005 mb
+----------------[F] : Ex1.class size: 0.0012 mb
+----------------[F] : Ex3.class size: 0.0007 mb
+----------------[F] : Ex4.class size: 0.0014 mb
+----------------[F] : Ex5.class size: 0.0013 mb
+----------------[F] : Ex6.class size: 0.0012 mb
+----------------[F] : Foo.class size: 0.0005 mb
+----------------[F] : Gadget.class size: 0.0001 mb
+----------------[F] : RedWood.class size: 0.0008 mb
+----------------[F] : Tree.class size: 0.0003 mb
+--------------[D] : except
+----------------[F] : BussinesException.class size: 0.0004 mb
+----------------[F] : BussinesException1.class size: 0.0004 mb
+----------------[F] : CloseExample.class size: 0.0009 mb
+----------------[F] : Doublereturn.class size: 0.0008 mb
+----------------[F] : Ex1.class size: 0.0004 mb
+----------------[F] : ExRun.class size: 0.0004 mb
+----------------[F] : People.class size: 0.0005 mb
+----------------[F] : TC.class size: 0.0009 mb
+----------------[F] : TCCCC.class size: 0.0012 mb
+----------------[F] : TF.class size: 0.0010 mb
+----------------[F] : TF1.class size: 0.0008 mb
+----------------[F] : Test.class size: 0.0008 mb
+----------------[F] : Thr.class size: 0.0008 mb
+----------------[F] : ThrowsException.class size: 0.0008 mb
+----------------[D] : tryWithRes
+------------------[F] : Run.class size: 0.0011 mb
+------------------[F] : TestTWR.class size: 0.0007 mb
+----------------[D] : validator
+------------------[F] : Main.class size: 0.0016 mb
+------------------[F] : User.class size: 0.0018 mb
+------------------[F] : UserValidator.class size: 0.0018 mb
+------------------[D] : exceptions
+--------------------[F] : AgeException.class size: 0.0006 mb
+--------------------[F] : EmailException.class size: 0.0004 mb
+--------------------[F] : PhoneValidationException.class size: 0.0004 mb
+--------------[D] : hw
+----------------[F] : Capcha size: 0.0007 mb
+----------------[F] : Collection.txt size: 0.0008 mb
+------------[D] : cw_09
+--------------[F] : ALvsLL.class size: 0.0022 mb
+--------------[F] : ALvsLLadd.class size: 0.0021 mb
+--------------[F] : ColleMain.class size: 0.0019 mb
+--------------[F] : Iterator.class size: 0.0021 mb
+--------------[F] : LIstOf.class size: 0.0009 mb
+--------------[F] : Randomiser.class size: 0.0006 mb
+--------------[F] : arvsll size: 0.0001 mb
+--------------[D] : alCustom
+----------------[F] : Collection.class size: 0.0004 mb
+----------------[F] : CollectionImpl.class size: 0.0026 mb
+----------------[F] : Main.class size: 0.0024 mb
+----------------[F] : MyCollectionImpl.class size: 0.0020 mb
+----------------[F] : img.png size: 0.1069 mb
+--------------[D] : coll
+----------------[F] : AL.class size: 0.0010 mb
+----------------[F] : ALinit.class size: 0.0009 mb
+----------------[F] : ALsetValues.class size: 0.0022 mb
+----------------[F] : ALvsLL.class size: 0.0020 mb
+----------------[F] : ArrCopy.class size: 0.0019 mb
+----------------[F] : Count.class size: 0.0005 mb
+----------------[F] : Entry.class size: 0.0011 mb
+----------------[F] : LL.class size: 0.0011 mb
+----------------[F] : LLex.class size: 0.0011 mb
+----------------[F] : ListCenterCalcaulate.class size: 0.0004 mb
+----------------[F] : Main.class size: 0.0017 mb
+----------------[F] : Mass.class size: 0.0004 mb
+----------------[F] : SysArrayCopy.class size: 0.0010 mb
+--------------[D] : ex
+----------------[F] : Bonus.class size: 0.0008 mb
+----------------[F] : Bonus1.class size: 0.0012 mb
+----------------[F] : Ex1.class size: 0.0007 mb
+----------------[F] : Ex2.class size: 0.0010 mb
+----------------[F] : Ex3$Days.class size: 0.0013 mb
+----------------[F] : Ex3.class size: 0.0013 mb
+----------------[F] : Ex4.class size: 0.0008 mb
+----------------[F] : Ex5.class size: 0.0009 mb
+------------[D] : cw_10
+--------------[F] : CalculateBucket size: 0.0004 mb
+--------------[F] : Customer.class size: 0.0015 mb
+--------------[F] : Fruit.class size: 0.0011 mb
+--------------[F] : HM.class size: 0.0015 mb
+--------------[F] : HMExp.class size: 0.0009 mb
+--------------[F] : HMImmutableKey.class size: 0.0011 mb
+--------------[F] : HashEx.class size: 0.0012 mb
+--------------[F] : HashMapEx.class size: 0.0028 mb
+--------------[F] : HashMapExample.class size: 0.0022 mb
+--------------[F] : ListOf.class size: 0.0010 mb
+--------------[F] : MapKeyProblem.class size: 0.0017 mb
+--------------[F] : RemoveFromCollection.class size: 0.0006 mb
+--------------[F] : SetEx.class size: 0.0015 mb
+--------------[F] : SetPeres.class size: 0.0013 mb
+--------------[F] : Student.class size: 0.0013 mb
+--------------[F] : TestHM.class size: 0.0011 mb
+--------------[F] : TreeMapExample.class size: 0.0021 mb
+--------------[F] : UniqueColl.class size: 0.0014 mb
+--------------[F] : User.class size: 0.0018 mb
+--------------[F] : UserH.class size: 0.0016 mb
+--------------[F] : UserSet.class size: 0.0011 mb
+--------------[F] : task.txt size: 0.0022 mb
+--------------[D] : CharC
+----------------[F] : CharCount.class size: 0.0026 mb
+----------------[F] : Text.class size: 0.0063 mb
+--------------[D] : charCount
+----------------[F] : Letter.class size: 0.0022 mb
+----------------[F] : RunCount.class size: 0.0024 mb
+----------------[F] : Text.class size: 0.0063 mb
+----------------[D] : service
+------------------[F] : CountService.class size: 0.0006 mb
+------------------[F] : CountServiceImpl.class size: 0.0033 mb
+--------------[D] : countChar
+----------------[F] : CharCount.class size: 0.0013 mb
+----------------[F] : Text.class size: 0.0063 mb
+--------------[D] : ex
+----------------[F] : Bonus.class size: 0.0008 mb
+----------------[F] : EX1.class size: 0.0015 mb
+----------------[F] : EX2.class size: 0.0008 mb
+----------------[F] : EX3.class size: 0.0016 mb
+----------------[F] : EX4.class size: 0.0010 mb
+----------------[F] : EX5.class size: 0.0014 mb
+--------------[D] : task
+----------------[F] : task1.class size: 0.0012 mb
+----------------[F] : task2.class size: 0.0015 mb
+----------------[F] : task3.class size: 0.0014 mb
+----------------[F] : task4.class size: 0.0015 mb
+----------------[F] : task5.class size: 0.0014 mb
+------------[D] : cw_11
+--------------[F] : CRC.class size: 0.0014 mb
+--------------[F] : DirStructure.class size: 0.0015 mb
+--------------[F] : DirectoryWatcher.class size: 0.0032 mb
+--------------[F] : Dirs.class size: 0.0015 mb
+--------------[F] : FileNameGenerator.class size: 0.0026 mb
+--------------[F] : FileParent.class size: 0.0008 mb
+--------------[F] : FilesDir.class size: 0.0026 mb
+--------------[F] : FolderStructure.class size: 0.0028 mb
+--------------[F] : FolderStructureTask.class size: 0.0042 mb
+--------------[F] : GetAbsPath.class size: 0.0007 mb
+--------------[F] : OssDetector.class size: 0.0020 mb
+--------------[F] : ScannerExample.class size: 0.0017 mb
+--------------[D] : ex
+----------------[F] : Ex1.class size: 0.0007 mb
+----------------[F] : Ex2.class size: 0.0006 mb
+----------------[F] : Ex3.class size: 0.0008 mb
+----------------[F] : Ex3_1.class size: 0.0005 mb
+----------------[F] : Ex4.class size: 0.0013 mb
+----------------[F] : Ex5.class size: 0.0016 mb
+----------------[F] : StrToInt.class size: 0.0007 mb
+----------------[F] : Work.class size: 0.0006 mb
+--------------[D] : file
+----------------[D] : walk
+------------------[F] : FileWalk.class size: 0.0018 mb
+--------------[D] : file_duplicate
+----------------[F] : FileDuplicateTask.md size: 0.0019 mb
+----------------[F] : findFileDuplicate.md size: 0.0042 mb
+--------------[D] : folders
+----------------[F] : FolderSeparator.class size: 0.0008 mb
+----------------[F] : MakeDir.class size: 0.0033 mb
+----------------[D] : newDir
+------------------[F] : tes.tx size: 0.0000 mb
+------------------[F] : test.file size: 0.0000 mb
+------------------[F] : test_file.txt size: 0.0000 mb
+--------------[D] : io
+----------------[F] : DirList.class size: 0.0014 mb
+----------------[F] : InputParms.class size: 0.0011 mb
+----------------[F] : Main.class size: 0.0007 mb
+----------------[F] : Sc.class size: 0.0008 mb
+----------------[F] : ScannerDouble.class size: 0.0009 mb
+----------------[F] : ScannerInt.class size: 0.0009 mb
+----------------[F] : ScannerLine.class size: 0.0014 mb
+----------------[F] : ScannerTest.class size: 0.0008 mb
+----------------[F] : SystemOut.class size: 0.0006 mb
+----------------[D] : FileStream
+------------------[F] : FileOutputStreamm.class size: 0.0010 mb
+------------------[F] : FileStream.class size: 0.0019 mb
+------------------[F] : input.txt size: 0.0002 mb
+------------------[F] : output.txt size: 0.0000 mb
+----------------[D] : byteSteram
+------------------[F] : ByteStream.class size: 0.0015 mb
+------------------[F] : input.txt size: 0.0000 mb
+------------------[F] : output.txt size: 0.0000 mb
+------------------[F] : plain.png size: 0.0287 mb
+------------------[F] : plain_copy.png size: 0.0287 mb
+----------------[D] : charStream
+------------------[F] : CharStream.class size: 0.0025 mb
+------------------[F] : input.txt size: 0.0000 mb
+------------------[F] : output.txt size: 0.0000 mb
+--[D] : tasks
+----[F] : ArrayTask.txt size: 0.0049 mb
+----[F] : LoopTask.txt size: 0.0041 mb
+----[F] : MathTasks.txt size: 0.0289 mb
+----[F] : ifElseTask.txt size: 0.0047 mb

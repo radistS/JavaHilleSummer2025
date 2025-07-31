@@ -11,6 +11,7 @@ import java.util.Scanner;
 
 public class FileNameGenerator {
     public static void main(String[] args) throws IOException {
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter your name ...");
         String name = sc.nextLine();
