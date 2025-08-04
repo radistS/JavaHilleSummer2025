@@ -2,7 +2,7 @@ package com.hilllel.cw_08.ex;
 
 public class Ex1 extends Foo {
     public static String sign() {
-        System.out.println("ex1");
+        System.out.println("Ex1");
         return "fa";
     }
 
