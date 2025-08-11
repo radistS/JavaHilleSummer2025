@@ -13,11 +13,13 @@ public class Player {
     private String name;
     private int numberOfGames = 0;
     private int numberOfWins = 0;
+    private Amount amount;
     @ToString.Exclude
     private List<Card> hand = new ArrayList<>();
 
-    public Player(String name) {
+    public Player(String name, int createAmountValue) {
         this.name = name;
+        this.amount = new Amount(createAmountValue);
     }
 
     public void incrementNumberOfGames() {

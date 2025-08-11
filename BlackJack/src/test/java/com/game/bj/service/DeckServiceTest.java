@@ -7,10 +7,10 @@ import com.game.bj.exceptions.DeckException;
 import java.util.Stack;
 import org.junit.jupiter.api.Test;
 
-class DeckServiceTest {
+public class DeckServiceTest {
 
     @Test
-    void createDeck_OK() {
+    public void createDeckTest_OK() {
         DeckService ds = new DeckService();
         ds.createDeck(1);
         assertEquals(52, ds.getDeck().size());
@@ -20,7 +20,7 @@ class DeckServiceTest {
     }
 
     @Test
-    void createDeck_EXCEPTION() {
+    public void createDeckTest_EXCEPTION() {
         DeckService ds = new DeckService();
         assertThrows(DeckException.class, () -> ds.createDeck(0));
         assertThrows(DeckException.class, () -> ds.createDeck(9));
@@ -29,14 +29,14 @@ class DeckServiceTest {
     }
 
     @Test
-    void getDeck() {
+    public void getDeckTest() {
         DeckService ds = new DeckService();
         ds.createDeck(1);
         assertTrue(ds.getDeck() instanceof Stack<Card>);
     }
 
     @Test
-    void getCardCount() {
+    public void getCardCountTest() {
         DeckService ds = new DeckService();
         ds.createDeck(1);
         assertEquals(52, ds.getCardCount());
@@ -46,6 +46,10 @@ class DeckServiceTest {
     }
 
     @Test
-    void dealCard() {
+    public void dealCardTest() {
+        DeckService ds = new DeckService();
+        ds.createDeck(1);
+        ds.dealCard();
+
     }
 }
