@@ -56,3 +56,6 @@ public class StreamTask {
     }
 
 }
+
+
+// todo: s -> s.equals(s.uppercase())
