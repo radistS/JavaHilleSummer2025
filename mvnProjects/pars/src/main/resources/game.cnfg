@@ -1,0 +1,10 @@
+resolution : auto
+shadow : ultra
+details : medium
+
+
+class Config{
+    Resolution res;
+    Shadow sh;
+    Details det;
+}

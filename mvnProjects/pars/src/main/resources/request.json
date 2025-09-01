@@ -1,0 +1,1275 @@
+{
+  "id": "9df5cd99-c90a-4b15-9577-2766fac8dcbc",
+  "title": "error message ",
+  "description": "<p>aaaa</p>",
+  "overview": "aaa",
+  "language": "AR",
+  "duration": "1-45",
+  "durationMin": 1,
+  "durationMax": 45,
+  "level": "ALL",
+  "skillLevel": "GENERAL",
+  "profileImage": {
+    "originalFilename": "Screenshot 2024-08-25 105554.png",
+    "key": "images/9df5cd99-c90a-4b15-9577-2766fac8dcbc/2024-09-22T10:11:25.488578873",
+    "size": 626470
+  },
+  "profileImageUrl": null,
+  "promoVideo": null,
+  "promoVideoUrl": null,
+  "requirements": [
+    {
+      "value": "",
+      "index": 0
+    },
+    {
+      "value": "",
+      "index": 1
+    }
+  ],
+  "outcomes": [
+    {
+      "value": "aa",
+      "index": 0
+    },
+    {
+      "value": "aaaa",
+      "index": 1
+    }
+  ],
+  "skills": [
+    "aaaaa",
+    "ssssss"
+  ],
+  "type": "INSTRUCTOR_LED",
+  "status": "PUBLISHED",
+  "createdDate": "2024-09-22T10:10:42.325924",
+  "lastModifiedDate": "2024-09-23T11:31:46.454976444",
+  "trainingStructure": {
+    "sections": []
+  },
+  "qualificationTests": [
+    {
+      "id": "2f5dad2d-8997-4475-a861-2abe5a6ac8e6",
+      "randomized": false,
+      "questions": [
+        {
+          "id": "7da39933-3dc9-4df0-bc74-ca5cc336ce7e",
+          "lastModifiedDate": "2024-09-22T10:39:59.042558283",
+          "questionType": "TRUEFALSE",
+          "question": "New Question",
+          "answers": [
+            {
+              "id": "28017bea-a020-4285-b7d0-5777f11bae05",
+              "answer": "True",
+              "correct": true,
+              "index": 1
+            },
+            {
+              "id": "794314bc-db24-4c6e-81c5-f3199839eaba",
+              "answer": "False",
+              "correct": false,
+              "index": 2
+            }
+          ],
+          "index": null
+        }
+      ],
+      "title": "aa",
+      "description": "<p>aaa</p>",
+      "minimumScore": 4,
+      "timeLimit": 3,
+      "mandatory": true,
+      "qualificationTestType": "POST",
+      "qualificationTestStatus": "PUBLISHED",
+      "hidden": false,
+      "lastModifiedDate": "2024-09-22T07:12:40.663",
+      "answersMap": {
+        "7da39933-3dc9-4df0-bc74-ca5cc336ce7e": "28017bea-a020-4285-b7d0-5777f11bae05"
+      }
+    }
+  ],
+  "applicantDto": null,
+  "sector": {
+    "id": "4cfd81a0-69ab-4ea6-81db-7b6ccc07f088",
+    "title": "Energy, Mining, Electricity, and Gas"
+  },
+  "domain": {
+    "id": "285f59c5-ea80-4aba-9cb7-c4c954988b70",
+    "title": "Battery Management System"
+  },
+  "copiedFromId": null,
+  "version": 1,
+  "rootId": "9df5cd99-c90a-4b15-9577-2766fac8dcbc",
+  "organizationName": "مركز التدريب الوطني",
+  "avatarUrl": null,
+  "organizationId": "e037a2ea-83dc-4074-bfc1-4108544b80cd",
+  "studyStreams": [
+    {
+      "id": "0904cfdd-e861-4f9d-9217-76aa5a6058a8",
+      "startDate": "2024-09-23T00:00:00",
+      "endDate": "2025-09-22T23:59:59",
+      "maxNumberOfParticipants": 1,
+      "currentNumberOfParticipants": 1,
+      "noLimits": false,
+      "liveSession": {
+        "id": "122f3285-e29c-4988-9e68-04ba038363b1",
+        "startDate": "2024-09-23T13:00:00",
+        "durationHours": 1,
+        "durationMinutes": 0,
+        "recurringMeeting": true,
+        "zoomLink": "aa",
+        "zoomPassword": "aa",
+        "meetingId": "aa",
+        "recurrence": "DAILY",
+        "repeatEvery": 1,
+        "endDate": "2024-12-26T23:59:59",
+        "endAfterOccurrences": null,
+        "daysOfWeek": [
+          "FRIDAY"
+        ],
+        "weekOfMonth": null,
+        "dayOfMonth": null,
+        "meetings": [
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-09-23T13:00:00",
+            "temporaryId": "65b9a086-9ec9-461d-9167-5519b7599af8"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-09-24T13:00:00",
+            "temporaryId": "e3e59d63-2b27-4a57-98e8-901aeb042b1f"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-09-25T13:00:00",
+            "temporaryId": "d8f8ca71-dd2c-482b-a26d-dc00fd3b071f"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-09-26T13:00:00",
+            "temporaryId": "2ba386fd-e044-4cae-a2b6-4a192b01605b"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-09-27T13:00:00",
+            "temporaryId": "1dfe76d5-00da-47e8-812f-7a1498e816ba"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-09-28T13:00:00",
+            "temporaryId": "a1364996-b5ce-4dd1-84ba-dc975791d781"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-09-29T13:00:00",
+            "temporaryId": "eed9a0f4-e213-4d20-bf19-c919e03cad6d"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-09-30T13:00:00",
+            "temporaryId": "8d76c142-91d4-4221-9d80-702e4f14d2d1"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-01T13:00:00",
+            "temporaryId": "cbdf5cd9-2135-409a-a1c2-93811b03a243"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-02T13:00:00",
+            "temporaryId": "4caac5bc-cd1f-42e4-abd5-a73b6cc531da"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-03T13:00:00",
+            "temporaryId": "c9c6a12c-b180-4984-a014-511f2f900355"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-04T13:00:00",
+            "temporaryId": "8acb5375-0485-4a80-89f3-c71c73a7441f"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-05T13:00:00",
+            "temporaryId": "f2f06c5c-5613-4969-9821-df1565b270dc"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-06T13:00:00",
+            "temporaryId": "77bb46ee-aaa9-49aa-a151-3a2192bca2f4"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-07T13:00:00",
+            "temporaryId": "21a100e1-8538-45ec-bfbf-d733b38c9383"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-08T13:00:00",
+            "temporaryId": "879be18a-b9c0-43b2-8c60-d71543729405"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-09T13:00:00",
+            "temporaryId": "16f19fcd-8728-4833-94f4-9adabff9d2a9"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-10T13:00:00",
+            "temporaryId": "264e76ba-7719-4ba3-bfe6-007070128962"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-11T13:00:00",
+            "temporaryId": "ea6efbd1-abd9-4453-82a6-210e54cbf812"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-12T13:00:00",
+            "temporaryId": "b51db293-a950-4371-a4f6-a98194925cfb"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-13T13:00:00",
+            "temporaryId": "e0909901-f1fb-4a32-952a-dca01e90684b"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-14T13:00:00",
+            "temporaryId": "cd0c7ce9-4ee2-4b48-b76e-e8cc6623b13f"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-15T13:00:00",
+            "temporaryId": "f95aa5da-6f80-4497-901d-15f24b5afcaf"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-16T13:00:00",
+            "temporaryId": "1af22044-d3cd-4e19-a7e5-2d38f57c2bb7"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-17T13:00:00",
+            "temporaryId": "bb0e4fe7-2698-4306-a60e-35b9e76f1f0b"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-18T13:00:00",
+            "temporaryId": "cfc8f242-1ebb-4499-a8c4-c20a205f53e7"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-19T13:00:00",
+            "temporaryId": "2f47e1dd-7eb5-4ab6-9b70-1553088f61d8"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-20T13:00:00",
+            "temporaryId": "cdfd26f1-9efa-4ca2-9fdf-40d5588a0674"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-21T13:00:00",
+            "temporaryId": "612391c3-dd55-4363-a93a-021eb9091534"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-22T13:00:00",
+            "temporaryId": "cb6a6a5d-4406-4fec-a464-27d82ee8fd91"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-23T13:00:00",
+            "temporaryId": "ce987003-8448-4243-bb1e-b3b89ca5d44f"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-24T13:00:00",
+            "temporaryId": "b2e8e941-55c1-46ef-b40c-d77cf173f39a"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-25T13:00:00",
+            "temporaryId": "3b32abe3-23f1-4331-af99-9a2921f6095b"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-26T13:00:00",
+            "temporaryId": "464fd72f-0b2c-4b68-96a0-d996cb1b766c"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-27T13:00:00",
+            "temporaryId": "3bbe3a65-6fdf-4415-bf7a-3c07665223c4"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-28T13:00:00",
+            "temporaryId": "6d1c50c0-9841-4ef5-b416-0748d3b61f8a"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-29T13:00:00",
+            "temporaryId": "ac7e5925-0a01-4824-a3b2-138ba2e0c9e6"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-30T13:00:00",
+            "temporaryId": "5ced240f-df9b-4fc0-b8c5-52a2e555929e"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-10-31T13:00:00",
+            "temporaryId": "438c5434-68c3-41b4-83d8-e544f0fa7633"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-01T13:00:00",
+            "temporaryId": "035fe2b6-7033-495d-b341-166c95f60f99"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-02T13:00:00",
+            "temporaryId": "478345bf-c614-482d-a9b5-0771f4bd5b20"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-03T13:00:00",
+            "temporaryId": "4ecdf62d-5c6e-45ad-b7e8-1bdae65448ef"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-04T13:00:00",
+            "temporaryId": "8c3109c3-3bc5-4dbf-a4e8-bc16ca941f39"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-05T13:00:00",
+            "temporaryId": "3e31d709-8602-47c8-a9bf-4e54022dc298"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-06T13:00:00",
+            "temporaryId": "6acf5961-17b6-4382-845b-4b9ccdc0d78b"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-07T13:00:00",
+            "temporaryId": "5d285ac8-d850-4a69-b2fd-a7db0be821e7"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-08T13:00:00",
+            "temporaryId": "a7612e06-d4ea-4cc5-b115-05f5cf71f7fd"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-09T13:00:00",
+            "temporaryId": "989dd724-18a2-486a-966d-99cfcdfd8a70"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-10T13:00:00",
+            "temporaryId": "86c7c74b-e9cd-46e4-a275-15bb416cf667"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-11T13:00:00",
+            "temporaryId": "7ac4f854-a877-446a-8db7-fb10bedbaeec"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-12T13:00:00",
+            "temporaryId": "1356c24c-455f-4beb-9b5f-f13a048f1ca0"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-13T13:00:00",
+            "temporaryId": "191ec765-6d18-4fab-a65a-e70393eeb098"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-14T13:00:00",
+            "temporaryId": "5b5c268f-7332-4693-80c5-6e428ad64ec5"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-15T13:00:00",
+            "temporaryId": "4205c64e-425c-4319-98b2-1a44ea030b46"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-16T13:00:00",
+            "temporaryId": "2e73e19e-09a6-46be-8c90-fa939d0d90e4"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-17T13:00:00",
+            "temporaryId": "65cfcbb2-aba2-4157-8a67-f1b18cb9d977"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-18T13:00:00",
+            "temporaryId": "cdeb2add-bae4-4a23-9220-82f9265fcc7f"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-19T13:00:00",
+            "temporaryId": "e287f94c-fd26-48c1-8b47-65ab487bbced"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-20T13:00:00",
+            "temporaryId": "c5d3b7b8-e82c-4f8f-8356-0023f18235be"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-21T13:00:00",
+            "temporaryId": "230d80e9-01e6-408c-9fe4-f5dff1835e55"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-22T13:00:00",
+            "temporaryId": "1b3ac5ae-411c-4466-b153-bf629e5e8162"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-23T13:00:00",
+            "temporaryId": "35685b4f-19e4-40c3-a78b-f41b0fbb5609"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-24T13:00:00",
+            "temporaryId": "d6d23850-568e-4abb-8021-ffb071cc3394"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-25T13:00:00",
+            "temporaryId": "95598a08-24bc-4b4f-96c8-34296f82589a"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-26T13:00:00",
+            "temporaryId": "787f5598-13eb-4d18-8e7c-22c89b0f895f"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-27T13:00:00",
+            "temporaryId": "3be64275-af38-40f6-91c1-744e84ad97fb"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-28T13:00:00",
+            "temporaryId": "3639a858-2a47-489b-be0c-00a8ffe58d89"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-29T13:00:00",
+            "temporaryId": "20c2b5f6-ad17-4ed4-975b-68a40b6c5583"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-11-30T13:00:00",
+            "temporaryId": "8db4bdc0-cd4a-48ce-8a6f-d907533ea7f0"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-01T13:00:00",
+            "temporaryId": "a5ec97cd-b596-48bb-b7dd-d8cf1f8c4090"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-02T13:00:00",
+            "temporaryId": "b2845d04-b187-42d3-a440-a6a04e4105bd"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-03T13:00:00",
+            "temporaryId": "4cfd5864-14aa-4f2a-ad6b-ba557c9574d1"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-04T13:00:00",
+            "temporaryId": "bb76fbe9-589e-4180-9ba6-629715271439"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-05T13:00:00",
+            "temporaryId": "81e9eab1-2e41-45ce-b20f-8096917a20eb"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-06T13:00:00",
+            "temporaryId": "a995c8eb-a421-432d-89b9-2768b9670155"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-07T13:00:00",
+            "temporaryId": "c6f8a612-f57a-48c4-8d25-7d4f93cc57ac"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-08T13:00:00",
+            "temporaryId": "d9905d09-1290-4894-beb0-fd8566a76929"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-09T13:00:00",
+            "temporaryId": "6dfc3bcd-cdad-41ce-bafa-4c0a37bae4c8"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-10T13:00:00",
+            "temporaryId": "fc0660fc-dd6e-4389-b680-fafe9388f585"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-11T13:00:00",
+            "temporaryId": "8dda13c2-5f56-4708-82b5-1305ac780b59"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-12T13:00:00",
+            "temporaryId": "fba78fa5-f06b-43ce-af3b-70cfc1fde471"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-13T13:00:00",
+            "temporaryId": "35f8896c-7ed8-478b-a4b0-8bc75e17a98d"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-14T13:00:00",
+            "temporaryId": "2ca59497-8107-49fd-80d3-96d5fd13b231"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-15T13:00:00",
+            "temporaryId": "836eb8a4-5047-4237-a55e-5cf8bfe7e738"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-16T13:00:00",
+            "temporaryId": "3707768b-58d1-4e2f-ab16-70df1527597e"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-17T13:00:00",
+            "temporaryId": "c8425f4e-7f1e-4dd9-9749-99ee38d74094"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-18T13:00:00",
+            "temporaryId": "97288724-8fa5-43b4-860b-35b9c18c7fa7"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-19T13:00:00",
+            "temporaryId": "9d45c7c8-d34a-43c0-8180-d667e4a4f662"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-20T13:00:00",
+            "temporaryId": "7d74bca3-9323-46a5-b91a-3596ac81f026"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-21T13:00:00",
+            "temporaryId": "24393b7b-a4e7-4b36-80c6-1fe52db9cebe"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-22T13:00:00",
+            "temporaryId": "b4f408e7-5e56-4698-af7e-c3544705fa70"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-23T13:00:00",
+            "temporaryId": "49237aea-e560-49d9-adc5-8131b568db73"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-24T13:00:00",
+            "temporaryId": "fe3ed673-9513-42f4-8e70-a16466959d60"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-25T13:00:00",
+            "temporaryId": "f3e8f10a-43d2-4701-8d51-c05cf5356a60"
+          },
+          {
+            "durationHours": 1,
+            "durationMinutes": 0,
+            "zoomLink": "aa",
+            "zoomPassword": "aa",
+            "meetingId": "aa",
+            "startDate": "2024-12-26T13:00:00",
+            "temporaryId": "902bba7d-a335-40d1-82a3-954318f8ab79"
+          }
+        ],
+        "status": "PUBLISHED",
+        "rootId": null
+      },
+      "trainingId": "9df5cd99-c90a-4b15-9577-2766fac8dcbc",
+      "status": "PUBLISHED",
+      "cancelled": false,
+      "cancelledDate": null,
+      "rootId": null,
+      "closedForEnrollmentDate": "2024-12-25T14:00:00",
+      "cardNotes": [
+        {
+          "createdDate": "2024-09-23T09:51:49.370739181",
+          "localizedContents": {
+            "AR": {
+              "title": "تم تغيير وقت المسار التدريبي",
+              "message": "تم تغيير وقت المسار التدريبي. يرجى ملاحظة انه تم نقل المسار التدريبي من سبتمبر 22, 2024 - سبتمبر 22, 2025 إلى سبتمبر 23, 2024 - سبتمبر 22, 2025."
+            },
+            "EN": {
+              "title": "Study Stream Has Been Moved",
+              "message": "Please note that the study stream has been moved from Sep 22, 2024 - Sep 22, 2025 to Sep 23, 2024 - Sep 22, 2025."
+            }
+          }
+        }
+      ],
+      "validateOnMount": false
+    },
+    {
+      "id": "aad280ca-95a3-4d6e-9877-be7538e4a1fa",
+      "startDate": "2024-09-24T00:00:00",
+      "endDate": "2024-10-31T23:59:59",
+      "maxNumberOfParticipants": 10,
+      "currentNumberOfParticipants": 0,
+      "noLimits": false,
+      "liveSession": {
+        "id": "357e39c9-01f6-4cf7-92c2-496bdb8812fc",
+        "startDate": "2024-09-24T13:00:00",
+        "durationHours": 3,
+        "durationMinutes": 0,
+        "recurringMeeting": true,
+        "zoomLink": "12",
+        "zoomPassword": "1",
+        "meetingId": "12",
+        "recurrence": "WEEKLY",
+        "repeatEvery": 1,
+        "endDate": "2024-10-31T23:59:59",
+        "endAfterOccurrences": null,
+        "daysOfWeek": [
+          "FRIDAY",
+          "MONDAY"
+        ],
+        "weekOfMonth": null,
+        "dayOfMonth": null,
+        "meetings": [
+          {
+            "id": "ce6aff53-8478-4986-8080-d5b1ebdef4e5",
+            "title": null,
+            "trainingId": null,
+            "liveSessionId": null,
+            "startDate": "2024-09-27T13:00:00",
+            "durationHours": 3,
+            "durationMinutes": 0,
+            "zoomLink": "12",
+            "zoomPassword": "1",
+            "meetingId": "12",
+            "status": "PUBLISHED",
+            "cancelled": false,
+            "cancellationReason": null,
+            "cancellationDate": null,
+            "rootId": null,
+            "cardNotes": [],
+            "section": []
+          },
+          {
+            "id": "cf51ca47-ec0e-4481-a098-f4cd36d65a28",
+            "title": null,
+            "trainingId": null,
+            "liveSessionId": null,
+            "startDate": "2024-09-30T13:00:00",
+            "durationHours": 3,
+            "durationMinutes": 0,
+            "zoomLink": "12",
+            "zoomPassword": "1",
+            "meetingId": "12",
+            "status": "PUBLISHED",
+            "cancelled": false,
+            "cancellationReason": null,
+            "cancellationDate": null,
+            "rootId": null,
+            "cardNotes": [],
+            "section": []
+          },
+          {
+            "id": "425c7e2d-f6e5-4e99-b110-c015d2c51fbd",
+            "title": null,
+            "trainingId": null,
+            "liveSessionId": null,
+            "startDate": "2024-10-04T13:00:00",
+            "durationHours": 3,
+            "durationMinutes": 0,
+            "zoomLink": "12",
+            "zoomPassword": "1",
+            "meetingId": "12",
+            "status": "PUBLISHED",
+            "cancelled": false,
+            "cancellationReason": null,
+            "cancellationDate": null,
+            "rootId": null,
+            "cardNotes": [],
+            "section": []
+          },
+          {
+            "id": "d546a340-c8c3-4376-b40b-09f0e1e904ed",
+            "title": null,
+            "trainingId": null,
+            "liveSessionId": null,
+            "startDate": "2024-10-07T13:00:00",
+            "durationHours": 3,
+            "durationMinutes": 0,
+            "zoomLink": "12",
+            "zoomPassword": "1",
+            "meetingId": "12",
+            "status": "PUBLISHED",
+            "cancelled": false,
+            "cancellationReason": null,
+            "cancellationDate": null,
+            "rootId": null,
+            "cardNotes": [],
+            "section": []
+          },
+          {
+            "id": "dcc59ce9-89b5-4f01-a244-b26488d85848",
+            "title": null,
+            "trainingId": null,
+            "liveSessionId": null,
+            "startDate": "2024-10-11T13:00:00",
+            "durationHours": 3,
+            "durationMinutes": 0,
+            "zoomLink": "12",
+            "zoomPassword": "1",
+            "meetingId": "12",
+            "status": "PUBLISHED",
+            "cancelled": false,
+            "cancellationReason": null,
+            "cancellationDate": null,
+            "rootId": null,
+            "cardNotes": [],
+            "section": []
+          },
+          {
+            "id": "a667fa82-c63d-4761-9c18-1b42e4b0d3d6",
+            "title": null,
+            "trainingId": null,
+            "liveSessionId": null,
+            "startDate": "2024-10-14T13:00:00",
+            "durationHours": 3,
+            "durationMinutes": 0,
+            "zoomLink": "12",
+            "zoomPassword": "1",
+            "meetingId": "12",
+            "status": "PUBLISHED",
+            "cancelled": false,
+            "cancellationReason": null,
+            "cancellationDate": null,
+            "rootId": null,
+            "cardNotes": [],
+            "section": []
+          },
+          {
+            "id": "143102f4-ae94-4819-bcca-40874d208c22",
+            "title": null,
+            "trainingId": null,
+            "liveSessionId": null,
+            "startDate": "2024-10-18T13:00:00",
+            "durationHours": 3,
+            "durationMinutes": 0,
+            "zoomLink": "12",
+            "zoomPassword": "1",
+            "meetingId": "12",
+            "status": "PUBLISHED",
+            "cancelled": false,
+            "cancellationReason": null,
+            "cancellationDate": null,
+            "rootId": null,
+            "cardNotes": [],
+            "section": []
+          },
+          {
+            "id": "6640063d-054f-4677-8c35-d628882ab513",
+            "title": null,
+            "trainingId": null,
+            "liveSessionId": null,
+            "startDate": "2024-10-21T13:00:00",
+            "durationHours": 3,
+            "durationMinutes": 0,
+            "zoomLink": "12",
+            "zoomPassword": "1",
+            "meetingId": "12",
+            "status": "PUBLISHED",
+            "cancelled": false,
+            "cancellationReason": null,
+            "cancellationDate": null,
+            "rootId": null,
+            "cardNotes": [],
+            "section": []
+          },
+          {
+            "id": "292e6a82-085b-4237-92b5-99b0e1f6c303",
+            "title": null,
+            "trainingId": null,
+            "liveSessionId": null,
+            "startDate": "2024-10-25T13:00:00",
+            "durationHours": 3,
+            "durationMinutes": 0,
+            "zoomLink": "12",
+            "zoomPassword": "1",
+            "meetingId": "12",
+            "status": "PUBLISHED",
+            "cancelled": false,
+            "cancellationReason": null,
+            "cancellationDate": null,
+            "rootId": null,
+            "cardNotes": [],
+            "section": []
+          },
+          {
+            "id": "6d1ebccf-0ddb-4b3b-8863-58b2c97e7648",
+            "title": null,
+            "trainingId": null,
+            "liveSessionId": null,
+            "startDate": "2024-10-28T13:00:00",
+            "durationHours": 3,
+            "durationMinutes": 0,
+            "zoomLink": "12",
+            "zoomPassword": "1",
+            "meetingId": "12",
+            "status": "PUBLISHED",
+            "cancelled": false,
+            "cancellationReason": null,
+            "cancellationDate": null,
+            "rootId": null,
+            "cardNotes": [],
+            "section": []
+          }
+        ],
+        "status": "PUBLISHED",
+        "rootId": null
+      },
+      "trainingId": null,
+      "status": "PUBLISHED",
+      "cancelled": false,
+      "cancelledDate": null,
+      "rootId": null,
+      "closedForEnrollmentDate": "2024-10-28T16:00:00",
+      "cardNotes": []
+    }
+  ],
+  "enrolledCount": 1,
+  "instructorPermission": null,
+  "createdBy": "4082ac1e-5aeb-441d-a0d4-40949b46b2bb",
+  "titleAr": "error message ",
+  "descriptionAr": "<p>aaa</p>",
+  "overviewAr": "aa",
+  "requirementsAr": [
+    {
+      "value": "",
+      "index": 0
+    },
+    {
+      "value": "",
+      "index": 1
+    }
+  ],
+  "outcomesAr": [
+    {
+      "value": "aa",
+      "index": 0
+    },
+    {
+      "value": "aaaa",
+      "index": 1
+    }
+  ],
+  "sectorId": "4cfd81a0-69ab-4ea6-81db-7b6ccc07f088",
+  "domainId": "285f59c5-ea80-4aba-9cb7-c4c954988b70",
+  "areStreamsRepublished": false
+}

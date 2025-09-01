@@ -1,0 +1,11 @@
+<?com.pars.xml version="1.0" encoding="UTF-8"?>
+
+    <user>
+        <firstName>Alex</firstName>
+        <lastName>Stepurko</lastName>
+        <age>33</age>
+        <email>stepurko@info.com</email>
+        <technology>Java</technology>
+        <status>CLOSE</status>
+        <aaa>aaa</aaa>
+    </user>
