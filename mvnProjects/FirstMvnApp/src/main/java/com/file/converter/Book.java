@@ -1,4 +1,4 @@
-package com.mvn.first;
+package com.file.converter;
 
 import lombok.Data;
 

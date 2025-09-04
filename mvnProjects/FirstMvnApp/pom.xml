@@ -33,7 +33,7 @@
           <configuration>
             <archive>
               <manifest>
-                <mainClass>com.mvn.first.Main</mainClass>
+                <mainClass>com.file.converter.Main</mainClass>
               </manifest>
             </archive>
           </configuration>
