@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title th:text="${title}">User</title>
+    <style>
+        body { font-family: system-ui, Arial, sans-serif; max-width: 720px; margin: 32px auto; }
+        a.btn, button.btn { display:inline-block; padding:8px 12px; border:1px solid #1f2937; background: #0fba2d; color: #000000; text-decoration:none; border-radius:8px; }
+        a.link { text-decoration:none; }
+        .field { margin-bottom:12px; }
+        label { display:block; font-weight:600; margin-bottom:4px; }
+        input { width:100%; padding:8px; border-radius:6px; border:1px solid #e5e7eb; }
+        .row { display:flex; gap:12px; }
+    </style>
+</head>
+<body>
+<p><a class="link" th:href="'/ui/users'">← Back to list</a></p>
+
+<!-- View mode -->
+<section th:if="${mode == null}">
+    <h1 th:text="${user != null ? user.firstName + ' ' + user.lastName : 'Not found'}">User</h1>
+    <div th:if="${user != null}">
+        <p><strong>ID:</strong> <span th:text="${user.id}"></span></p>
+        <p><strong>First name:</strong> <span th:text="${user.firstName}"></span></p>
+        <p><strong>Last name:</strong> <span th:text="${user.lastName}"></span></p>
+        <p><strong>Email:</strong> <span th:text="${user.email}"></span></p>
+        <p>
+            <a th:href="|/ui/users/${user.id}/edit|" class="btn">Edit</a>
+        <form th:action="|/ui/users/${user.id}/delete|" method="post" style="display:inline" onsubmit="return confirm('Delete this user?')">
+            <button type="submit" class="btn" style="background:#b91c1c; border-color:#7f1d1d;">Delete</button>
+        </form>
+        </p>
+    </div>
+    <div th:if="${user == null}">
+        <p>User not found.</p>
+    </div>
+</section>
+
+<!-- Create/Edit form -->
+<section th:if="${mode != null}">
+    <h1 th:text="${mode == 'create' ? 'Add User' : 'Edit User'}">Form</h1>
+    <form th:action="${mode == 'create'} ? '/ui/users' : '/ui/users/' + user.id + '/edit'" method="post">
+        <div class="row">
+            <div class="field" style="flex:1;">
+                <label for="firstName">First name</label>
+                <input id="firstName" name="firstName" type="text" th:value="${user != null ? user.firstName : ''}" required />
+            </div>
+            <div class="field" style="flex:1;">
+                <label for="lastName">Last name</label>
+                <input id="lastName" name="lastName" type="text" th:value="${user != null ? user.lastName : ''}" required />
+            </div>
+        </div>
+        <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" th:value="${user != null ? user.email : ''}" required />
+        </div>
+        <div class="field">
+            <button class="btn" type="submit" th:text="${mode == 'create' ? 'Create' : 'Save'}">Save</button>
+            <a class="btn" th:href="'/ui/users'" style="display:inline-block; padding:8px 12px; border:1px solid #1f2937; background: #ba0f0f; color: #000000; text-decoration:none; border-radius:8px;">Cancel</a>
+        </div>
+    </form>
+</section>
+</body>
+</html>

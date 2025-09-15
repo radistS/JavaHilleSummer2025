@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title th:text="${title}">Users</title>
+    <style>
+        body { font-family: system-ui, Arial, sans-serif; max-width: 1000px; margin: 32px auto; }
+        header { display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; }
+        table { width:100%; border-collapse: collapse; }
+        th, td { padding: 8px 10px; border-bottom: 1px solid #e5e7eb; }
+        th { text-align:left; background:#f8fafc; }
+        .actions a, .actions form button { margin-right:8px; }
+        .btn { display:inline-block; padding:8px 12px; border:1px solid #1f2937; background: #bcf100; color: #000000; text-decoration:none; border-radius:8px; }
+        .del { display:inline-block; padding:8px 12px; border:1px solid #1f2937; background: #f10000; color: #000000; text-decoration:none; border-radius:8px; }
+        .btn.secondary { background:white; color:#111827; }
+        .notice { background:#ecfeff; border:1px solid #a5f3fc; padding:8px 12px; border-radius:8px; margin-bottom:12px; }
+        .toolbar { display:flex; gap:8px; align-items:center; }
+        input[type="file"] { padding:6px; }
+        .muted { color:#6b7280; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Users</h1>
+</header>
+
+
+<table>
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>firstName</th>
+        <th>lastName</th>
+        <th>email</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="u : ${users}">
+        <td><a th:href="'/ui/users/' + ${u.id}" th:text="${u.id}">id</a></td>
+        <td th:text="${u.firstName}">first</td>
+        <td th:text="${u.lastName}">last</td>
+        <td th:text="${u.email}">email</td>
+        <td class="actions">
+            <a th:href="'/ui/users/' + ${u.id}">Open</a>
+            <a th:href="'/ui/users/' + ${u.id} + '/edit'">Edit</a>
+            <form th:action="'/ui/users/' + ${u.id} + '/delete'" method="post" style="display:inline" onsubmit="return confirm('Delete this user?')">
+                <button class="del" type="submit">Delete</button>
+            </form>
+        </td>
+    </tr>
+    <tr th:if="${#lists.isEmpty(users)}">
+        <td colspan="5" style="text-align:center;" class="muted">No users yet</td>
+    </tr>
+    </tbody>
+</table>
+<footer>
+    <div class="toolbar">
+        <a class="btn" th:href="'/ui/new/users'">Add user ...</a>
+    </div>
+    <br/>
+    <div>
+        <form th:action="'/ui/users/upload'" method="post" enctype="multipart/form-data">
+            <h3>Upload data from csv file :</h3>
+            <input class="btn" type="file" name="file" accept=".csv" required />
+            <button class="btn" type="submit">Upload CSV</button>
+        </form>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,2 @@
+:root { --bg:#ffffff; --fg:#111827; --muted:#6b7280; }
+html,body{ background:var(--bg); color:var(--fg); }
