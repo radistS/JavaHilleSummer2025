@@ -1,0 +1,32 @@
+create database if not exists hillel_winter_2022;
+
+CREATE TABLE com.kafka.producer.User (
+    person_id int auto_increment primary key,
+    last_name varchar(255),
+    first_name varchar(255),
+    email varchar(100) not null,
+    phone varchar(15),
+    password varchar(50) not Null default "xxxxxx"
+);
+
+alter table user add last_update timestamp;
+
+alter table user add age int;
+
+insert into user (email) values ("email1@mail.com");
+
+
+insert into user (last_name, first_name, email, phone) values ("Ivan", "Ivanov", "email1@mail.com", "+38005566554433");
+insert into user (last_name, first_name, email, phone) values ("Petr", "Petrov", "email2@mail.com", "+38005566554434");
+insert into user (last_name, first_name, email, phone) values ("Sidr", "Sidorov", "email3@mail.com", "+38005566554435");
+
+
+insert into user (email) values ("email1@mail.com");
+
+
+Update user set age = 25 where person_id = 1;
+Update user set age = 33 where person_id = 2;
+Update user set age = 12 where person_id = 3;
+Update user set age = 45 where person_id = 4;
+
+select last_name, first_name, age from user where age >= 25;

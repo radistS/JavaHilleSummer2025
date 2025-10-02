@@ -1,0 +1,33 @@
+CREATE DATABASE IF NOT EXISTS HILLEL_SUMMER_2022;
+
+CREATE TABLE test` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `phone_number` VARCHAR(12) NOT NULL,
+  `email` VARCHAR(50) NULL,
+  `country` VARCHAR(3) NULL DEFAULT 'ukr',
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `phone_number_UNIQUE` (`phone_number` ASC) VISIBLE,
+  UNIQUE INDEX `email_UNIQUE` (`email` ASC) VISIBLE);
+
+  ALTER TABLE test ADD COLUMN address VARCHAR(45);
+
+  INSERT INTO test (name, phone_number) VALUES ('Stepurko Alex', '380506945569');
+  INSERT INTO test (name, phone_number) VALUES ('Stepurko Oleksandr', '380506945568');
+  INSERT INTO test (name, phone_number) VALUES ('Stepurko', '380506945569');
+  INSERT INTO test (name, phone_number, email, city, address) VALUES ('Stepurko', '380506945570', 'test', 'Odesa', 'Odesa address');
+
+  select t.phone_number from test t where phone_number = '380506945569';
+
+  insert into test (name, phone_number, email, country, city, address) values ('Mollie', '9596673644', 'mchipman0@i2i.jp', 'ID', 'Biting', '639 Linden Alley');
+insert into test (name, phone_number, email, country, city, address) values ('Orelie', '6492964087', 'oreece1@cyberchimps.com', 'HR', 'Ivanec', '96 Judy Parkway');
+insert into test (name, phone_number, email, country, city, address) values ('Salomon', '7342165179', 'ssobieski2@ifeng.com', 'BR', 'Araxá', '94177 Cambridge Lane');
+insert into test (name, phone_number, email, country, city, address) values ('Brock', '3756642370', 'bkingsmill3@cam.ac.uk', 'MX', 'Rancho Viejo', '8271 Dayton Park');
+insert into test (name, phone_number, email, country, city, address) values ('Evyn', '2408456096', 'egerson4@yellowpages.com', 'UA', 'Svitlovods’k', '87 Victoria Court');
+insert into test (name, phone_number, email, country, city, address) values ('Guinevere', '7558240186', 'ghaken5@hubpages.com', 'HN', 'San Francisco', '012 Beilfuss Plaza');
+insert into test (name, phone_number, email, country, city, address) values ('Kristal', '6806745529', 'klujan6@posterous.com', 'CN', 'Heiiyugou', '92 David Trail');
+insert into test (name, phone_number, email, country, city, address) values ('Myrlene', '3385820478', 'mbraunes7@google.ru', 'SE', 'Huddinge', '06262 Bowman Road');
+insert into test (name, phone_number, email, country, city, address) values ('Orion', '8029264650', 'oventris8@lycos.com', 'GR', 'Néa Tríglia', '73 Sauthoff Avenue');
+insert into test (name, phone_number, email, country, city, address) values ('Kathleen', '1116373088', 'kgeator9@opensource.org', 'BR', 'São José ', '83087 Coolidge Park');
+
+UPDATE test SET city = 'Odesa' where city is null;
