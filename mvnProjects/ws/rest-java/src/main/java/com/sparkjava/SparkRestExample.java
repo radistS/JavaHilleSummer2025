@@ -20,7 +20,7 @@ import static spark.Spark.*;
 
 public class SparkRestExample {
     public static void main(String[] args) {
-        final UserService userService = new UserServiceInMemoryImpl();
+        final UserService userService = new UserServiceDbImpl();
 
         String uploadDir = "upload";
         File uploadFolder = new File(uploadDir);
