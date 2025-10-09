@@ -1,4 +1,4 @@
-package com.hilllel.lesson_27.ex;
+package com.hilllel.cw_26.ex;
 
 class Car {
     void speed(Byte val) {

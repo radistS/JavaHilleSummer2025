@@ -1,4 +1,4 @@
-package com.hilllel.lesson_27.ex;
+package com.hilllel.cw_26.ex;
 
 public class ex1 {
     Integer num = 100;
