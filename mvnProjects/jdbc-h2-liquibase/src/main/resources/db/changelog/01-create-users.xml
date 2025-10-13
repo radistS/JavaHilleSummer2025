@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.17.xsd">
+
+    <changeSet id="01-create-users" author="demo">
+        <createTable tableName="users">
+            <column name="id" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="username" type="VARCHAR(100)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="email" type="VARCHAR(200)"/>
+            <column name="created_at" type="TIMESTAMP"/>
+        </createTable>
+
+        <insert tableName="users">
+            <column name="username" value="alice"/>
+            <column name="email" value="alice@example.com"/>
+            <column name="created_at" valueDate="2025-01-01T10:00:00"/>
+        </insert>
+        <insert tableName="users">
+            <column name="username" value="bob"/>
+            <column name="email" value="bob@example.com"/>
+            <column name="created_at" valueDate="2025-01-02T11:30:00"/>
+        </insert>
+
+        <!-- пример изменения схемы -->
+        <addColumn tableName="users">
+            <column name="last_login" type="TIMESTAMP">
+                <constraints nullable="true"/>
+            </column>
+        </addColumn>
+        <createIndex tableName="users" indexName="idx_users_username">
+            <column name="username"/>
+        </createIndex>
+    </changeSet>
+</databaseChangeLog>

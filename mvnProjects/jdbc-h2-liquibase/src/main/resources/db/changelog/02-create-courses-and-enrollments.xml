@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.17.xsd">
+
+    <changeSet id="02-create-courses-and-enrollments" author="demo">
+        <createTable tableName="courses">
+            <column name="id" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="code" type="VARCHAR(50)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="title" type="VARCHAR(200)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+
+        <createTable tableName="enrollments">
+            <column name="id" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="user_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="course_id" type="BIGINT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="grade" type="VARCHAR(5)"/>
+            <column name="enrolled_at" type="TIMESTAMP"/>
+        </createTable>
+
+        <addForeignKeyConstraint baseTableName="enrollments" baseColumnNames="user_id"
+                                 constraintName="fk_enroll_user"
+                                 referencedTableName="users" referencedColumnNames="id"/>
+        <addForeignKeyConstraint baseTableName="enrollments" baseColumnNames="course_id"
+                                 constraintName="fk_enroll_course"
+                                 referencedTableName="courses" referencedColumnNames="id"/>
+
+        <insert tableName="courses">
+            <column name="code" value="MATH-101"/>
+            <column name="title" value="Calculus I"/>
+        </insert>
+        <insert tableName="courses">
+            <column name="code" value="CS-101"/>
+            <column name="title" value="Intro to CS"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
