@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+  <title th:text="${mode=='create'?'Create contact':'Edit contact'}">Contact</title>
+  <link rel="stylesheet" th:href="@{/css/app.css}"/>
+</head>
+<body>
+<div class="container">
+  <div class="card">
+    <div class="card-header actions">
+      <h1 class="h1 m0" th:text="${mode=='create'?'Create contact':'Edit contact'}">Contact</h1>
+      <div class="spacer"></div>
+      <a class="btn" th:href="@{/ui/contacts}">← Back</a>
+    </div>
+
+    <div class="card-body">
+      <form class="form"
+            th:action="${mode=='create'} ? @{/ui/contacts} : @{|/ui/contacts/${contact.id}|}"
+            method="post" th:object="${contact}">
+        <div class="row-6">
+          <label class="label">First name</label>
+          <input class="input" type="text" th:field="*{firstName}" placeholder="John"/>
+          <div class="error" th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}">Error</div>
+        </div>
+
+        <div class="row-6">
+          <label class="label">Last name</label>
+          <input class="input" type="text" th:field="*{lastName}" placeholder="Doe"/>
+          <div class="error" th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}">Error</div>
+        </div>
+
+        <div class="row-6">
+          <label class="label">Email</label>
+          <input class="input" type="email" th:field="*{email}" placeholder="john@doe.com"/>
+          <div class="error" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Error</div>
+        </div>
+
+        <div class="row-6">
+          <label class="label">Phone</label>
+          <input class="input" type="text" th:field="*{phone}" placeholder="+421 900 000 000"/>
+          <div class="error" th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}">Error</div>
+        </div>
+
+        <!-- CSRF токен, если используется Spring Security -->
+        <input type="hidden" th:if="${_csrf != null}"
+               th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>
+
+        <div class="row-12 mt16 right">
+          <a class="btn" th:href="@{/ui/contacts}">Cancel</a>
+          <button class="btn btn-primary" type="submit" th:text="${mode=='create' ? 'Create' : 'Save'}">Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>

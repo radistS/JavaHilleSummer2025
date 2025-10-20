@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Contacts</title>
+  <link rel="stylesheet" th:href="@{/css/app.css}"/>
+</head>
+<body>
+<div class="container">
+  <div class="card">
+    <div class="card-header actions">
+      <h1 class="h1 m0">Contacts</h1>
+      <div class="spacer"></div>
+      <a class="btn btn-primary" th:href="@{/ui/contacts/new}">+ New contact</a>
+      <a class="btn btn-ghost" th:href="@{/api/v1/contact}" target="_blank" rel="noreferrer">Open JSON</a>
+    </div>
+
+    <div class="card-body">
+      <table class="table">
+        <thead>
+        <tr>
+          <th>First name</th>
+          <th>Last name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th class="right">Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="c : ${contacts}">
+          <td>
+            <span th:text="${c.firstName}">John</span>
+            <span class="badge mt16" th:if="${#strings.isEmpty(c.email)}">No email</span>
+          </td>
+          <td th:text="${c.lastName}">Doe</td>
+          <td th:text="${c.email}">john@doe.com</td>
+          <td th:text="${c.phone}">+380...</td>
+          <td class="right">
+            <a class="btn" th:href="@{|/ui/contacts/${c.id}/edit|}">Edit</a>
+            <form th:action="@{|/ui/contacts/${c.id}/delete|}" method="post" style="display:inline">
+              <button class="btn btn-danger" type="submit">Delete</button>
+              <!-- Если включён Spring Security с CSRF -->
+              <input type="hidden" th:if="${_csrf != null}"
+                     th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>
+            </form>
+          </td>
+        </tr>
+        <tr th:if="${#lists.isEmpty(contacts)}">
+          <td colspan="5" style="text-align:center; padding:24px;">No contacts yet</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+</body>
+</html>
