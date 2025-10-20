@@ -381,12 +381,12 @@ public class HibernateTest
    {
       System.out.println( "testPersistentObject begins ......." );
       Person person = new Person( "James", "Bond", "007@jamesbond.com", new java.util.Date() );
-      Session session = sessionFactory.openSession();
+      Session session = sessionFactory.openSession(); // transient state
       session.beginTransaction();
       System.out.println( "Saving the object with state " + person );
       session.save( person );
       System.out.println( "Saved the object and now updating using setter method" );
-      person.setFirstName( "updated the name" );
+      person.setFirstName( "updated the name" ); // persistent state
       System.out.println( "The upadted object after saving is " + person );
       session.getTransaction().commit();
       session.close();
@@ -403,7 +403,7 @@ public class HibernateTest
    public void testDetachedObject()
    {
       System.out.println( "testDetachedObject begins ......." );
-      Person person = new Person( "James", "Bond", "007@jamesbond.com", new java.util.Date() );
+      Person person = new Person( "James", "Bond", "007@jamesbond.com", new java.util.Date() ); // transient
       Session session = sessionFactory.openSession();
       session.beginTransaction();
       System.out.println( "Savin the object with state " + person );
@@ -412,7 +412,7 @@ public class HibernateTest
       session.close();
 
       System.out.println( "Saved the object and closed the session and now updating using setter method" );
-      person.setFirstName( "updated the name" );
+      person.setFirstName( "updated the name" ); // detouched
       System.out.println( "The upadted object after saving and closing the session is " + person );
       session = sessionFactory.openSession();
       session.beginTransaction();

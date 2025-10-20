@@ -1,0 +1,16 @@
+package com.hilllel.cw_30.ex;
+
+public class Test2 {
+    public static void main(String[] args) {
+        Boolean[] boo = new Boolean[3];
+        boo[0] = new Boolean(Boolean.parseBoolean("tRUE"));
+        boo[1] = new Boolean("True");
+        boo[2] = new Boolean(false);
+        System.out.println("--------------------");
+        System.out.println(boo[0]);
+        System.out.println(boo[1]);
+        System.out.println(boo[2]);
+        System.out.println("--------------------");
+        System.out.println(new Boolean("afcaszf")); // true false
+    }
+}
