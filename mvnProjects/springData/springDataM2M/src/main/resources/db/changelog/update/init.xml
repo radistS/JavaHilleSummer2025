@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog logicalFilePath="db.changelog-1.0.xml" xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="create_product_table" author="o.Stepurko" >
+        <createTable tableName="product">
+            <column name = "id" type="INT" autoIncrement="true">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="name" type="VARCHAR(200)"/>
+            <column name="price" type="DECIMAL"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="readFromFile" author="aStepurko">
+        <loadData tableName="product"
+                  file="db/changelog/update/product.csv"
+                  separator="," >
+            <column header="name" name="name" type="STRING"/>
+            <column header="price" name="price" type="DECIMAL"/>
+        </loadData>
+    </changeSet>
+
+    <changeSet id="create_basket_table" author="o.Stepurko" >
+        <createTable tableName="basket">
+            <column name = "id" type="INT" autoIncrement="true">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="user_name" type="VARCHAR(200)"/>
+            <column name="description" type="VARCHAR(200)"/>
+            <column name="cost" type="DECIMAL"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="create_purchase_table" author="o.Stepurko" >
+        <createTable tableName="purchase">
+            <column name="basket_id" type="INT"/>
+            <column name="product_id" type="INT"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

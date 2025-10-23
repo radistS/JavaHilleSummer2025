@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <property name="LOG_FOLDER" value="logs"/>
+
+    <root name="info-stdout" level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <logger name="org.hibernate.SQL" level="INFO" />
+        <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="INFO" />
+        <encoder>
+            <pattern>%d{HH:mm:ss} %-5level %logger{20} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+
+</configuration>
+
