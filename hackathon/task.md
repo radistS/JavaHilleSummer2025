@@ -43,7 +43,7 @@ Each restaurant has the following attributes:
 #### 2. Update a Restaurant's Rating and Votes
 - **Method**: `PUT`
 - **URL**: `/restaurant/{id}`
-- **Request Body**: JSON object with updated `averageRating` and `votes`.
+- **Request Body**: JSON object with updated `rating`. (1 .. 5)
 - **Response**: HTTP 200 on success.
 
 #### 3. Fetch All Restaurants
