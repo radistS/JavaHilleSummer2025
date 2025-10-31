@@ -1,76 +1,73 @@
 package com.app.controller;
 
-import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.hasSize;
-
-import com.app.entity.UserEntity;
-import com.app.repository.UserRepository;
-import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-import java.util.List;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
+import com.app.dto.UserDto;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.web.server.LocalServerPort;
-import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
-import org.testcontainers.containers.PostgreSQLContainer;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
+import org.testcontainers.junit.jupiter.Container;
+import org.testcontainers.junit.jupiter.Testcontainers;
+import org.testcontainers.containers.MySQLContainer;
+import org.springframework.http.MediaType;
 
-@ActiveProfiles("test")
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class UserControllerTest {
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-    @LocalServerPort
-    private Integer port;
+@SpringBootTest
+@AutoConfigureMockMvc
+@Testcontainers
+class UserControllerIT {
 
-    static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>(
-        "postgres:16-alpine"
-    );
-
-    @BeforeAll
-    static void beforeAll() {
-        postgres.start();
-    }
-
-    @AfterAll
-    static void afterAll() {
-        postgres.stop();
-    }
+    @Container
+    static final MySQLContainer<?> mysql =
+        new MySQLContainer<>("mysql:8.4")
+            .withDatabaseName("testdb")
+            .withUsername("test")
+            .withPassword("test");
 
     @DynamicPropertySource
-    static void configureProperties(DynamicPropertyRegistry registry) {
-        registry.add("spring.datasource.url", postgres::getJdbcUrl);
-        registry.add("spring.datasource.username", postgres::getUsername);
-        registry.add("spring.datasource.password", postgres::getPassword);
+    static void overrideProps(DynamicPropertyRegistry r) {
+
+        r.add("spring.datasource.url", mysql::getJdbcUrl);
+        r.add("spring.datasource.username", mysql::getUsername);
+        r.add("spring.datasource.password", mysql::getPassword);
+        r.add("spring.datasource.driver-class-name", mysql::getDriverClassName);
+
+
+        r.add("spring.jpa.hibernate.ddl-auto", () -> "create-drop");
+        r.add("spring.jpa.show-sql", () -> "true");
+
     }
 
-    @Autowired
-    UserRepository userRepository;
-
-    @BeforeEach
-    void setUp() {
-        RestAssured.baseURI = "http://localhost:" + port;
-        userRepository.deleteAll();
-    }
+    @Autowired MockMvc mockMvc;
+    @Autowired ObjectMapper objectMapper;
 
     @Test
-    void shouldGetAllUsers() {
-        List<UserEntity> users = List.of(
-            new UserEntity().setUsername("Alice").setEmail("alice@mail.com").setPassword("password1"),
-            new UserEntity().setUsername("Alice1").setEmail("alice1@mail.com").setPassword("password2")
-        );
-        userRepository.saveAll(users);
+    void createUser_thenListUsers() throws Exception {
+        var dto = new UserDto()
+            .setUsername("alex")
+            .setAge(25)
+            .setPassword("secret")
+            .setPhoneNumber("+38050...")
+            .setEmail("alex@example.com");
 
-        given()
-            .contentType(ContentType.JSON)
-            .when()
-            .get("/api/v1/users")
-            .then()
-            .statusCode(200)
-            .body(".", hasSize(2));
+
+        var json = objectMapper.writeValueAsString(dto);
+
+        mockMvc.perform(post("/api/v1/users")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(json))
+            .andExpect(status().isOk())
+            .andExpect(content().string(org.hamcrest.Matchers.not(org.hamcrest.Matchers.isEmptyOrNullString())));
+
+
+        mockMvc.perform(get("/api/v1/users"))
+            .andExpect(status().isOk())
+            .andExpect(jsonPath("$[0].username").value("alex"));
+
     }
 }

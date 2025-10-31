@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  mysqldb:
+    build:
+      context: .
+      dockerfile: Dockerfile_mysql
+    ports:
+      - 3306:3306
+    env_file: .env
+    volumes:
+      - myapp:/home/node/app
+volumes:
+  myapp:
