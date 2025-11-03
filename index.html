@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calculator</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#000;
+      --panel:#0b0b0b;
+      --text:#fff;
+      --subtext:#d6d6d6;
+      --op:#f39a06;       /* orange */
+      --fn:#a9a9a9;       /* light gray */
+      --num:#2a2a2a;      /* dark gray */
+      --radius:26px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; height:100svh; display:grid; place-items:center; background:var(--bg);
+      font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--text);
+    }
+    .phone{
+      width:min(420px, 92vw);
+      background:var(--panel);
+      border-radius:28px;
+      padding:22px 18px 26px;
+      box-shadow:0 20px 40px rgba(0,0,0,.65), inset 0 0 0 1px rgba(255,255,255,.06);
+      position:relative;
+    }
+
+    .welcome{
+      background:#fff; color:#000; font-weight:600; font-size:28px; line-height:1;
+      border-radius:16px; padding:12px 18px; width:max-content; max-width:100%;
+      user-select:none; box-shadow:0 2px 0 rgba(0,0,0,.25);
+    }
+
+    .display{
+      text-align:right; padding:10px 8px 0; font-size:36px; font-weight:700;
+      min-height:54px; letter-spacing:1px;
+    }
+    .display .value{display:block}
+
+    .keys{ margin-top:10px; display:grid; grid-template-columns:repeat(4, 1fr); gap:14px;}
+
+    button.key{
+      height:76px; border:none; border-radius:50%; cursor:pointer; font-size:28px;
+      font-weight:700; color:#fff; display:grid; place-items:center; transition:transform .05s ease, filter .2s;
+      user-select:none;
+    }
+    button.key:active{ transform:scale(.97) }
+    button.key.fn{ background:var(--fn); color:#000; }
+    button.key.num{ background:var(--num); }
+    button.key.op{  background:var(--op); }
+
+    /* Make = a filled orange and keep size equal */
+
+    /* Responsive tweaks */
+    @media (max-width:355px){
+      .welcome{font-size:22px}
+      .display{font-size:32px}
+      button.key{height:70px; font-size:24px}
+    }
+  </style>
+</head>
+<body>
+<main class="phone" role="application" aria-label="Calculator">
+
+  <div class="display" aria-live="polite" aria-atomic="true">
+    <span class="value" id="display">0</span>
+  </div>
+
+  <section class="keys" id="keys">
+    <!-- Row 1 -->
+    <button class="key fn" data-action="clear">AC</button>
+    <button class="key fn" data-action="back">&#8592;</button>
+    <button class="key fn" data-action="percent">%</button>
+    <button class="key op" data-op="/">&divide;</button>
+    <!-- Row 2 -->
+    <button class="key num" data-digit="7">7</button>
+    <button class="key num" data-digit="8">8</button>
+    <button class="key num" data-digit="9">9</button>
+    <button class="key op" data-op="*">X</button>
+    <!-- Row 3 -->
+    <button class="key num" data-digit="4">4</button>
+    <button class="key num" data-digit="5">5</button>
+    <button class="key num" data-digit="6">6</button>
+    <button class="key op" data-op="-">-</button>
+    <!-- Row 4 -->
+    <button class="key num" data-digit="1">1</button>
+    <button class="key num" data-digit="2">2</button>
+    <button class="key num" data-digit="3">3</button>
+    <button class="key op" data-op="+">+</button>
+    <!-- Row 5 -->
+    <button class="key num" data-digit="0">0</button>
+    <button class="key fn" data-action="doubleZero">00</button>
+    <button class="key num" data-action="dot">.</button>
+    <button class="key op" data-action="equals">=</button>
+  </section>
+</main>
+
+<script>
+  (()=>{
+    const display = document.getElementById('display');
+    const keys = document.getElementById('keys');
+
+    let current = '0';
+    let previous = null;
+    let operator = null;
+    let justEvaluated = false;
+    const MAX_LEN = 14;
+
+    const update = () => {
+      // trim/format long numbers
+      let out = current;
+      if (!isFinite(+out)) out = 'Error';
+      if (out.length > MAX_LEN){
+        const n = Number(out);
+        out = Number.isFinite(n) ? n.toExponential(8).replace(/\.0+e/,'e') : 'Error';
+      }
+      display.textContent = out;
+    };
+
+    const clearAll = () => { current='0'; previous=null; operator=null; justEvaluated=false; update(); };
+    const inputDigit = d => {
+      if (justEvaluated){ current='0'; justEvaluated=false; }
+      if (current === '0') current = String(d);
+      else current += String(d);
+      update();
+    };
+    const inputDot = () => {
+      if (justEvaluated){ current='0'; justEvaluated=false; }
+      if (!current.includes('.')) current += '.';
+      update();
+    };
+    const inputDoubleZero = () => {
+      if (justEvaluated){ current='0'; justEvaluated=false; }
+      if (current !== '0') current += '00';
+      update();
+    };
+    const backspace = () => {
+      if (justEvaluated){ return; }
+      current = current.length > 1 ? current.slice(0,-1) : '0';
+      update();
+    };
+    const percent = () => { current = String(Number(current)/100); update(); };
+
+    const setOperator = (op) => {
+      if (operator && !justEvaluated){
+        // chain operations
+        calculate();
+      }
+      previous = Number(current);
+      operator = op;
+      justEvaluated = false;
+      current = '0';
+    };
+
+    const calculate = () => {
+      if (operator === null || previous === null) return;
+      const a = previous;
+      const b = Number(current);
+      let res = 0;
+      switch(operator){
+        case '+': res = a + b; break;
+        case '-': res = a - b; break;
+        case '*': res = a * b; break;
+        case '/': res = b === 0 ? NaN : a / b; break;
+      }
+      current = String(res);
+      previous = null;
+      operator = null;
+      justEvaluated = true;
+      update();
+    };
+
+    keys.addEventListener('click', (e)=>{
+      const btn = e.target.closest('button.key');
+      if (!btn) return;
+      const d = btn.dataset.digit;
+      const op = btn.dataset.op;
+      const action = btn.dataset.action;
+
+      if (d !== undefined){ inputDigit(d); return; }
+      if (op){ setOperator(op); return; }
+      if (action){
+        if (action === 'equals') return calculate();
+        if (action === 'clear')  return clearAll();
+        if (action === 'back')   return backspace();
+        if (action === 'percent')return percent();
+        if (action === 'dot')    return inputDot();
+        if (action === 'doubleZero') return inputDoubleZero();
+      }
+    });
+
+    // basic keyboard support
+    window.addEventListener('keydown', (e)=>{
+      const { key } = e;
+      if (/^[0-9]$/.test(key)) return inputDigit(key);
+      if (key === '.') return inputDot();
+      if (key === '%') return percent();
+      if (key === 'Backspace') return backspace();
+      if (key === 'Escape') return clearAll();
+      if (['+','-','*','/'].includes(key)) return setOperator(key);
+      if (key === 'Enter' || key === '=') return calculate();
+    });
+
+    update();
+  })();
+</script>
+</body>
+</html>

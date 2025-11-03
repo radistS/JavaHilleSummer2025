@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+logging:
+  level:
+    com.example.otp: INFO
+
+otp:
+  code-ttl-seconds: 300
+  resend-wait-seconds: 60
+  max-attempts: 5
+  block-duration-seconds: 600
