@@ -1,0 +1,35 @@
+.nature {
+
+    background-color: green;
+
+    border: 1px solid black;
+
+}
+
+.container {
+
+    background-color: red;
+
+    border: none !important;
+
+}
+
+div {
+
+    font-size: 64px;
+
+    color: pink;
+
+}
+
+div {
+
+    font-size: 30px;
+
+    color: white;
+
+    background-color: yellow;
+
+    margin: 10px;
+
+}
