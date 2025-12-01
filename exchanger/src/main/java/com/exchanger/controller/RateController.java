@@ -1,4 +1,4 @@
-package com.exchanger.controller.handler;
+package com.exchanger.controller;
 
 import com.exchanger.service.RateService;
 import lombok.RequiredArgsConstructor;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1")
 @RequiredArgsConstructor
 @Slf4j
-public class RatetController {
+public class RateController {
 
     private final RateService rateService;
 

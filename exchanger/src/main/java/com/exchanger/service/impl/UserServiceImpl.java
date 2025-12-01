@@ -3,13 +3,17 @@ package com.exchanger.service.impl;
 import com.exchanger.dto.UserRequest;
 import com.exchanger.dto.UserResponse;
 import com.exchanger.entity.UserEntity;
+import com.exchanger.entity.WalletEntity;
+import com.exchanger.entity.enums.CurrencyEnum;
 import com.exchanger.exceptions.NotUniqueDataExceprion;
 import com.exchanger.exceptions.UserNotFoundException;
 import com.exchanger.mapper.UserMapper;
 import com.exchanger.repository.UserRepository;
+import com.exchanger.repository.WalletRepository;
 import com.exchanger.service.UserService;
+import java.math.BigDecimal;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 import java.util.Optional;
 import java.util.UUID;
 import lombok.RequiredArgsConstructor;
@@ -22,6 +26,7 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
+    private final WalletRepository walletRepository;
     private final UserMapper userMapper;
 
     @Override
@@ -63,10 +68,26 @@ public class UserServiceImpl implements UserService {
             usr.setActive(true).setTelegramChatId(chatId);
             userRepository.save(usr);
 
+            Arrays.stream(CurrencyEnum.values()).forEach(curr -> createWallet(curr, usr));
+
             return  "Hello " + usr.getFirstName() + ' ' + usr.getLastName();
         } else {
             log.warn("user {} not found", phone);
             return "SAME THING WRONG....";
         }
+    }
+
+    @Override
+    public UserEntity findByPhone(String phone) {
+        return userRepository.findByPhone(phone)
+            .orElseThrow(() -> new UserNotFoundException(
+                String.format("User with phone %s not found", phone)));
+    }
+
+    private void createWallet(CurrencyEnum currency, UserEntity user) {
+        walletRepository.save(new WalletEntity()
+            .setUser(user)
+            .setCurrency(currency)
+            .setBalance(BigDecimal.ZERO));
     }
 }

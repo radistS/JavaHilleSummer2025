@@ -2,6 +2,7 @@ package com.exchanger.controller.handler;
 
 import com.exchanger.exceptions.NotUniqueDataExceprion;
 import com.exchanger.exceptions.UserNotFoundException;
+import com.exchanger.exceptions.WalletNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -23,6 +24,11 @@ public class ControllerExceptionHandler {
     @ExceptionHandler(value = {UserNotFoundException.class})
     public ResponseEntity<?> handleUserNotFoundException(Exception ex) {
         return new ResponseEntity(ex.getMessage(), HttpStatus.BAD_REQUEST);
+    }
+
+    @ExceptionHandler(value = {WalletNotFoundException.class})
+    public ResponseEntity<?> walletNotFoundException(Exception ex) {
+        return new ResponseEntity("Wallet for current currency not found", HttpStatus.BAD_REQUEST);
     }
 
 }

@@ -26,6 +26,55 @@
       <column name="sale" type="VARCHAR(15)"/>
       <column name="receive" type="timestamp"/>
     </createTable>
-
   </changeSet>
+
+  <changeSet id="ct-type-currency" author="oStepurko">
+    <sql>
+      CREATE TYPE currency AS ENUM ('USD','UAH','EUR');
+    </sql>
+  </changeSet>
+
+  <changeSet author="oStepurko" id="ct-wallet">
+    <createTable tableName="wallet">
+      <column name = "id" type="uuid">
+        <constraints nullable="false" primaryKey="true"/>
+      </column>
+      <column name="currency" type="currency"/>
+      <column name="balance" type="DECIMAL"/>
+      <column name="updated_at" type="TIMESTAMP"/>
+      <column name="user_id" type="uuid"/>
+    </createTable>
+  </changeSet>
+
+  <changeSet id="ct-status-trans" author="oStepurko">
+    <sql>
+      CREATE TYPE status AS ENUM ('PENDING','EXECUTED','FAILED');
+    </sql>
+  </changeSet>
+
+  <changeSet id="ct-type-trans" author="oStepurko">
+    <sql>
+      CREATE TYPE type_trans AS ENUM ('PUT','GET','EXCH','TRANSF');
+    </sql>
+  </changeSet>
+
+  <changeSet author="oStepurko" id="ct-Transaction">
+    <createTable tableName="transaction">
+      <column name = "id" type="uuid">
+        <constraints nullable="false" primaryKey="true"/>
+      </column>
+      <column name="status" type="status"/>
+      <column name="currency_from" type="currency"/>
+      <column name="amount_from" type="DECIMAL"/>
+      <column name="currency_to" type="currency"/>
+      <column name="amount_to" type="DECIMAL"/>
+      <column name="type" type="type_trans"/>
+      <column name="sender" type="varchar(12)"/>
+      <column name="receiver" type="varchar(12)"/>
+      <column name="comment" type="varchar(1024)"/>
+      <column name="update_at" type="DateTime"/>
+      <column name="code" type="varchar(10)"/>
+    </createTable>
+  </changeSet>
+
 </databaseChangeLog>
