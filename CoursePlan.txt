@@ -1,0 +1,43 @@
+1 - Java Overview. Git 1
+2 - Class, Types. Git 2
+3 - Operators, If, For, While, Array
+4 - OOP 1
+5 - OOP 2
+6 - JMM, GC
+7 - String, String pool, String buffer
+8 - Exception, Enums, Equals/HashCode
+9 - Collections: ArrayList, LinkedList
+10 - Map: HashMap
+11 - Java IO, Lombok
+12 - Multithrading, Maven
+13 - Testing: jUnit, Mochito
+14 - Optional. StreamApi 1
+15 - Practice: BlackJack
+16 - StreamApi 2
+17 - StreamApi 3
+18 - JSON, YAML, XML, CSV, prorbuf
+19 - Practice: File Converter
+20 - WS: soap, rest
+21 - Java Reflection, Anotation, Java Doc
+22 - UML
+23 - Tech Tasks
+24 - Patterns, i18n, l10n, logging
+25 - Solid, Grasp, Agile
+26 - RDB, SQL 1
+27 - SQL 2
+28 - BD migration: Liqubase. JDBC
+29 - ORM: hibernate
+30 - Spring core
+31 - Spring boot
+32 - Sprign data
+33 - Hackaton
+34 - Docker
+35 - Cache
+36 - Message brokers
+37 - Practice: Telegram Bot
+38 - Find job ...
+39 - NoSql
+40 - Spring Security
+41 - Spring Cloud
+42 - Final project: Exchanger
+43 - Final project: Exchanger
